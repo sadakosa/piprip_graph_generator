@@ -24,3 +24,6 @@ class DBClient:
     def commit(self):
         # print("Committing transaction")
         self.conn.commit()
+        
+    def rollback(self):
+        self.conn.rollback()

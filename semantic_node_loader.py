@@ -29,9 +29,11 @@ class SemanticNodeLoader:
 
                 self.semantic_nodes.append(temp_df.values.tolist())
 
+
+
     def insert_semantic_nodes(self): # 2841 nodes
         for semantic_nodes in self.semantic_nodes:
-            db_operations.batch_insert_semantic_nodes(self.db_client, semantic_nodes)
+            db_operations.batch_insert_topics(self.db_client, semantic_nodes)
             print(f"Inserted {len(semantic_nodes)} semantic nodes")
 
     def __remove_number_in_string(self, text):

@@ -1,14 +1,14 @@
 
-
+import psycopg2
 from psycopg2.extras import execute_values
 
 # ======================== TABLE CREATION ========================
 
-def create_semantic_nodes_table(db_client):
+def create_topics_table(db_client):
     create_table_query = """
-    CREATE TABLE IF NOT EXISTS semantic_nodes (
+    CREATE TABLE IF NOT EXISTS topics (
         id SERIAL PRIMARY KEY,
-        name TEXT NOT NULL,
+        topic TEXT NOT NULL,
         level INTEGER NOT NULL,
         category TEXT NOT NULL
     );
@@ -16,145 +16,153 @@ def create_semantic_nodes_table(db_client):
     db_client.execute(create_table_query)
     db_client.commit()
 
-def create_semantic_paper_edges_table(db_client):
+def create_topic_paper_edges_table(db_client):
     create_table_query = """
-    CREATE TABLE IF NOT EXISTS semantic_paper_edges (
+    CREATE TABLE IF NOT EXISTS topic_paper_edges (
         ss_id TEXT NOT NULL,
-        semantic_node_id INTEGER NOT NULL,
+        topic_id INTEGER NOT NULL,
         weight NUMERIC NOT NULL,
-        CONSTRAINT fk_concept FOREIGN KEY(semantic_node_id) REFERENCES semantic_nodes(id),
+        CONSTRAINT fk_concept FOREIGN KEY(topic_id) REFERENCES topics(id),
         CONSTRAINT fk_paper FOREIGN KEY(ss_id) REFERENCES papers(ss_id),
-        PRIMARY KEY (ss_id, semantic_node_id)
+        PRIMARY KEY (ss_id, topic_id)
     );
     """
     db_client.execute(create_table_query)
     db_client.commit()
 
+def create_topic_topic_edges_table(db_client):
+    create_table_query = """
+    CREATE TABLE IF NOT EXISTS topic_topic_edges (
+        topic_id_one INTEGER NOT NULL,
+        topic_id_two INTEGER NOT NULL,
+        weight NUMERIC NOT NULL,
+        CONSTRAINT fk_concept FOREIGN KEY(topic_id_one) REFERENCES topics(id),
+        CONSTRAINT fk_paper FOREIGN KEY(topic_id_two) REFERENCES topics(id),
+        PRIMARY KEY (topic_id_one, topic_id_two)
+    );
+    """
+    db_client.execute(create_table_query)
+    db_client.commit()
 
+def create_paper_paper_edges_table(db_client):
+    create_table_query = """
+    CREATE TABLE IF NOT EXISTS paper_paper_edges (
+        ss_id_one TEXT NOT NULL,
+        ss_id_two TEXT NOT NULL,
+        title_similarity NUMERIC NOT NULL,
+        abstract_similarity NUMERIC NOT NULL,
+        combined_similarity NUMERIC NOT NULL,
+        CONSTRAINT fk_concept FOREIGN KEY(ss_id_one) REFERENCES papers(ss_id),
+        CONSTRAINT fk_paper FOREIGN KEY(ss_id_two) REFERENCES papers(ss_id),
+        PRIMARY KEY (ss_id_one, ss_id_two)
+    );
+    """
+    db_client.execute(create_table_query)
+    db_client.commit()
 # ======================== INSERTION OPERATIONS ========================
 
-def batch_insert_semantic_nodes(db_client, semantic_nodes): # semantic_nodes = [(name, level, category), ...]
+def batch_insert_topics(db_client, topics): # semantic_nodes = [(name, level, category), ...]
     insert_query = """
-    INSERT INTO semantic_nodes (name, level, category)
+    INSERT INTO topics (topic, level, category)
     VALUES %s;
     """
-    
-    execute_values(db_client.cur, insert_query, semantic_nodes)
+    execute_values(db_client.cur, insert_query, topics)
     db_client.commit()
 
-def batch_insert_semantic_paper_edges(db_client, semantic_paper_edges): # semantic_paper_edges = [(ss_id, semantic_node_id, weight), ...]
+def batch_insert_topic_paper_edges(db_client, logger, topic_paper_edges, chunk_size): # semantic_paper_edges = [(ss_id, semantic_node_id, weight), ...]
     insert_query = """
-    INSERT INTO semantic_paper_edges (ss_id, semantic_node_id, weight)
-    FROM (VALUES %s) AS v(ss_id, semantic_node_id, weight)
-    ON CONFLICT (ss_id, semantic_node_id) DO NOTHING;
-    """
-
-    execute_values(db_client.cur, insert_query, semantic_paper_edges)
-    db_client.commit()
-
-
-
-
-def insert_cleaned_paper(db_client, ss_id, title, abstract, url, search_term=None, num_hops=None):
-    if ss_id is None or title is None:
-        # print("Invalid paper data")
-        # print(ss_id, title, abstract, url)
-        return
-    
-    if abstract is None:
-        abstract = "No abstract available"
-    
-    # print(f"Inserting paper: {ss_id}")
-    
-    insert_query = """
-    INSERT INTO papers (ss_id, title, abstract, url, search_term, num_hops)
-        VALUES (%s, %s, %s, %s, %s, %s)
-        ON CONFLICT (ss_id) DO NOTHING;
-    """
-    db_client.execute(insert_query, (ss_id, title, abstract, url, search_term, num_hops))
-    db_client.commit()
-
-def insert_reference(db_client, ss_id, reference_id):
-    # print(f"Inserting reference: {ss_id} -> {reference_id}")
-    insert_query = """
-    INSERT INTO "references" (ss_id, reference_id)
-        VALUES (%s, %s)
-        ON CONFLICT (ss_id, reference_id) DO NOTHING;
-    """
-    db_client.execute(insert_query, (ss_id, reference_id))
-    db_client.commit()
-
-def update_is_cleaned(db_client, ss_id):
-    update_query = """
-    UPDATE papers
-    SET is_cleaned = TRUE
-    WHERE ss_id = %s;
-    """
-    db_client.execute(update_query, (ss_id,))
-    db_client.commit()
-
-def batch_update_cleaned_papers(db_client, papers):
-    # Construct the update query
-    update_query = """
-    UPDATE papers AS p
-    SET clean_title = v.clean_title,
-        clean_abstract = v.clean_abstract,
-        is_cleaned = v.is_cleaned
-    FROM (VALUES %s) AS v(ss_id, clean_title, clean_abstract, is_cleaned)
-    WHERE p.ss_id = v.ss_id;
-    """
-    
-    # Execute the batch update
-    execute_values(db_client.cur, update_query, papers)
-    db_client.commit()
-# papers = [
-#     ('ss_id_1', 'Cleaned Title 1', 'Cleaned Abstract 1', True),
-#     ('ss_id_2', 'Cleaned Title 2', 'Cleaned Abstract 2', True),
-#     ('ss_id_3', 'Cleaned Title 3', 'Cleaned Abstract 3', True),
-#     # More records
-# ]
-
-
-def batch_insert_concepts(db_client, concepts):
-    # Construct the insert query
-    insert_query = """
-    INSERT INTO concepts (concept)
+    INSERT INTO topic_paper_edges (ss_id, topic_id, weight)
     VALUES %s
-    ON CONFLICT (concept) DO NOTHING
-    RETURNING id, concept;
+    ON CONFLICT (ss_id, topic_id) DO NOTHING;
     """
+    for i in range(0, len(topic_paper_edges), chunk_size):
+        chunk = topic_paper_edges[i:i+chunk_size]
+        print("len(chunk):", len(chunk))    
+        
+        print(f"Inserting chunk {i//chunk_size + 1}/{-(-len(topic_paper_edges)//chunk_size)}: {chunk[:5]}")
+        logger.log_message(f"Inserting chunk {i//chunk_size + 1}/{-(-len(topic_paper_edges)//chunk_size)}: {chunk[:5]}")
+        
+        try:
+            psycopg2.extras.execute_values(db_client.cur, insert_query, chunk)
+            db_client.commit()  # Commit after each chunk insertion
+        except Exception as e:
+            print(f"Error inserting chunk {i//chunk_size + 1}: {e}")
+            logger.log_message(f"Error inserting chunk {i//chunk_size + 1}: {e}")
+            db_client.rollback()  # Rollback the transaction
     
-    # Execute the batch insert
-    execute_values(db_client.cur, insert_query, [(concept,) for concept in concepts])
-    db_client.execute("SELECT id, concept FROM concepts WHERE concept = ANY(%s);", (list(concepts),))
-    inserted_concepts = db_client.cur.fetchall()
-    db_client.commit()
-    return {concept: id for id, concept in inserted_concepts}
+    print("Batch insertion complete.")
+    logger.log_message("Batch insertion complete.")
+    return
 
-
-def batch_insert_concept_edges(db_client, concept_edges):
-    # Construct the insert query
+def batch_insert_topic_topic_edges(db_client, logger, topic_topic_edges, chunk_size): 
     insert_query = """
-    INSERT INTO paper_concept_edges (concept_id, ss_id, weight)
+    INSERT INTO topic_topic_edges (topic_id_one, topic_id_two, weight)
     VALUES %s
-    ON CONFLICT (ss_id, concept_id) DO NOTHING;
+    ON CONFLICT (topic_id_one, topic_id_two) DO NOTHING;
     """
+    for i in range(0, len(topic_topic_edges), chunk_size):
+        chunk = topic_topic_edges[i:i+chunk_size]
+        print("len(chunk):", len(chunk))    
+        
+        print(f"Inserting chunk {i//chunk_size + 1}/{-(-len(topic_topic_edges)//chunk_size)}: {chunk[:5]}")
+        logger.log_message(f"Inserting chunk {i//chunk_size + 1}/{-(-len(topic_topic_edges)//chunk_size)}: {chunk[:5]}")
+        
+        try:
+            psycopg2.extras.execute_values(db_client.cur, insert_query, chunk)
+            db_client.commit()  # Commit after each chunk insertion
+        except Exception as e:
+            print(f"Error inserting chunk {i//chunk_size + 1}: {e}")
+            logger.log_message(f"Error inserting chunk {i//chunk_size + 1}: {e}")
+            db_client.rollback()  # Rollback the transaction
     
-    # Execute the batch insert
-    execute_values(db_client.cur, insert_query, concept_edges)
-    db_client.commit()
+    print("Batch insertion complete.")
+    logger.log_message("Batch insertion complete.")
+    return
 
+def batch_insert_paper_paper_edges(db_client, logger, paper_paper_edges, chunk_size): 
+    insert_query = """
+    INSERT INTO paper_paper_edges (ss_id_one, ss_id_two, title_similarity, abstract_similarity, combined_similarity)
+    VALUES %s
+    ON CONFLICT (ss_id_one, ss_id_two) DO NOTHING;
+    """
+    for i in range(0, len(paper_paper_edges), chunk_size):
+        chunk = paper_paper_edges[i:i+chunk_size]
+        print("len(chunk):", len(chunk))    
+        
+        print(f"Inserting chunk {i//chunk_size + 1}/{-(-len(paper_paper_edges)//chunk_size)}: {chunk[:5]}")
+        logger.log_message(f"Inserting chunk {i//chunk_size + 1}/{-(-len(paper_paper_edges)//chunk_size)}: {chunk[:5]}")
+        
+        try:
+            psycopg2.extras.execute_values(db_client.cur, insert_query, chunk)
+            db_client.commit()  # Commit after each chunk insertion
+        except Exception as e:
+            print(f"Error inserting chunk {i//chunk_size + 1}: {e}")
+            logger.log_message(f"Error inserting chunk {i//chunk_size + 1}: {e}")
+            db_client.rollback()  # Rollback the transaction
+    
+    print("Batch insertion complete.")
+    logger.log_message("Batch insertion complete.")
+    return
 
 # ======================== SELECTION OPERATIONS ========================
 
-def get_all_paper_ids(db_client):
+def get_all_papers(db_client):
     select_query = """
-    SELECT id, ss_id, is_processed FROM papers
+    SELECT ss_id, clean_title, clean_abstract FROM papers
     WHERE is_cleaned = TRUE
     ORDER BY id;
     """
     cursor = db_client.execute(select_query)
     return cursor.fetchall()
+
+def get_topics(db_client):
+    select_query = """
+    SELECT id, topic
+    FROM topics;
+    """
+    cursor = db_client.execute(select_query)
+    return cursor.fetchall()    
+
 
 
 

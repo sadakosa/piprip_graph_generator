@@ -4,6 +4,8 @@ from global_methods import load_from_csv, load_yaml_config
 
 from colbert import ColBERT
 from semantic_node_loader import SemanticNodeLoader
+import time
+from logger.logger import Logger
 
 
 
@@ -21,33 +23,69 @@ def setup_db():
     dbclient = DBClient("postgres", psql_user, psql_password, psql_host, psql_port)
     dbclient_read = DBClient("postgres", psql_user, psql_password, psql_read_host, psql_port)
 
-    db_operations.create_semantic_nodes_table(dbclient)
-    db_operations.create_semantic_paper_edges_table(dbclient)
+    db_operations.create_topics_table(dbclient)
+    db_operations.create_topic_paper_edges_table(dbclient)
+    db_operations.create_topic_topic_edges_table(dbclient)
+    db_operations.create_paper_paper_edges_table(dbclient)
 
     return dbclient, dbclient_read
 
 
 
 def main():
+    start_time = time.time()
     dbclient, dbclient_read = setup_db()
+    logger = Logger()
 
+
+    # =========== Load semantic nodes from CSV and insert into the database =========== 
     sn_loader = SemanticNodeLoader(dbclient, dbclient_read)
-
     sn_loader.load_semantic_nodes_from_csv()
-
     sn_loader.insert_semantic_nodes()
 
-    # Define your papers and keywords
-    # ss_ids = [1, 2, 3]
-    # combined_texts = ["Paper 1 content...", "Paper 2 content...", "Paper 3 content..."]
-    # titles = ["Title 1", "Title 2", "Title 3"]
-    # abstracts = ["Abstract 1", "Abstract 2", "Abstract 3"]
-    # keywords = ["keyword1", "keyword2", "keyword3"]
 
-    # colbert = ColBERT()
-    # similarities_df = colbert.get_all_embeddings(self, keywords, titles, abstracts, combined_texts, ss_ids)
+    # =========== Load papers from database and run through ColBERT together with KW to get embeddings ===========  
+    # papers = db_operations.get_all_papers(dbclient_read)
+    # ss_ids = [paper[0] for paper in papers]
+    # titles = [paper[1] for paper in papers]
+    # abstracts = [paper[2] for paper in papers]
+    # combined_texts = [title + ' ' + abstract for title, abstract in zip(titles, abstracts)]
+    
+    # topics = db_operations.get_topics(dbclient_read)
+    # topic_ids = [node[0] for node in topics]
+    # topics = [node[1] for node in topics]
 
-    # save_to_csv(similarities_df, 'similarities_test', 'similarities')
+    # got_data = time.time()
+    # got_data_runtime = got_data - start_time
+    # print("Got data in: ", got_data_runtime)
+    # logger.log_message("Got data in: " + str(got_data_runtime))
+    
+    # colbert = ColBERT(logger)
+    # colbert.get_topic_paper_embeddings(topics, topic_ids, titles, abstracts, combined_texts, ss_ids)
+    # colbert.get_topic_topic_embeddings(topics, topic_ids)
+    # colbert.get_paper_paper_embeddings(titles, abstracts, combined_texts, ss_ids)
+
+
+    # print("Total time to run colbert: ", time.time() - start_time)
+
+
+    
+    # =========== save colbert embeddings to db ===========
+    chunk_size = 100000
+
+    # topic_paper_similarities_df = load_from_csv('topic_paper_similarities', 'similarities')
+    # topic_paper_similarities = list(topic_paper_similarities_df.itertuples(index=False, name=None))
+    # db_operations.batch_insert_topic_paper_edges(dbclient, logger, topic_paper_similarities, chunk_size)
+
+    # topic_topic_similarities_df = load_from_csv('topic_topic_similarities', 'similarities')
+    # topic_topic_similarities = list(topic_topic_similarities_df.itertuples(index=False, name=None))
+    # db_operations.batch_insert_topic_topic_edges(dbclient, logger, topic_topic_similarities, chunk_size)
+
+    # paper_paper_similarities_df = load_from_csv('paper_paper_similarities', 'similarities')
+    # paper_paper_similarities = list(paper_paper_similarities_df.itertuples(index=False, name=None))
+    # db_operations.batch_insert_paper_paper_edges(dbclient, logger, paper_paper_similarities, chunk_size)
+
+
 
     
 
