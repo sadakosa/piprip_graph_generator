@@ -1,0 +1,9 @@
+torch 
+transformers
+faiss-cpu
+git+https://github.com/stanford-futuredata/ColBERT.git
+numpy==1.25.2
+requests==2.26.0
+yarl==1.8.2
+pyyaml==6.0.1
+psycopg2-binary
