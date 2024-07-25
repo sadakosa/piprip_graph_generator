@@ -1,0 +1,83 @@
+keyword,lvl
+Graphics: Computer Science-Based Breakdown,1
+1. Computer Graphics,2
+Rendering: The process of generating an image from a model.,3
+Ray Tracing: A technique for rendering images by simulating the way rays of light interact with objects.,4
+Rasterization: Converting vector graphics into a raster image (pixels).,4
+"Shading Models: Techniques to simulate light interaction with surfaces (Phong, Gouraud).",4
+Modeling: Creating mathematical representations of objects.,3
+3D Modeling: The process of creating three-dimensional representations of objects.,4
+Polygonal Modeling: Using polygons to represent 3D objects.,5
+NURBS (Non-Uniform Rational B-Splines): Smooth curve modeling technique.,5
+Subdivision Surfaces: Technique to create smooth surfaces from coarse polygonal meshes.,5
+Animation: Creating the illusion of motion by displaying a sequence of images.,3
+Keyframe Animation: Defining important points of motion and interpolating between them.,4
+Motion Capture: Recording real-world movement for use in animation.,4
+Procedural Animation: Automatically generating animations based on algorithms.,4
+2. Image Processing,2
+Filtering: Modifying or enhancing images.,3
+"Convolution Filters: Applying a kernel to an image (Gaussian, Sobel).",4
+"Morphological Operations: Processing based on the shape of structures in images (dilation, erosion).",4
+Transformation: Altering the geometry of an image.,3
+"Affine Transformations: Preserving lines and parallelism (translation, rotation, scaling).",4
+Perspective Transformations: Simulating the effect of perspective.,4
+Segmentation: Dividing an image into meaningful parts.,3
+Thresholding: Converting an image to binary based on intensity levels.,4
+"Edge Detection: Identifying significant changes in intensity (Canny, Laplacian).",4
+3. Visualization,2
+Scientific Visualization: Graphically representing scientific data.,3
+"Volume Rendering: Displaying 3D data as a 2D projection (CT scans, MRI).",4
+Flow Visualization: Representing fluid flows (vector fields).,4
+Information Visualization: Visual representation of abstract data.,3
+"Charts and Graphs: Representing data relationships (bar charts, scatter plots).",4
+Network Visualization: Displaying relationships between entities (social networks).,4
+4. Graphics Programming,2
+Graphics APIs: Interfaces for programming graphics hardware.,3
+"OpenGL: A cross-language, cross-platform API for rendering 2D and 3D graphics.",4
+"DirectX: A collection of APIs for handling multimedia tasks, including Direct3D for graphics.",4
+"Vulkan: A low-overhead, cross-platform API for 3D graphics and computing.",4
+Shader Programming: Writing programs that run on the GPU.,3
+Vertex Shaders: Processing vertex data.,4
+Fragment Shaders: Calculating pixel colors.,4
+Compute Shaders: Performing general-purpose computing on the GPU.,4
+5. Graphics Hardware,2
+GPUs (Graphics Processing Units): Specialized hardware for rendering graphics.,3
+Rasterization Units: Hardware dedicated to converting vector graphics to raster images.,4
+Shader Cores: Processing units for executing shader programs.,4
+Display Devices: Output devices for visual information.,3
+Monitors: Screens for displaying visual output.,4
+VR Headsets: Devices for immersive virtual reality experiences.,4
+6. Human-Computer Interaction (HCI),2
+User Interfaces: Mechanisms for users to interact with computer systems.,3
+"Graphical User Interfaces (GUIs): Visual interfaces for user interaction (buttons, windows).",4
+"Touch Interfaces: Interfaces based on touch input (smartphones, tablets).",4
+Virtual Reality (VR): Simulating a user’s physical presence in a virtual environment.,3
+Immersive VR: Full immersion in a virtual environment using headsets.,4
+Augmented Reality (AR): Overlaying virtual objects on the real world.,4
+Interactive Graphics: Systems allowing real-time user interaction with graphics.,3
+"Game Engines: Frameworks for building interactive applications and games (Unity, Unreal Engine).",4
+7. Computational Geometry,2
+Geometric Algorithms: Techniques for processing geometric data.,3
+Convex Hull: Finding the smallest convex polygon containing all points.,4
+Voronoi Diagrams: Partitioning a plane based on distances to a set of points.,4
+Delaunay Triangulation: Triangulating a set of points to maximize the minimum angle of triangles.,4
+8. Digital Imaging,2
+Image Acquisition: Capturing images from the real world.,3
+Cameras: Devices for capturing images.,4
+Scanners: Devices for digitizing physical images and documents.,4
+Image Compression: Reducing the size of image files.,3
+Lossless Compression: Reducing size without losing quality (PNG).,4
+Lossy Compression: Reducing size by losing some quality (JPEG).,4
+9. Color Theory,2
+Color Models: Mathematical models for representing color.,3
+"RGB (Red, Green, Blue): A model based on light color mixing.",4
+"CMYK (Cyan, Magenta, Yellow, Black): A model based on ink color mixing.",4
+"HSV (Hue, Saturation, Value): A model for representing color based on human perception.",4
+Color Spaces: Specific implementations of color models.,3
+sRGB: Standard RGB color space.,4
+Adobe RGB: A color space with a wider gamut than sRGB.,4
+10. Ethics and Social Implications,2
+Digital Rights Management (DRM): Technologies to protect digital content from unauthorized use.,3
+Accessibility: Ensuring graphics are usable by people with disabilities.,3
+Privacy: Protecting personal information in graphics applications.,3
+Sustainability: Minimizing environmental impact of graphics hardware and software.,3

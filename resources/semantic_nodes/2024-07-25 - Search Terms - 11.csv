@@ -1,0 +1,112 @@
+keyword,lvl
+Databases,1
+1. Database Fundamentals,2
+"Database: A collection of organized information that can be easily accessed, managed, and updated.",3
+Database Management System (DBMS): Software that uses a standard method to store and organize data.,3
+Relational Database Management System (RDBMS): DBMS based on the relational model.,4
+Non-Relational Database (NoSQL): DBMS designed for large-scale data storage that doesn't use a fixed schema.,4
+2. Database Models,2
+Relational Model: Organizes data into tables (relations) of rows and columns.,3
+Tables (Relations): Collections of related data entries.,4
+Rows (Tuples): Individual records in a table.,4
+Columns (Attributes): Fields in a table.,4
+NoSQL Models: Various data models designed for specific data requirements.,3
+Document Store: Stores data as JSON-like documents.,4
+Key-Value Store: Stores data as key-value pairs.,4
+Column Store: Stores data in columns rather than rows.,4
+Graph Database: Uses graph structures for semantic queries.,4
+3. SQL (Structured Query Language),2
+DML (Data Manipulation Language): Used for data retrieval and manipulation.,3
+SELECT: Retrieves data from a database.,4
+INSERT: Adds new data into a database.,4
+UPDATE: Modifies existing data.,4
+DELETE: Removes data.,4
+DDL (Data Definition Language): Used for defining and managing database schemas.,3
+CREATE: Creates a new table or database.,4
+ALTER: Modifies an existing database object.,4
+DROP: Deletes an existing database object.,4
+DCL (Data Control Language): Used for controlling access to data.,3
+GRANT: Gives a user access privileges.,4
+REVOKE: Removes access privileges.,4
+4. Normalization and De-normalization,2
+Normalization: Process of organizing data to minimize redundancy.,3
+First Normal Form (1NF): Ensures each column contains atomic values.,4
+Second Normal Form (2NF): Ensures all non-key attributes are fully functional dependent on the primary key.,4
+Third Normal Form (3NF): Ensures no transitive dependency of non-key attributes on the primary key.,4
+De-normalization: Process of increasing redundancy to improve read performance.,3
+5. Database Design,2
+Entity-Relationship Model (ER Model): Conceptual blueprint of the database.,3
+Entity: An object that exists and is distinguishable from other objects.,4
+Attribute: A property of an entity.,4
+Relationship: An association among entities.,4
+Schema: The structure of a database described in a formal language.,3
+Logical Schema: Abstract design of the database.,4
+Physical Schema: Actual storage structure and access paths.,4
+6. Transactions and Concurrency Control,2
+Transaction: A unit of work performed within a database management system.,3
+ACID Properties: Ensure reliable processing of database transactions.,4
+Atomicity: Ensures that all operations within a transaction are completed.,5
+Consistency: Ensures that the database remains in a consistent state.,5
+Isolation: Ensures that transactions are securely and independently processed.,5
+"Durability: Ensures that once a transaction is committed, it remains so.",5
+Concurrency Control: Methods to ensure transactions are processed reliably in a multi-user environment.,3
+Locking: Prevents conflicts by controlling access to data.,4
+Pessimistic Locking: Locks data when a transaction starts.,4
+Optimistic Locking: Checks for conflicts before committing a transaction.,4
+7. Indexing and Query Optimization,2
+Index: A database object that improves the speed of data retrieval.,3
+B-Tree Index: Balanced tree index for general-purpose queries.,4
+Hash Index: Index based on hash tables for exact match queries.,4
+Bitmap Index: Index for columns with low cardinality.,4
+Query Optimization: Techniques to improve query performance.,3
+Execution Plan: The sequence of operations used to execute a query.,4
+Cost-Based Optimization: Choosing the query plan with the lowest cost.,4
+Heuristic Optimization: Using rule-based strategies for query optimization.,4
+8. Data Warehousing and OLAP,2
+Data Warehouse: A centralized repository for integrated data from various sources.,3
+"ETL (Extract, Transform, Load): Process of loading data into a data warehouse.",4
+OLAP (Online Analytical Processing): Tools for analyzing data in a data warehouse.,3
+Star Schema: Fact table in the center with dimension tables around it.,4
+Snowflake Schema: Star schema with normalized dimension tables.,4
+Cube: Multidimensional data representation for OLAP.,4
+9. Distributed Databases,2
+Distributed Database System: A database distributed across multiple locations.,3
+Replication: Storing copies of data on multiple nodes.,4
+Sharding: Partitioning data across multiple databases.,4
+"CAP Theorem: Consistency, Availability, and Partition Tolerance.",4
+10. Big Data Technologies,2
+Hadoop: Framework for distributed storage and processing of big data.,3
+HDFS (Hadoop Distributed File System): Scalable and fault-tolerant storage system.,4
+MapReduce: Programming model for processing large datasets.,4
+Spark: Unified analytics engine for large-scale data processing.,3
+Resilient Distributed Datasets (RDDs): Immutable distributed collection of objects.,4
+11. Database Security,2
+Authentication: Verifying the identity of a user.,3
+User Credentials: Username and password combinations.,4
+Multi-Factor Authentication (MFA): Multiple verification steps for user access.,4
+Authorization: Granting permissions to users.,3
+Role-Based Access Control (RBAC): Access based on user roles.,4
+Discretionary Access Control (DAC): Access based on data owner's discretion.,4
+Encryption: Protecting data by converting it into an unreadable format.,3
+Data at Rest Encryption: Encrypting stored data.,4
+Data in Transit Encryption: Encrypting data as it moves across networks.,4
+Auditing: Tracking database access and activities.,3
+12. Cloud Databases,2
+Cloud Database: A database that runs on a cloud computing platform.,3
+Database as a Service (DBaaS): Managed database services provided by cloud vendors.,4
+Scalability: The ability to increase or decrease database capacity.,4
+Hybrid Cloud: A combination of on-premises and cloud-based services.,3
+13. Data Integrity and Consistency,2
+Data Integrity: Maintaining accuracy and consistency of data over its lifecycle.,3
+Entity Integrity: Ensures each row in a table is uniquely identifiable.,4
+Referential Integrity: Ensures relationships between tables remain consistent.,4
+Consistency Models: Guarantees provided on data read and write operations.,3
+Strong Consistency: Immediate visibility of data changes.,4
+Eventual Consistency: Data changes propagate to all nodes eventually.,4
+14. Backup and Recovery,2
+Backup: Copying data to prevent loss in case of failure.,3
+Full Backup: Complete copy of the entire database.,4
+Incremental Backup: Copy of changes made since the last backup.,4
+Differential Backup: Copy of changes made since the last full backup.,4
+Recovery: Restoring data from backups.,3
+Point-in-Time Recovery: Restoring data to a specific point in time.,4

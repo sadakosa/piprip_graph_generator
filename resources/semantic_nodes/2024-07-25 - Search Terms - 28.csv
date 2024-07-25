@@ -1,0 +1,71 @@
+keyword,lvl
+Numerical Analysis: Computer Science-Based Breakdown,1
+1. Numerical Methods for Solving Equations,2
+Root-Finding Algorithms: Methods for finding zeros of real-valued functions.,3
+Bisection Method: A bracketing method for finding roots.,4
+Newton-Raphson Method: An iterative method using function derivatives.,4
+Secant Method: An iterative method using secant lines instead of derivatives.,4
+Linear System Solvers: Methods for solving systems of linear equations.,3
+Gaussian Elimination: A method for solving linear systems via row reduction.,4
+LU Decomposition: Factorization of a matrix into lower and upper triangular matrices.,4
+Jacobi Method: An iterative algorithm for solving diagonally dominant systems.,4
+Gauss-Seidel Method: An iterative method that improves convergence by using updated values as soon as they are known.,4
+2. Numerical Integration and Differentiation,2
+Numerical Differentiation: Techniques for approximating the derivative of a function.,3
+Finite Difference Methods: Approximations using function values at discrete points.,4
+Numerical Integration (Quadrature): Methods for approximating definite integrals.,3
+Trapezoidal Rule: Approximating the integral as a sum of trapezoidal areas.,4
+Simpson's Rule: Using parabolic segments to approximate integrals.,4
+Gaussian Quadrature: Using weighted sums of function values at specified points.,4
+3. Numerical Linear Algebra,2
+Matrix Factorization: Decomposing matrices into products of matrices.,3
+QR Decomposition: Factorizing a matrix into an orthogonal matrix and an upper triangular matrix.,4
+Singular Value Decomposition (SVD): Decomposing a matrix into singular vectors and singular values.,4
+Eigenvalue Problems: Finding eigenvalues and eigenvectors of matrices.,3
+Power Iteration: An iterative method for finding dominant eigenvalues.,4
+QR Algorithm: An algorithm for calculating eigenvalues and eigenvectors.,4
+4. Interpolation and Approximation,2
+Polynomial Interpolation: Estimating values between known data points.,3
+Lagrange Interpolation: A polynomial interpolation using Lagrange polynomials.,4
+Newton's Divided Differences: A form of polynomial interpolation using divided differences.,4
+Spline Interpolation: Using piecewise polynomials for interpolation.,3
+Cubic Splines: A commonly used spline interpolation method.,4
+5. Numerical Optimization,2
+Unconstrained Optimization: Methods for finding the maxima or minima of functions without constraints.,3
+Gradient Descent: An iterative method for finding local minima.,4
+Newton's Method: An optimization method using second-order derivatives.,4
+Constrained Optimization: Methods for optimization with constraints.,3
+Linear Programming: Optimization of a linear objective function subject to linear constraints.,4
+Quadratic Programming: Optimization of a quadratic objective function with linear constraints.,4
+6. Numerical Solution of Ordinary Differential Equations (ODEs),2
+Initial Value Problems (IVPs): Solving ODEs given initial conditions.,3
+"Euler's Method: A simple, first-order numerical procedure for solving IVPs.",4
+Runge-Kutta Methods: Higher-order methods for solving IVPs.,4
+Fourth-Order Runge-Kutta: A commonly used method for its balance of accuracy and complexity.,5
+Boundary Value Problems (BVPs): Solving ODEs with boundary conditions.,3
+Shooting Method: Converting BVPs into IVPs.,4
+Finite Difference Method: Discretizing the differential equation over a mesh of points.,4
+7. Numerical Solution of Partial Differential Equations (PDEs),2
+Elliptic PDEs: Solving steady-state problems.,3
+Finite Element Method (FEM): A numerical technique for finding approximate solutions of PDEs.,4
+Parabolic PDEs: Solving time-dependent problems.,3
+Implicit Methods: Methods like Crank-Nicolson for stability.,4
+Hyperbolic PDEs: Solving wave and transport equations.,3
+Finite Difference Method: Discretizing space and time for numerical solutions.,4
+8. Error Analysis and Stability,2
+Error Propagation: Understanding how errors in data and calculations affect the results.,3
+Truncation Error: Error made by approximating a mathematical procedure.,4
+Round-Off Error: Error due to the finite precision of computer arithmetic.,4
+Stability Analysis: Assessing the sensitivity of algorithms to input changes.,3
+Condition Number: A measure of problem sensitivity in numerical computations.,4
+9. High-Performance Computing for Numerical Analysis,2
+Parallel Algorithms: Techniques for distributing computations across multiple processors.,3
+MPI (Message Passing Interface): A standard for parallel programming.,4
+OpenMP (Open Multi-Processing): An API for multi-platform shared memory multiprocessing.,4
+GPU Computing: Utilizing graphics processing units for parallel numerical computations.,3
+CUDA: A parallel computing platform and programming model invented by NVIDIA.,4
+10. Software and Tools for Numerical Analysis,2
+MATLAB: A high-level language and interactive environment for numerical computation.,3
+"NumPy: A Python library for numerical computing with support for large, multi-dimensional arrays.",3
+SciPy: An open-source Python library used for scientific and technical computing.,3
+R: A programming language and free software environment for statistical computing.,3

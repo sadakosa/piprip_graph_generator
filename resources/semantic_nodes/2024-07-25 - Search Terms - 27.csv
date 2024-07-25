@@ -1,0 +1,77 @@
+keyword,lvl
+Neural and Evolutionary Computing: Computer Science-Based Breakdown,1
+1. Neural Networks,2
+Artificial Neural Networks (ANNs): Computing systems inspired by the biological neural networks.,3
+Feedforward Neural Networks (FNNs): Networks where connections between nodes do not form cycles.,4
+Backpropagation: A method used to train ANNs through gradient descent.,4
+"Activation Functions: Functions applied to neuron output, such as ReLU, sigmoid, and tanh.",4
+Convolutional Neural Networks (CNNs): Specialized ANNs for processing structured grid data like images.,3
+Convolutional Layers: Layers that apply convolution operations to input data.,4
+Pooling Layers: Layers that reduce the dimensionality of the data by downsampling.,4
+Recurrent Neural Networks (RNNs): ANNs where connections between nodes form directed cycles.,3
+Long Short-Term Memory (LSTM): A type of RNN capable of learning long-term dependencies.,4
+Gated Recurrent Units (GRUs): A simplified version of LSTMs.,4
+Generative Adversarial Networks (GANs): Networks consisting of a generator and a discriminator competing against each other.,3
+StyleGAN: GANs designed for generating high-quality images.,4
+Transformers: Models using self-attention mechanisms for sequential data.,3
+BERT (Bidirectional Encoder Representations from Transformers): A pre-trained transformer model for various NLP tasks.,4
+GPT (Generative Pre-trained Transformer): Models for generating human-like text.,4
+2. Deep Learning,2
+Deep Neural Networks (DNNs): ANNs with multiple layers between the input and output layers.,3
+Training Algorithms: Techniques like stochastic gradient descent (SGD) and Adam for optimizing DNNs.,4
+Autoencoders: ANNs used to learn efficient codings of input data.,3
+Variational Autoencoders (VAEs): Autoencoders that learn probabilistic latent spaces.,4
+Deep Belief Networks (DBNs): Stacked restricted Boltzmann machines (RBMs) used for unsupervised learning.,3
+3. Evolutionary Algorithms,2
+Genetic Algorithms (GAs): Search heuristics inspired by natural selection processes.,3
+Selection: The process of choosing the fittest individuals for reproduction.,4
+Crossover: The process of combining two parent solutions to produce offspring.,4
+Mutation: Random changes to an individual's characteristics to maintain genetic diversity.,4
+Genetic Programming (GP): A type of evolutionary algorithm where programs are optimized.,3
+Evolution Strategies (ES): Optimization algorithms that rely on mutation and selection.,3
+Differential Evolution (DE): An optimization method involving differential mutation and recombination.,3
+Particle Swarm Optimization (PSO): Optimization technique inspired by social behavior of birds flocking or fish schooling.,3
+Ant Colony Optimization (ACO): Algorithm inspired by the foraging behavior of ants.,3
+4. Hybrid Neural and Evolutionary Approaches,2
+Neuroevolution: Techniques combining neural networks and evolutionary algorithms.,3
+Neuroevolution of Augmenting Topologies (NEAT): A method for evolving neural network architectures along with weights.,4
+Evolutionary Neural Networks: Neural networks optimized using evolutionary algorithms.,3
+5. Optimization Techniques,2
+Gradient Descent: An optimization algorithm for minimizing the cost function.,3
+Stochastic Gradient Descent (SGD): Gradient descent where the gradients are estimated from a subset of data.,4
+Adam Optimizer: An optimization algorithm that computes adaptive learning rates for each parameter.,4
+Metaheuristic Algorithms: Higher-level procedures designed to generate or select a heuristic.,3
+Simulated Annealing: Optimization technique inspired by annealing in metallurgy.,4
+Tabu Search: An optimization method that guides a local heuristic search procedure.,4
+6. Learning Paradigms,2
+Supervised Learning: Learning where the model is trained on labeled data.,3
+Regression: Predicting continuous values.,4
+Classification: Predicting discrete class labels.,4
+Unsupervised Learning: Learning where the model is trained on unlabeled data.,3
+Clustering: Grouping data points into distinct clusters.,4
+Dimensionality Reduction: Reducing the number of random variables under consideration.,4
+Reinforcement Learning (RL): Learning where an agent interacts with an environment to maximize cumulative reward.,3
+Q-Learning: A value-based method for finding the optimal action-selection policy.,4
+Deep Q-Networks (DQN): Combining Q-learning with deep learning.,4
+Policy Gradients: Directly optimizing the policy to select actions.,4
+7. Neural Network Architectures,2
+Feedforward Networks: Networks with unidirectional connections between layers.,3
+Recurrent Networks: Networks with cyclic connections allowing temporal dynamics.,3
+Convolutional Networks: Networks employing convolution operations for spatial data processing.,3
+Modular Networks: Networks consisting of multiple subnetworks or modules.,3
+8. Evolutionary Strategies,2
+Adaptive Strategies: Strategies where parameters of the evolutionary algorithm change over time.,3
+Multi-Objective Optimization: Optimization involving multiple conflicting objectives.,3
+Pareto Optimality: Concept of non-dominated solutions in multi-objective optimization.,4
+9. Applications of Neural and Evolutionary Computing,2
+Natural Language Processing (NLP): Applying neural networks for language understanding and generation.,3
+"Computer Vision: Using neural networks for image recognition, segmentation, and generation.",3
+Robotics: Utilizing neural and evolutionary algorithms for autonomous navigation and control.,3
+Game Playing: Implementing reinforcement learning and neuroevolution for game strategy optimization.,3
+Financial Modeling: Applying neural networks for stock market prediction and algorithmic trading.,3
+10. Ethical and Social Implications,2
+Bias in Algorithms: Ensuring fairness and avoiding discrimination in neural and evolutionary models.,3
+Transparency: Making the decision-making process of complex models understandable.,3
+Privacy: Protecting sensitive information when using neural and evolutionary computing.,3
+Impact on Employment: Examining how automation and intelligent systems affect job markets.,3
+Ethical AI Guidelines: Frameworks for developing and deploying neural and evolutionary models responsibly.,3

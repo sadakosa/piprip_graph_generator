@@ -3,5 +3,7 @@ logger/logs
 config/config.yaml
 checkpoint.json
 
-resources/
+
+resources/*
+!resources/semantic_nodes/
 !resources/semantic_nodes/*

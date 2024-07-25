@@ -1,0 +1,109 @@
+Keyword,lvl
+"Computational Engineering, Finance, and Science",1
+Computational Engineering,2
+Finite Element Analysis (FEA): A numerical method for solving problems of engineering and mathematical physics.,3
+Mesh Generation: Creating a mesh for the domain of the problem.,4
+Solvers: Algorithms to solve the system of equations derived from FEA.,4
+Computational Fluid Dynamics (CFD): The study of fluid flow using numerical analysis.,3
+Navier-Stokes Equations: Governing equations for fluid motion.,4
+Turbulence Modeling: Techniques to simulate turbulent flows.,4
+Multiphysics Simulation: Coupled simulation of multiple physical phenomena.,3
+Coupled Field Analysis: Simultaneous analysis of multiple interacting physical fields.,4
+Optimization Algorithms: Methods for improving engineering designs.,3
+Genetic Algorithms: Search heuristics that mimic the process of natural selection.,4
+Simulated Annealing: A probabilistic technique for approximating the global optimum.,4
+Control Systems: Algorithms to manage the behavior of dynamic systems.,3
+PID Controllers: Proportional-Integral-Derivative controllers for process control.,4
+Structural Analysis: The study of the effects of loads on physical structures.,3
+Stress Analysis: Determining stresses and strains in materials and structures.,4
+Computational Finance,2
+Quantitative Finance: The use of mathematical models to analyze financial markets.,3
+Option Pricing Models: Models to determine the fair value of financial derivatives.,4
+Black-Scholes Model: A mathematical model for pricing options.,5
+Binomial Tree Model: A discrete-time model for option pricing.,5
+Portfolio Optimization: Techniques to allocate assets to maximize returns and minimize risk.,4
+Markowitz Model: Mean-variance optimization for portfolio selection.,5
+CAPM (Capital Asset Pricing Model): A model to determine the expected return on an asset.,5
+Algorithmic Trading: The use of algorithms to automate trading decisions.,4
+High-Frequency Trading (HFT): Trading strategies that involve executing orders at extremely high speeds.,5
+"Risk Management: Identifying, assessing, and prioritizing risks.",4
+Value at Risk (VaR): A measure of the potential loss in value of a portfolio.,5
+Monte Carlo Simulation: A statistical method to model the probability of different outcomes.,5
+Financial Econometrics: Application of statistical methods to financial data.,4
+GARCH Models: Generalized Autoregressive Conditional Heteroskedasticity models for volatility estimation.,5
+Credit Scoring: Algorithms to evaluate the creditworthiness of individuals or corporations.,4
+Logistic Regression: A statistical method for binary classification.,5
+Computational Science,2
+High-Performance Computing (HPC): Use of supercomputers and parallel processing for running advanced applications.,3
+MPI (Message Passing Interface): A standardized and portable message-passing system for parallel computing.,4
+OpenMP: An application programming interface for shared memory multiprocessing.,4
+Computational Chemistry: Use of computer simulation to solve chemical problems.,3
+Molecular Dynamics: Simulation of physical movements of atoms and molecules.,4
+Quantum Chemistry: Study of chemical properties using quantum mechanics.,4
+Computational Biology: Application of computational techniques to biological problems.,3
+Bioinformatics: The science of collecting and analyzing complex biological data.,4
+"Sequence Alignment: The arrangement of sequences of DNA, RNA, or proteins.",5
+Phylogenetic Analysis: The study of evolutionary relationships among biological entities.,5
+Computational Physics: The study of physical systems using computational methods.,3
+Particle Simulations: Techniques to model the interactions of a large number of particles.,4
+Lattice Boltzmann Method: A computational fluid dynamics method for simulating fluid flow.,4
+Computational Neuroscience: The study of brain function in terms of the information processing properties of the structures that make up the nervous system.,3
+Neural Network Models: Computational models inspired by the brain's network of neurons.,4
+Climate Modeling: The use of mathematical models to simulate climate systems.,3
+General Circulation Models (GCMs): Models for simulating the Earth's atmosphere or oceans.,4
+Numerical Methods and Algorithms,2
+Numerical Linear Algebra: Algorithms for solving linear algebra problems.,3
+"Matrix Decomposition: Techniques like LU, QR, and Singular Value Decomposition (SVD).",4
+Numerical Integration and Differentiation: Methods for approximating integrals and derivatives.,3
+Simpson's Rule: A method for numerical integration.,4
+Finite Difference Method: A technique for approximating derivatives.,4
+Root-Finding Algorithms: Methods for finding solutions to equations.,3
+Newton-Raphson Method: An iterative method for finding successively better approximations to the roots.,4
+Optimization Algorithms: Techniques for finding the maximum or minimum of a function.,3
+Gradient Descent: An iterative optimization algorithm for finding the local minimum of a function.,4
+Monte Carlo Methods: A class of computational algorithms that rely on repeated random sampling.,3
+Importance Sampling: A technique to reduce variance in Monte Carlo simulations.,4
+Data Science and Machine Learning,2
+Supervised Learning: Algorithms that learn from labeled data.,3
+Linear Regression: Predicting a continuous output based on linear relationships.,4
+Support Vector Machines (SVMs): Finding the optimal hyperplane for classification.,4
+Unsupervised Learning: Algorithms that identify patterns in unlabeled data.,3
+K-Means Clustering: Partitioning data into k clusters based on similarity.,4
+Principal Component Analysis (PCA): Reducing dimensionality of data.,4
+Deep Learning: Neural networks with many layers used for complex pattern recognition.,3
+Convolutional Neural Networks (CNNs): Specialized for image recognition.,4
+Recurrent Neural Networks (RNNs): Specialized for sequential data.,4
+Natural Language Processing (NLP): Techniques for processing and analyzing human language.,3
+Tokenization: Splitting text into individual words or phrases.,4
+Sentiment Analysis: Determining the emotional tone of text.,4
+Big Data Technologies: Tools and frameworks for processing large datasets.,3
+Hadoop: A framework for distributed storage and processing of big data.,4
+Spark: An analytics engine for big data processing.,4
+Simulation and Modeling,2
+Agent-Based Modeling (ABM): Simulating the actions and interactions of autonomous agents.,3
+System Dynamics: Modeling the behavior of complex systems over time.,3
+Discrete Event Simulation: Modeling the operation of a system as a discrete sequence of events.,3
+Queueing Theory: The study of waiting lines or queues.,4
+Stochastic Modeling: Incorporating randomness into models.,3
+Markov Chains: Models that undergo transitions from one state to another on a state space.,4
+Game Theory: The study of mathematical models of strategic interaction among rational decision-makers.,3
+Computational Geometry,2
+Geometric Algorithms: Algorithms for solving geometric problems.,3
+Convex Hull: The smallest convex polygon containing all points in a set.,4
+Voronoi Diagrams: A partition of a plane into regions based on distance to a specific set of points.,4
+Mesh Generation: Creating a mesh for numerical simulations.,3
+Delaunay Triangulation: A technique to create a mesh of triangles from a set of points.,4
+Visualization and Graphics,2
+Scientific Visualization: The visualization of scientific data.,3
+Volume Rendering: Techniques to visualize 3D data.,4
+Surface Rendering: Techniques to visualize the surface of 3D objects.,4
+Computer Graphics: The creation and manipulation of images and models.,3
+Ray Tracing: A technique for rendering images by simulating the path of light.,4
+Rasterization: Converting vector graphics into raster images.,4
+Ethical and Social Implications,2
+Bias and Fairness in Algorithms: Ensuring algorithms do not perpetuate biases.,3
+Fairness Metrics: Quantitative measures to assess fairness in algorithms.,4
+Privacy and Security: Protecting sensitive data in computational applications.,3
+Differential Privacy: Techniques to ensure privacy of individual data points in datasets.,4
+Impact on Society: Examining the societal effects of computational technologies.,3
+Ethical AI Guidelines: Frameworks for responsible AI development and deployment.,4

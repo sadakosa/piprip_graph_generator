@@ -1,0 +1,64 @@
+Keyword,lvl
+Computational Complexity,1
+Complexity Classes,2
+P (Polynomial Time): Class of problems solvable by a deterministic Turing machine in polynomial time.,3
+NP (Nondeterministic Polynomial Time): Class of problems for which a solution can be verified in polynomial time by a deterministic Turing machine.,3
+NP-Complete: Problems in NP that are at least as hard as every problem in NP.,4
+"NP-Hard: Problems that are at least as hard as the hardest problems in NP, but not necessarily in NP.",4
+EXP (Exponential Time): Class of problems solvable by a deterministic Turing machine in exponential time.,3
+PSPACE (Polynomial Space): Class of problems solvable by a deterministic Turing machine using a polynomial amount of space.,3
+PSPACE-Complete: Problems in PSPACE that are as hard as any problem in PSPACE.,4
+L (Logarithmic Space): Class of problems solvable by a deterministic Turing machine using logarithmic space.,3
+NL (Nondeterministic Logarithmic Space): Class of problems solvable by a nondeterministic Turing machine using logarithmic space.,3
+co-NP: Class of problems for which the complement problem is in NP.,3
+BPP (Bounded-Error Probabilistic Polynomial Time): Class of problems solvable by a probabilistic Turing machine with bounded error in polynomial time.,3
+Complexity Measures,2
+Time Complexity: Quantifies the amount of time taken by an algorithm as a function of the length of the input.,3
+Big O Notation: Describes the upper bound of the time complexity.,4
+Omega Notation: Describes the lower bound of the time complexity.,4
+Theta Notation: Describes the tight bound of the time complexity.,4
+Space Complexity: Quantifies the amount of memory space taken by an algorithm as a function of the length of the input.,3
+Circuit Complexity: Measures the complexity of a Boolean function in terms of the size and depth of Boolean circuits.,3
+Reducibility and Completeness,2
+Polynomial-Time Reduction: A method of transforming one problem into another problem in polynomial time.,3
+Karp Reduction: A specific type of polynomial-time reduction used to define NP-completeness.,3
+Many-One Reduction: A reduction where a solution to one problem can be transformed into a solution to another problem.,3
+"Turing Reduction: A reduction where one problem can be solved using an algorithm for another problem, potentially with multiple invocations.",3
+Hierarchy Theorems,2
+"Time Hierarchy Theorem: States that given more time, more problems can be solved (e.g., there are problems solvable in O(n^2) time that are not solvable in O(n) time).",3
+"Space Hierarchy Theorem: States that given more space, more problems can be solved (e.g., there are problems solvable in O(n^2) space that are not solvable in O(n) space).",3
+Complexity Barriers,2
+Relativization: A technique showing that certain complexity class separations cannot be resolved by relativizing arguments alone.,3
+Natural Proofs: A concept showing that certain types of proofs cannot be used to separate complexity classes.,3
+Algebraization: Extends relativization and is used to show limitations in current proof techniques for separating complexity classes.,3
+Approximation and Heuristics,2
+Approximation Algorithms: Algorithms that find near-optimal solutions to optimization problems within a specific factor.,3
+Heuristic Algorithms: Practical algorithms that provide good-enough solutions without guarantees of optimality.,3
+"Greedy Algorithms: Build up a solution piece by piece, choosing the most advantageous option at each step.",4
+Local Search: Starts with an arbitrary solution and iteratively moves to a neighboring solution with a better objective value.,4
+Randomized Complexity Classes,2
+RP (Randomized Polynomial Time): Class of problems for which a correct answer is found with probability greater than 1/2 in polynomial time.,3
+ZPP (Zero-error Probabilistic Polynomial Time): Class of problems solvable in expected polynomial time without error.,3
+BPP (Bounded-Error Probabilistic Polynomial Time): Class of problems solvable with bounded error in polynomial time.,3
+Cryptographic Complexity,2
+One-Way Functions: Functions that are easy to compute but hard to invert.,3
+Pseudorandom Generators: Algorithms that generate sequences of numbers that appear random.,3
+Cryptographic Protocols: Methods for secure communication and data exchange based on computational complexity.,3
+Parallel Complexity,2
+NC (Nick's Class): Class of problems solvable in polylogarithmic time on a parallel computer with a polynomial number of processors.,3
+"P-complete: Problems that are believed to be inherently sequential, meaning they cannot be efficiently parallelized.",3
+Interactive Proofs and Zero-Knowledge,2
+Interactive Proof Systems: Systems where a verifier can be convinced of the truth of a statement through interaction with a prover.,3
+Zero-Knowledge Proofs: Proofs where the prover convinces the verifier of the truth of a statement without revealing any additional information.,3
+Parameterized Complexity,2
+Fixed-Parameter Tractable (FPT): Class of problems that can be solved in polynomial time with respect to a fixed parameter.,3
+W-hierarchy: A hierarchy of parameterized complexity classes used to study the hardness of problems with respect to parameters.,3
+Descriptive Complexity,2
+FO (First-Order Logic): Describes computational problems in terms of first-order logic formulas.,3
+MSO (Monadic Second-Order Logic): Extends first-order logic with quantification over sets.,3
+Communication Complexity,2
+Deterministic Communication Complexity: Measures the amount of communication required between two parties to compute a function deterministically.,3
+Randomized Communication Complexity: Measures the communication required when parties can use random bits.,3
+Online Algorithms and Complexity,2
+Competitive Analysis: Measures the performance of an online algorithm relative to an optimal offline algorithm.,3
+Adversarial Models: Models in which an adversary controls the sequence of events to test the algorithm's performance.,3

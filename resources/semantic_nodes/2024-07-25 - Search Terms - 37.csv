@@ -1,0 +1,78 @@
+keyword,lvl
+Systems and Control: Computer Science-Based Breakdown,1
+Control Theory,2
+Feedback Control: Systems that adjust their operation based on output.,3
+Proportional-Integral-Derivative (PID) Control: Control loop mechanism employing feedback.,4
+State Space Representation: Mathematical model representing system dynamics.,4
+Feedforward Control: Systems that adjust their operation based on anticipated changes.,3
+Model Predictive Control (MPC): Advanced method using model to predict future outputs.,4
+Optimal Control: Process of determining control policies that optimize performance.,3
+Linear Quadratic Regulator (LQR): Method to operate linear systems at optimal cost.,4
+Robust Control: Designing controllers to function correctly despite uncertainties.,4
+H-Infinity Control: Method to achieve robust performance.,4
+Systems Engineering,2
+"Systems Design: Process of defining architecture, components, and interfaces.",3
+"Requirements Engineering: Process of defining, documenting, and maintaining requirements.",4
+Systems Modeling: Creating abstract models of systems.,3
+Unified Modeling Language (UML): Standardized modeling language.,4
+System Dynamics: Modeling feedback systems.,4
+Systems Integration: Process of combining components into a functioning system.,3
+Interface Control: Managing interdependencies between system components.,4
+Systems Validation: Ensuring system meets requirements.,3
+Verification and Validation (V&V): Processes to confirm system performance.,4
+Signal Processing,2
+Analog Signal Processing: Processing signals in their original form.,3
+Fourier Transform: Mathematical transformation from time to frequency domain.,4
+Digital Signal Processing (DSP): Processing of signals after conversion to digital form.,3
+Fast Fourier Transform (FFT): Efficient algorithm to compute discrete Fourier transform.,4
+Filter Design: Creating filters to manipulate signals.,3
+Butterworth Filter: Type of signal processing filter designed for flat frequency response.,4
+Signal Sampling: Converting continuous signals to discrete signals.,3
+Nyquist Sampling Theorem: Principle that defines the minimum sampling rate.,4
+Dynamical Systems,2
+Linear Systems: Systems described by linear equations.,3
+Transfer Function: Mathematical representation of input-output relationship.,4
+Nonlinear Systems: Systems described by nonlinear equations.,3
+Phase Space: Visual representation of system states.,4
+Stochastic Systems: Systems influenced by random processes.,3
+Markov Processes: Memoryless stochastic processes.,4
+Discrete-Time Systems: Systems evaluated at distinct time intervals.,3
+Z-Transform: Mathematical tool for analyzing discrete-time signals.,4
+Control Algorithms,2
+Adaptive Control: Controllers that adjust their parameters in real-time.,3
+Self-Tuning Regulators: Controllers that automatically adjust gains.,4
+Intelligent Control: Using artificial intelligence techniques in control systems.,3
+Fuzzy Logic Control: Control strategy using fuzzy logic.,4
+Neural Network Control: Control strategy using neural networks.,4
+Embedded Systems,2
+Real-Time Systems: Systems that respond to inputs within strict time constraints.,3
+Hard Real-Time Systems: Systems where missing a deadline leads to failure.,4
+Soft Real-Time Systems: Systems where deadlines are flexible.,4
+Microcontrollers: Small computers on a single integrated circuit.,3
+ARM Cortex: Family of microcontroller architectures.,4
+Firmware: Specialized software programmed on embedded systems.,3
+Robotics Control,2
+Kinematics: Study of motion without considering forces.,3
+Forward Kinematics: Calculating position from joint angles.,4
+Inverse Kinematics: Calculating joint angles from position.,4
+Dynamics: Study of forces and torques causing motion.,3
+Newton-Euler Method: Recursive algorithm to compute dynamics of robotic manipulators.,4
+Path Planning: Determining a sequence of moves to reach a goal.,3
+A Algorithm:* Pathfinding algorithm for graph traversal.,4
+Trajectory Optimization: Finding the best path considering constraints and objectives.,3
+Networked Control Systems,2
+Distributed Control Systems: Control systems where components are distributed.,3
+Industrial Control Systems (ICS): Systems for controlling industrial processes.,4
+Network Protocols: Communication rules for networked control systems.,3
+Modbus: Communication protocol for industrial systems.,4
+CAN Bus: Vehicle bus standard for microcontroller communication.,4
+Control System Simulation,2
+Simulink: MATLAB-based environment for modeling and simulating dynamic systems.,3
+MATLAB: High-level language for numerical computation and visualization.,3
+Modelica: Object-oriented language for modeling complex systems.,3
+Systems Optimization,2
+Linear Programming: Optimization technique for linear objective functions.,3
+Simplex Algorithm: Algorithm for solving linear programming problems.,4
+Nonlinear Programming: Optimization involving nonlinear objective functions.,3
+Gradient Descent: Optimization algorithm for finding the minimum of a function.,4
+Genetic Algorithms: Optimization techniques inspired by natural evolution.,3

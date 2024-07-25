@@ -1,0 +1,86 @@
+keyword,lvl
+Social and Information Networks: Computer Science-Based Breakdown,1
+1. Network Theory,2
+"Graph Theory: Study of graphs, which are mathematical structures used to model pairwise relations between objects.",3
+Nodes (Vertices): Fundamental units representing entities.,4
+Edges (Links): Connections between nodes.,4
+Types of Graphs:,3
+Directed Graphs (Digraphs): Graphs where edges have a direction.,4
+Undirected Graphs: Graphs where edges have no direction.,4
+Weighted Graphs: Graphs where edges have weights.,4
+Bipartite Graphs: Graphs with two sets of nodes and edges only between different sets.,4
+2. Social Network Analysis (SNA),2
+Centrality Measures: Metrics to determine the importance of nodes.,3
+Degree Centrality: Number of connections a node has.,4
+Betweenness Centrality: Number of times a node acts as a bridge along the shortest path.,4
+Closeness Centrality: Measure of how close a node is to all other nodes.,4
+Eigenvector Centrality: Influence of a node in a network.,4
+Community Detection: Identifying groups of nodes that are more densely connected to each other than to the rest of the network.,3
+Modularity: Measure of the strength of division of a network into modules.,4
+Louvain Method: A method to optimize modularity.,4
+"Network Motifs: Recurring, significant patterns of interconnections.",3
+3. Information Diffusion,2
+Diffusion Models: Models describing how information spreads in a network.,3
+Independent Cascade Model: Each infected node has one chance to infect each of its neighbors.,4
+Linear Threshold Model: Nodes adopt behavior if a certain number of their neighbors have adopted it.,4
+Influence Maximization: Finding the most influential nodes to maximize the spread of information.,3
+Epidemic Models: Models describing the spread of diseases or information.,3
+SIR Model (Susceptible-Infected-Recovered): A model where individuals can be in one of three states.,4
+4. Network Dynamics,2
+Dynamic Networks: Networks that change over time.,3
+Temporal Networks: Networks with time-stamped edges.,4
+Evolutionary Networks: Networks that evolve based on certain rules or algorithms.,4
+Network Growth Models: Models describing how networks grow.,3
+Preferential Attachment Model: Nodes with more connections are more likely to receive new connections.,4
+Small-World Networks: Networks with high clustering and short average path lengths.,4
+Scale-Free Networks: Networks with a power-law degree distribution.,4
+5. Information Retrieval in Networks,2
+Search Algorithms: Techniques to find information in networks.,3
+Breadth-First Search (BFS): Explores neighbors level by level.,4
+Depth-First Search (DFS): Explores as far as possible along each branch before backtracking.,4
+Recommendation Systems: Systems suggesting relevant items to users.,3
+Collaborative Filtering: Making automatic predictions based on user preferences.,4
+Content-Based Filtering: Recommendations based on the content of items.,4
+Link Prediction: Predicting future connections in a network.,3
+Common Neighbors: Nodes with more common neighbors are more likely to connect.,4
+Jaccard Coefficient: Similarity measure based on shared neighbors.,4
+6. Computational Models for Networks,2
+Random Graph Models: Models generating networks with random connections.,3
+Erdős–Rényi Model: Each pair of nodes has an equal probability of being connected.,4
+Graph Generators: Algorithms to create graphs with certain properties.,3
+Barabási–Albert Model: Generates scale-free networks using preferential attachment.,4
+Graph Databases: Databases designed to store and query graph data.,3
+Neo4j: A popular graph database management system.,4
+7. Social Media Analytics,2
+Sentiment Analysis: Determining the sentiment of text data.,3
+Lexicon-Based Methods: Using predefined lists of words associated with sentiments.,4
+Machine Learning-Based Methods: Training models to detect sentiment.,4
+Topic Modeling: Discovering abstract topics in text data.,3
+Latent Dirichlet Allocation (LDA): A generative statistical model for topic modeling.,4
+User Behavior Analysis: Studying how users interact with social media.,3
+"Engagement Metrics: Measuring likes, shares, comments, and other interactions.",4
+Virality Analysis: Studying factors that contribute to the viral spread of content.,4
+8. Security and Privacy in Networks,2
+Privacy Preservation: Techniques to protect user data in networks.,3
+Differential Privacy: Ensuring individual data points cannot be distinguished.,4
+Anonymization: Removing personally identifiable information from data.,4
+Network Attacks: Methods and impacts of malicious activities.,3
+Denial of Service (DoS): Attacks intended to make a network resource unavailable.,4
+Sybil Attack: Creating multiple fake identities to manipulate network behavior.,4
+Defensive Measures: Techniques to protect networks from attacks.,3
+Intrusion Detection Systems (IDS): Monitoring networks for malicious activity.,4
+9. Network Visualization,2
+Graph Layout Algorithms: Techniques for visualizing graphs.,3
+Force-Directed Layout: Uses physical simulation to position nodes.,4
+Tree Layout: Positions nodes in a hierarchical tree structure.,4
+Visualization Tools: Software for visualizing network data.,3
+Gephi: An open-source network analysis and visualization software.,4
+Cytoscape: A software platform for visualizing complex networks.,4
+10. Computational Social Science,2
+Behavioral Modeling: Simulating human behavior in networks.,3
+Agent-Based Models: Simulating interactions of autonomous agents.,4
+Cultural Dynamics: Studying how culture spreads and evolves in social networks.,3
+Opinion Dynamics Models: Modeling how opinions spread and change.,4
+Social Influence: Measuring and analyzing the impact of individuals on each other.,3
+Homophily: Tendency of individuals to associate with similar others.,4
+"Social Contagion: Spread of behaviors, attitudes, or information through a network.",4

@@ -1,0 +1,106 @@
+keyword,lvl
+Machine Learning: Computer Science-Based Breakdown,1
+1. Supervised Learning,2
+Classification: Predicting discrete labels for given inputs.,3
+Logistic Regression: A linear model for binary or multiclass classification.,4
+Support Vector Machines (SVMs): Finding the optimal hyperplane for classification.,4
+Decision Trees: Tree-based models for decision-making and classification.,4
+Random Forests: An ensemble of decision trees to improve accuracy.,5
+Neural Networks: Computational models inspired by the human brain.,4
+Backpropagation: A method for training neural networks by adjusting weights.,5
+Regression: Predicting continuous values for given inputs.,3
+Linear Regression: Predicting a continuous output based on linear relationships.,4
+Polynomial Regression: Extending linear regression to polynomial relationships.,4
+2. Unsupervised Learning,2
+Clustering: Grouping data points into distinct clusters.,3
+K-Means Clustering: Partitioning data into k clusters based on similarity.,4
+Hierarchical Clustering: Building nested clusters in a hierarchical manner.,4
+Dimensionality Reduction: Reducing the number of features in the data.,3
+Principal Component Analysis (PCA): Reducing dimensionality by projecting data onto orthogonal components.,4
+t-Distributed Stochastic Neighbor Embedding (t-SNE): Reducing dimensions for visualization while preserving structure.,4
+Anomaly Detection: Identifying rare or unusual data points.,3
+Isolation Forest: Detecting anomalies using tree structures.,4
+One-Class SVM: Classifying data points into normal or abnormal based on a single class.,4
+3. Reinforcement Learning,2
+Markov Decision Processes (MDPs): Mathematical models for decision making.,3
+Value-Based Methods: Learning the value of actions.,3
+Q-Learning: A value-based method for finding the best action to take.,4
+Deep Q-Networks (DQN): Combining Q-learning with deep learning.,4
+Policy-Based Methods: Learning the policy directly.,3
+Policy Gradients: Directly optimizing the policy to select actions.,4
+Actor-Critic Methods: Combining value-based and policy-based approaches.,3
+4. Neural Networks and Deep Learning,2
+"Feedforward Neural Networks (FNNs): Networks with no cycles, moving data forward.",3
+"Activation Functions: Functions like ReLU, sigmoid, and tanh used in neurons.",4
+Convolutional Neural Networks (CNNs): Networks with convolutional layers for spatial data.,3
+Pooling Layers: Downsampling layers to reduce dimensionality.,4
+Transfer Learning: Using pre-trained models for new tasks.,4
+Recurrent Neural Networks (RNNs): Networks with cycles for sequential data.,3
+Long Short-Term Memory (LSTM): Specialized RNNs for capturing long-term dependencies.,4
+Gated Recurrent Units (GRUs): A simpler alternative to LSTMs.,4
+Generative Adversarial Networks (GANs): Two networks (generator and discriminator) competing against each other.,3
+StyleGAN: GAN for generating high-quality images.,4
+Transformers: Models using self-attention mechanisms for NLP and other tasks.,3
+BERT (Bidirectional Encoder Representations from Transformers): Pre-trained model for various NLP tasks.,4
+GPT (Generative Pre-trained Transformer): Model for generating human-like text.,4
+5. Natural Language Processing (NLP),2
+Tokenization: Breaking text into individual words or subwords.,3
+Named Entity Recognition (NER): Identifying and classifying entities in text.,3
+SpaCy: An open-source NLP library for NER and other tasks.,4
+Sentiment Analysis: Determining the emotional tone of text.,3
+VADER: A lexicon and rule-based sentiment analysis tool.,4
+Machine Translation: Automatically translating text from one language to another.,3
+Seq2Seq Models: Sequence-to-sequence models for translation.,4
+Text Generation: Creating human-like text based on input data.,3
+GPT-3: A powerful language model for text generation.,4
+6. Model Evaluation and Validation,2
+Cross-Validation: Splitting the data into multiple folds for training and testing.,3
+K-Fold Cross-Validation: Dividing the data into k folds for training and testing.,4
+Metrics: Measures to evaluate model performance.,3
+Accuracy: The proportion of correctly predicted instances.,4
+Precision: The proportion of true positive predictions among all positive predictions.,4
+Recall: The proportion of true positive predictions among all actual positives.,4
+F1 Score: The harmonic mean of precision and recall.,4
+Overfitting and Underfitting: Evaluating how well the model generalizes.,3
+"Regularization: Techniques to prevent overfitting, such as L1 and L2 regularization.",4
+Bias-Variance Tradeoff: Balancing the complexity and generalization of the model.,4
+7. Feature Engineering,2
+Feature Selection: Choosing relevant features for the model.,3
+Filter Methods: Selecting features based on statistical measures.,4
+Wrapper Methods: Selecting features based on model performance.,4
+Feature Extraction: Creating new features from existing ones.,3
+Principal Component Analysis (PCA): Extracting features by reducing dimensionality.,4
+Linear Discriminant Analysis (LDA): Extracting features to maximize class separability.,4
+Data Transformation: Modifying features to improve model performance.,3
+Normalization: Scaling features to a standard range.,4
+Standardization: Scaling features to have zero mean and unit variance.,4
+8. Ensemble Methods,2
+Bagging: Combining multiple models to reduce variance.,3
+Bootstrap Aggregating (Bagging): Training multiple models on different subsets of the data.,4
+Random Forests: An ensemble of decision trees using bagging and feature randomness.,4
+Boosting: Combining multiple models to reduce bias.,3
+AdaBoost: A boosting method that adjusts weights based on errors.,4
+Gradient Boosting: A boosting method that optimizes model performance through gradient descent.,4
+XGBoost: An efficient implementation of gradient boosting.,4
+Stacking: Combining multiple models using a meta-model.,3
+Blending: A simplified version of stacking using holdout sets.,4
+9. Data Preprocessing,2
+Data Cleaning: Handling missing values and outliers.,3
+Imputation: Replacing missing values with estimated ones.,4
+Outlier Detection: Identifying and handling outliers.,4
+Data Integration: Combining data from multiple sources.,3
+"ETL (Extract, Transform, Load): Processes for integrating and preparing data.",4
+Data Transformation: Modifying data to suit modeling needs.,3
+Normalization: Scaling data to a specific range.,4
+Standardization: Adjusting data to have zero mean and unit variance.,4
+Data Augmentation: Generating new data samples from existing ones.,3
+"Image Augmentation: Techniques for creating new images from existing ones (e.g., rotations, flips).",4
+10. Ethical and Social Implications,2
+Bias and Fairness: Ensuring ML models do not perpetuate biases.,3
+Fairness Metrics: Tools to evaluate model fairness.,4
+Privacy: Protecting sensitive information in ML applications.,3
+Differential Privacy: Techniques to ensure individual data privacy.,4
+Transparency and Explainability: Making ML models understandable.,3
+"Model Interpretability: Techniques to explain model decisions (e.g., SHAP, LIME).",4
+Impact on Society: Examining the societal effects of ML technologies.,3
+Ethical AI Guidelines: Frameworks for responsible AI development and deployment.,4

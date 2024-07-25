@@ -1,0 +1,90 @@
+keyword,lvl
+Digital Libraries: Computer Science-Based Breakdown,1
+1. Digital Library Infrastructure,2
+"Digital Library: A collection of digital objects (texts, images, audio, video) that are stored and accessed electronically.",3
+Digital Repository: A system for storing and managing digital content.,3
+"Institutional Repository: A repository for collecting, preserving, and disseminating the intellectual output of an institution.",4
+Subject Repository: A repository focused on a specific academic subject or discipline.,4
+"Content Management System (CMS): Software for creating, managing, and publishing digital content.",3
+2. Metadata and Cataloging,2
+Metadata: Data that provides information about other data.,3
+Descriptive Metadata: Information for discovery and identification of resources.,4
+Structural Metadata: Information on how components of a resource are organized.,4
+"Administrative Metadata: Information for managing resources, such as rights and preservation.",4
+Cataloging: The process of creating metadata for digital resources.,3
+Dublin Core: A set of metadata elements for describing digital resources.,4
+MARC (Machine-Readable Cataloging): A standard for the representation and communication of bibliographic data.,4
+3. Information Retrieval,2
+Search Engines: Systems for indexing and retrieving information based on queries.,3
+"Boolean Search: Using AND, OR, and NOT operators to refine search results.",4
+Faceted Search: Using multiple filters to narrow down search results.,4
+Indexing: The process of creating indexes to enable fast search and retrieval.,3
+Full-Text Indexing: Indexing the complete text of documents.,4
+Metadata Indexing: Indexing based on metadata fields.,4
+Query Processing: Techniques for interpreting and executing search queries.,3
+Natural Language Processing (NLP): Techniques for understanding and processing human language queries.,4
+Relevance Ranking: Algorithms for ranking search results based on relevance.,4
+4. Digital Preservation,2
+Digital Preservation: Processes and activities to ensure the long-term accessibility of digital resources.,3
+Bit Preservation: Ensuring the integrity of digital objects at the bit level.,4
+Functional Preservation: Maintaining the usability of digital objects over time.,4
+Archival Storage: Long-term storage of digital objects.,3
+Replication: Storing multiple copies of digital objects in different locations.,4
+Checksum: A value used to verify the integrity of a digital object.,4
+Migration: Moving digital objects from one format or system to another to prevent obsolescence.,3
+Emulation: Using software to mimic the behavior of obsolete systems to access digital objects.,3
+5. Access and User Interface,2
+Access Control: Mechanisms to control who can view or use digital resources.,3
+Authentication: Verifying the identity of a user.,4
+Authorization: Granting permissions to access resources.,4
+User Interface (UI): The design and layout of a digital library's front end.,3
+Responsive Design: Ensuring the UI adapts to different devices and screen sizes.,4
+Usability Testing: Evaluating the user experience of the digital library interface.,4
+6. Digital Rights Management (DRM),2
+DRM: Technologies to control the use of digital content and manage intellectual property rights.,3
+Encryption: Protecting digital content by converting it into a secure format.,4
+Access Control: Restricting access to digital content based on user permissions.,4
+License Management: Managing licenses and terms of use for digital content.,4
+7. Data Standards and Interoperability,2
+Data Standards: Agreed-upon formats and protocols for representing and exchanging data.,3
+XML (eXtensible Markup Language): A standard for encoding documents in a format that is both human-readable and machine-readable.,4
+JSON (JavaScript Object Notation): A lightweight data interchange format.,4
+Interoperability: The ability of different systems to work together.,3
+OAI-PMH (Open Archives Initiative Protocol for Metadata Harvesting): A protocol for harvesting metadata from digital libraries.,4
+Z39.50: A standard protocol for search and retrieval of information in digital libraries.,4
+8. Content Digitization,2
+Digitization: The process of converting physical materials into digital formats.,3
+Scanning: Creating digital images of physical documents.,4
+Optical Character Recognition (OCR): Converting scanned images of text into machine-readable text.,4
+Audio/Video Digitization: Converting analog audio and video recordings into digital formats.,4
+9. Collaborative Systems,2
+Collaborative Digital Libraries: Systems that support collaboration among users and institutions.,3
+Social Tagging: Allowing users to add tags to digital content.,4
+Annotation: Allowing users to add comments or notes to digital content.,4
+Crowdsourcing: Engaging the public in the creation and curation of digital content.,3
+Transcription Projects: Using volunteers to transcribe historical documents.,4
+10. Analytics and Usage Statistics,2
+Usage Analytics: Analyzing how users interact with digital library resources.,3
+Web Analytics: Tracking user behavior on the digital library website.,4
+Clickstream Analysis: Analyzing the sequence of clicks made by users.,4
+Performance Metrics: Measuring the performance and impact of digital libraries.,3
+Download Counts: Tracking the number of times digital objects are downloaded.,4
+Citation Analysis: Measuring the impact of digital resources through citations.,4
+11. Digital Humanities,2
+Digital Humanities: The intersection of digital technologies and humanities research.,3
+Text Mining: Extracting information from large collections of text.,4
+Data Visualization: Creating visual representations of humanities data.,4
+Geospatial Analysis: Analyzing spatial data in digital humanities projects.,4
+12. Community Engagement and Outreach,2
+Community Engagement: Involving the community in the development and use of digital libraries.,3
+Workshops and Training: Providing education and training on digital library use.,4
+Public Programs: Organizing events and activities to promote digital libraries.,4
+Outreach: Extending the reach of digital libraries to underserved communities.,3
+Mobile Libraries: Providing access to digital content through mobile devices.,4
+13. Ethical and Legal Considerations,2
+Ethical Considerations: Ensuring the ethical use and management of digital library resources.,3
+Privacy: Protecting the privacy of digital library users.,4
+Bias and Fairness: Ensuring unbiased representation and access to digital resources.,4
+Legal Considerations: Navigating legal issues related to digital libraries.,3
+Copyright Law: Understanding and managing copyright issues in digital libraries.,4
+Intellectual Property: Protecting intellectual property rights of digital content creators.,4

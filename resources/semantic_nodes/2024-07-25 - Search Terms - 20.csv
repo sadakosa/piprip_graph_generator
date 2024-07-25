@@ -1,0 +1,62 @@
+keyword,lvl
+Information Theory: Computer Science-Based Breakdown,1
+1. Fundamental Concepts,2
+Entropy: A measure of the uncertainty or randomness in a random variable.,3
+Shannon Entropy: The expected value of the information contained in a message.,4
+Information: The reduction in uncertainty after receiving a message.,3
+Self-Information: The amount of information gained from observing a particular outcome.,4
+Mutual Information: The amount of information that two random variables share.,3
+"Relative Entropy (Kullback-Leibler Divergence): A measure of how one probability distribution diverges from a second, expected probability distribution.",3
+2. Source Coding,2
+Data Compression: Reducing the size of data without losing information.,3
+Lossless Compression: Compression where the original data can be perfectly reconstructed.,4
+Huffman Coding: An entropy-based algorithm for lossless data compression.,5
+Arithmetic Coding: A variable-length entropy encoding that represents a sequence of symbols as a single number.,5
+"Lossy Compression: Compression where some information is lost, and the original data cannot be perfectly reconstructed.",4
+JPEG: A commonly used method of lossy compression for digital images.,5
+MP3: A popular lossy compression format for audio files.,5
+3. Channel Coding,2
+Error Detection and Correction: Techniques to detect and correct errors in transmitted data.,3
+Parity Check: A simple error detection scheme that adds a parity bit to data.,4
+Hamming Code: An error-correcting code that can detect and correct single-bit errors.,4
+"Reed-Solomon Code: A powerful error-correcting code used in CDs, DVDs, and QR codes.",4
+Channel Capacity: The maximum rate at which information can be reliably transmitted over a communication channel.,3
+Shannon-Hartley Theorem: A formula to determine the channel capacity based on bandwidth and signal-to-noise ratio.,4
+4. Information Sources,2
+Discrete Memoryless Sources: Sources where each symbol is produced independently of previous symbols.,3
+Markov Sources: Sources where the probability of each symbol depends on the previous symbol(s).,3
+Hidden Markov Models (HMMs): Models where the system being modeled is assumed to be a Markov process with hidden states.,4
+5. Cryptography,2
+Encryption: The process of encoding messages or information in such a way that only authorized parties can access it.,3
+Symmetric-Key Encryption: Both the sender and receiver share the same key.,4
+AES (Advanced Encryption Standard): A widely used symmetric encryption algorithm.,5
+Asymmetric-Key Encryption: Uses a pair of keys – a public key and a private key.,4
+RSA (Rivest–Shamir–Adleman): A widely used asymmetric encryption algorithm.,5
+Cryptanalysis: The study of analyzing information systems to understand hidden aspects of the systems.,3
+6. Network Information Theory,2
+Multiple Access Channels: Communication channels that can be accessed by multiple users.,3
+Time Division Multiple Access (TDMA): Users share the same frequency channel by dividing the signal into different time slots.,4
+Frequency Division Multiple Access (FDMA): Users are assigned individual frequency bands within the overall bandwidth.,4
+Broadcast Channels: Channels where a single sender transmits to multiple receivers.,5
+7. Data Transmission,2
+Modulation: The process of varying one or more properties of a periodic waveform to encode information.,3
+Amplitude Modulation (AM): Encoding information in the amplitude of the carrier wave.,4
+Frequency Modulation (FM): Encoding information in the frequency of the carrier wave.,4
+Demodulation: The process of extracting the original information-bearing signal from a modulated carrier wave.,3
+8. Advanced Topics,2
+Quantum Information Theory: The study of information processing tasks that can be accomplished using quantum mechanical systems.,3
+Quantum Entanglement: A physical phenomenon where pairs or groups of particles cannot be described independently.,4
+Quantum Cryptography: The use of quantum mechanics to perform cryptographic tasks.,4
+Algorithmic Information Theory: A subfield that deals with the complexity of strings of data.,3
+Kolmogorov Complexity: A measure of the computational resources needed to specify a string of data.,4
+9. Statistical Inference,2
+Bayesian Inference: A method of statistical inference in which Bayes' theorem is used to update the probability for a hypothesis as more evidence is acquired.,3
+Maximum Likelihood Estimation (MLE): A method to estimate the parameters of a statistical model that maximizes the likelihood of the observed data.,3
+10. Practical Implementations,2
+Compression Algorithms: Tools and software implementing compression techniques.,3
+gzip: A software application used for file compression and decompression.,4
+bzip2: A free and open-source file compression program that uses the Burrows–Wheeler algorithm.,4
+Error-Correcting Codes: Tools and libraries for implementing error correction.,3
+ECC (Error-Correcting Code) Libraries: Libraries providing error correction functionalities.,4
+Cryptographic Libraries: Tools and software implementing encryption and cryptographic techniques.,3
+"OpenSSL: A robust, full-featured open-source toolkit implementing the Secure Sockets Layer (SSL) and Transport Layer Security (TLS) protocols.",4

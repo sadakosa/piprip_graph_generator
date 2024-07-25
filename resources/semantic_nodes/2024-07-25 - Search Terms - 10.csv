@@ -1,0 +1,95 @@
+Keywords,lvl
+Data Structures and Algorithms,1
+Basic Data Structures,2
+Arrays: Contiguous memory allocation for storing elements.,3
+"Dynamic Arrays: Arrays that can resize themselves when necessary (e.g., Python lists).",4
+Linked Lists: Linear collection of nodes where each node points to the next.,3
+Singly Linked Lists: Each node points to the next node.,4
+Doubly Linked Lists: Each node points to both the next and previous nodes.,4
+"Stacks: LIFO (Last In, First Out) data structures.",3
+"Stack Operations: Push (insert element), Pop (remove element), Peek (view top element).",4
+"Queues: FIFO (First In, First Out) data structures.",3
+"Queue Operations: Enqueue (insert element), Dequeue (remove element), Front (view first element).",4
+Circular Queues: Queues where the end connects back to the start.,4
+Advanced Data Structures,2
+Trees: Hierarchical structures with a root node and child nodes.,3
+Binary Trees: Trees where each node has at most two children.,4
+Binary Search Trees (BSTs): Binary trees where the left child is less than the parent and the right child is greater.,4
+Heaps: Specialized tree-based structures satisfying the heap property.,3
+Min-Heaps: Parent nodes are smaller than their children.,4
+Max-Heaps: Parent nodes are larger than their children.,4
+Graphs: Collections of nodes (vertices) connected by edges.,3
+Directed Graphs: Edges have a direction.,4
+Undirected Graphs: Edges do not have a direction.,4
+Weighted Graphs: Edges have associated weights.,4
+Hash Tables: Data structures for efficient key-value pair storage.,3
+"Collision Resolution Techniques: Methods to handle hash collisions (e.g., chaining, open addressing).",4
+Fundamental Algorithms,2
+Sorting Algorithms: Methods for arranging elements in a particular order.,3
+Bubble Sort: Simple comparison-based sorting algorithm.,4
+Merge Sort: Divide-and-conquer sorting algorithm.,4
+Quick Sort: Efficient divide-and-conquer sorting algorithm.,4
+Heap Sort: Comparison-based sorting algorithm using a heap.,4
+Searching Algorithms: Techniques for finding elements within data structures.,3
+Linear Search: Sequentially checking each element.,4
+Binary Search: Efficient search on sorted arrays.,4
+Graph Algorithms: Methods for processing graphs.,3
+Depth-First Search (DFS): Exploring as far as possible along each branch.,4
+Breadth-First Search (BFS): Exploring all neighbors at the present depth before moving on.,4
+Dijkstra's Algorithm: Finding the shortest paths from a source vertex.,4
+Kruskal's Algorithm: Finding the minimum spanning tree of a graph.,4
+Dynamic Programming and Greedy Algorithms,2
+Dynamic Programming (DP): Solving problems by breaking them into subproblems and storing the results.,3
+Memoization: Storing the results of expensive function calls.,4
+Tabulation: Iteratively solving subproblems and storing results in a table.,4
+Greedy Algorithms: Making the locally optimal choice at each stage.,3
+Huffman Coding: Compression algorithm using a greedy approach.,4
+Activity Selection: Choosing the maximum number of activities that don't overlap.,4
+Advanced Algorithm Design,2
+"Divide and Conquer: Breaking a problem into smaller subproblems, solving them independently, and combining their results.",3
+Merge Sort: An example of a divide-and-conquer algorithm.,4
+Quick Sort: Another example of a divide-and-conquer algorithm.,4
+Backtracking: Solving problems incrementally and abandoning solutions that fail.,3
+N-Queens Problem: Placing N queens on an NxN chessboard without conflicts.,4
+Sudoku Solver: Solving Sudoku puzzles using backtracking.,4
+Computational Complexity,2
+Time Complexity: Measuring the time an algorithm takes to complete as a function of input size.,3
+Big O Notation: Describing the upper bound of the time complexity.,4
+Big Omega Notation: Describing the lower bound of the time complexity.,4
+Space Complexity: Measuring the memory an algorithm uses as a function of input size.,3
+Complexity Classes: Categories for problems based on their time complexity.,3
+P (Polynomial Time): Problems solvable in polynomial time.,4
+NP (Non-deterministic Polynomial Time): Problems verifiable in polynomial time.,4
+NP-Complete: Problems that are both in NP and as hard as any problem in NP.,4
+"NP-Hard: Problems as hard as NP problems, not necessarily in NP.",4
+Advanced Data Structures,2
+Balanced Trees: Trees that maintain balanced height for efficient operations.,3
+AVL Trees: Self-balancing binary search trees.,4
+Red-Black Trees: Binary search trees with balance constraints.,4
+B-Trees: Generalized binary search trees for databases and file systems.,3
+Tries: Trees used to store dynamic sets of strings.,3
+Suffix Trees: Compressed tries for representing suffixes of a string.,3
+Data Structures for Specific Applications,2
+Priority Queues: Abstract data types where each element has a priority.,3
+Binary Heaps: Common implementation of priority queues.,4
+Disjoint Set (Union-Find): Data structure for keeping track of a partition of a set.,3
+Path Compression: Technique to flatten the structure of the tree.,4
+Union by Rank: Technique to keep the tree shallow.,4
+Bloom Filters: Probabilistic data structures for testing set membership.,3
+Skip Lists: Probabilistic data structures that allow fast search within an ordered sequence of elements.,3
+Algorithmic Paradigms,2
+Brute Force: Exhaustively searching through all possible solutions.,3
+Greedy Algorithms: Making the locally optimal choice at each step.,3
+Dynamic Programming: Breaking problems into subproblems and storing solutions to subproblems.,3
+Divide and Conquer: Recursively breaking down a problem into subproblems.,3
+Backtracking: Building solutions incrementally and abandoning paths that fail.,3
+Specialized Algorithms,2
+String Matching Algorithms: Finding occurrences of a substring within a string.,3
+Knuth-Morris-Pratt (KMP) Algorithm: Efficient string matching algorithm.,4
+Rabin-Karp Algorithm: String matching algorithm using hashing.,4
+Geometric Algorithms: Algorithms for computational geometry problems.,3
+Convex Hull: Finding the smallest convex polygon containing all points.,4
+Voronoi Diagrams: Partitioning a plane based on distances to a specific set of points.,4
+Number Theoretic Algorithms: Algorithms related to number theory.,3
+Euclidean Algorithm: Finding the greatest common divisor of two numbers.,4
+Sieve of Eratosthenes: Finding all prime numbers up to a specified integer.,4

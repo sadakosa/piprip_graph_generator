@@ -1,0 +1,98 @@
+Keyword,lvl
+Artificial Intelligence: Computer Science-Based Breakdown,1
+Machine Learning,2
+Supervised Learning: Learning from labeled data to make predictions or classify data.,3
+Linear Regression: Predicting a continuous output based on linear relationships.,4
+Logistic Regression: Classification algorithm for binary or multiclass problems.,4
+Support Vector Machines (SVMs): Finding the optimal hyperplane for classification.,4
+Decision Trees: Tree-based models for decision-making and classification.,4
+Random Forests: An ensemble of decision trees to improve accuracy.,5
+Neural Networks: Computational models inspired by the human brain.,4
+Backpropagation: A method for training neural networks by adjusting weights.,5
+Convolutional Neural Networks (CNNs): Specialized neural networks for image recognition.,5
+Recurrent Neural Networks (RNNs): Neural networks for sequential data.,5
+Unsupervised Learning: Finding patterns in data without labeled responses.,3
+K-Means Clustering: Partitioning data into k clusters based on similarity.,4
+Hierarchical Clustering: Building nested clusters in a hierarchical manner.,4
+Principal Component Analysis (PCA): Reducing dimensionality of data.,4
+Autoencoders: Neural networks for learning efficient codings of input data.,4
+Reinforcement Learning: Learning optimal actions through trial and error.,3
+Q-Learning: A value-based method for finding the best action to take.,4
+Deep Q-Networks (DQN): Combining Q-learning with deep learning.,4
+Policy Gradients: Directly optimizing the policy to select actions.,4
+Neural Networks and Deep Learning,2
+"Feedforward Neural Networks (FNNs): Networks with no cycles, moving data forward.",3
+"Activation Functions: Functions like ReLU, sigmoid, and tanh used in neurons.",4
+Convolutional Neural Networks (CNNs): Networks with convolutional layers for spatial data.,3
+Pooling Layers: Downsampling layers to reduce dimensionality.,4
+Transfer Learning: Using pre-trained models for new tasks.,4
+Recurrent Neural Networks (RNNs): Networks with cycles for sequential data.,3
+Long Short-Term Memory (LSTM): Specialized RNNs for capturing long-term dependencies.,4
+Gated Recurrent Units (GRUs): A simpler alternative to LSTMs.,4
+Generative Adversarial Networks (GANs): Two networks (generator and discriminator) competing against each other.,3
+StyleGAN: GAN for generating high-quality images.,4
+Transformers: Models using self-attention mechanisms for NLP and other tasks.,3
+BERT (Bidirectional Encoder Representations from Transformers): Pre-trained model for various NLP tasks.,4
+GPT (Generative Pre-trained Transformer): Model for generating human-like text.,4
+Natural Language Processing (NLP),2
+Tokenization: Breaking text into individual words or subwords.,3
+Named Entity Recognition (NER): Identifying and classifying entities in text.,3
+SpaCy: An open-source NLP library for NER and other tasks.,4
+Sentiment Analysis: Determining the emotional tone of text.,3
+VADER: A lexicon and rule-based sentiment analysis tool.,4
+Machine Translation: Automatically translating text from one language to another.,3
+seq2seq Models: Sequence-to-sequence models for translation.,4
+Text Generation: Creating human-like text based on input data.,3
+GPT-3: A powerful language model for text generation.,4
+Computer Vision,2
+Image Classification: Categorizing images into predefined classes.,3
+ResNet: A deep residual network for image recognition.,4
+Object Detection: Identifying and localizing objects within images.,3
+YOLO (You Only Look Once): A real-time object detection system.,4
+Image Segmentation: Partitioning images into segments for analysis.,3
+U-Net: A neural network architecture for biomedical image segmentation.,4
+Image Generation: Creating new images from scratch.,3
+DCGAN (Deep Convolutional GAN): A GAN for generating realistic images.,4
+Robotics and Autonomous Systems,2
+Path Planning: Finding a path from a start to a goal position.,3
+A Algorithm:* A popular pathfinding and graph traversal algorithm.,4
+Simultaneous Localization and Mapping (SLAM): Building a map while tracking the robot's location.,3
+"ORB-SLAM: A feature-based SLAM system for monocular, stereo, and RGB-D cameras.",4
+Robot Perception: Understanding the environment through sensors.,3
+LIDAR: Light Detection and Ranging for mapping and navigation.,4
+Control Systems: Algorithms for controlling robotic movements.,3
+PID Controller: A control loop mechanism for maintaining a desired output.,4
+Expert Systems and Decision Making,2
+Rule-Based Systems: Systems using predefined rules to make decisions.,3
+Drools: A business rule management system.,4
+Fuzzy Logic: Handling reasoning that is approximate rather than fixed.,3
+Fuzzy Control Systems: Controllers using fuzzy logic for decision making.,4
+Bayesian Networks: Probabilistic graphical models for decision making.,3
+Junction Tree Algorithm: An algorithm for exact inference in Bayesian networks.,4
+Reinforcement Learning,2
+Markov Decision Processes (MDPs): Mathematical models for decision making.,3
+Value Iteration: Computing the optimal policy by iterating on value functions.,3
+Policy Iteration: Iterating on policy improvement and evaluation.,3
+Actor-Critic Methods: Combining value-based and policy-based approaches.,3
+Data Science and Big Data,2
+Data Preprocessing: Cleaning and transforming raw data for analysis.,3
+Pandas: A data manipulation library for Python.,4
+Data Visualization: Creating visual representations of data.,3
+Matplotlib: A plotting library for Python.,4
+Big Data Technologies: Handling large-scale data processing.,3
+Hadoop: A framework for distributed storage and processing of big data.,4
+Spark: A unified analytics engine for big data processing.,4
+Cognitive Computing,2
+Speech Recognition: Converting spoken language into text.,3
+CMU Sphinx: An open-source speech recognition system.,4
+Text-to-Speech (TTS): Generating spoken language from text.,3
+Google TTS: A text-to-speech service.,4
+Cognitive Models: Simulating human thought processes in a computer model.,3
+ACT-R (Adaptive Control of Thought-Rational): A cognitive architecture for simulating human cognition.,4
+Ethical and Social Implications,2
+Bias and Fairness: Ensuring AI systems do not perpetuate biases.,3
+Fairness Indicators: Tools to evaluate the fairness of machine learning models.,4
+Privacy: Protecting sensitive information in AI systems.,3
+Differential Privacy: Techniques to ensure individual data privacy.,4
+AI Ethics: Guidelines for the responsible use of AI.,3
+Ethical AI Frameworks: Standards and principles for ethical AI development.,4

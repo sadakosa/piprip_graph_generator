@@ -1,0 +1,79 @@
+keyword,lvl
+Networking and Internet Architecture: Computer Science-Based Breakdown,1
+1. Network Fundamentals,2
+"Network Topologies: The arrangement of different elements (links, nodes) in a computer network.",3
+Bus Topology: A single central cable to which all network devices are connected.,4
+Star Topology: All devices are connected to a central hub.,4
+Mesh Topology: Devices are interconnected with many redundant interconnections.,4
+Network Types: Different scales and types of networks.,3
+Local Area Network (LAN): A network covering a small geographic area.,4
+Wide Area Network (WAN): A network that spans a large geographic area.,4
+Metropolitan Area Network (MAN): A network that covers a larger geographic area than a LAN but smaller than a WAN.,4
+2. Networking Protocols,2
+Internet Protocol (IP): A protocol for sending data from one computer to another on the Internet.,3
+"IPv4: The fourth version of the Internet Protocol, which uses 32-bit addresses.",4
+"IPv6: The sixth version of the Internet Protocol, which uses 128-bit addresses.",4
+Transmission Control Protocol (TCP): A protocol for managing the sending and receiving of all data packets.,3
+"User Datagram Protocol (UDP): A simpler, connectionless Internet protocol.",3
+Hypertext Transfer Protocol (HTTP): A protocol for transmitting hypermedia documents.,3
+HTTP/2: A major revision of the HTTP network protocol.,4
+"HTTP/3: The third version of the HTTP protocol, using QUIC for transport.",4
+File Transfer Protocol (FTP): A protocol for transferring files between systems.,3
+Simple Mail Transfer Protocol (SMTP): A protocol for sending email messages.,3
+Domain Name System (DNS): A protocol for translating domain names into IP addresses.,3
+3. Network Layers,2
+OSI Model: A conceptual framework used to understand network interactions in seven layers.,3
+Physical Layer: The hardware transmission technologies.,4
+Data Link Layer: Responsible for node-to-node data transfer.,4
+Network Layer: Handles packet forwarding including routing through intermediate routers.,4
+Transport Layer: Provides reliable data transfer.,4
+Session Layer: Manages sessions between applications.,4
+Presentation Layer: Translates data between the application layer and the network.,4
+Application Layer: Provides network services directly to end-users.,4
+"TCP/IP Model: A simpler, four-layer model used for the Internet.",3
+Link Layer: Combines OSI’s physical and data link layers.,4
+Internet Layer: Corresponds to the OSI network layer.,4
+Transport Layer: Same as the OSI transport layer.,4
+"Application Layer: Combines OSI’s session, presentation, and application layers.",4
+4. Network Devices,2
+Router: A device that forwards data packets between computer networks.,3
+Switch: A device that filters and forwards packets between LAN segments.,3
+Hub: A basic networking device that connects multiple Ethernet devices.,3
+Modem: A device that modulates and demodulates analog signals for digital data transmission.,3
+Access Point (AP): A device that allows wireless devices to connect to a wired network.,3
+5. Network Services,2
+Virtual Private Network (VPN): A secure connection over the Internet between a device and a network.,3
+Network Address Translation (NAT): A method for remapping one IP address space into another.,3
+Dynamic Host Configuration Protocol (DHCP): A protocol for dynamically assigning IP addresses to devices on a network.,3
+Quality of Service (QoS): Techniques to manage network resources and ensure performance levels.,3
+6. Internet Architecture,2
+Internet Backbone: High-capacity data routes that carry Internet traffic across the globe.,3
+Internet Exchange Point (IXP): A physical location where different networks connect and exchange traffic.,3
+Content Delivery Network (CDN): A distributed network of servers that deliver web content to users based on their geographic location.,3
+Internet Service Provider (ISP): An organization that provides services for accessing and using the Internet.,3
+7. Wireless Networking,2
+Wi-Fi: A family of wireless network protocols based on the IEEE 802.11 standards.,3
+"802.11a/b/g/n/ac: Different versions of the Wi-Fi standard, each with varying speeds and ranges.",4
+Bluetooth: A wireless technology standard for exchanging data over short distances.,3
+Cellular Networks: Wireless communication networks for mobile devices.,3
+4G LTE: The fourth generation of mobile network technology.,4
+"5G: The fifth generation of mobile network technology, offering faster speeds and lower latency.",4
+8. Network Security,2
+Firewall: A network security system that monitors and controls incoming and outgoing network traffic.,3
+Intrusion Detection System (IDS): A system for monitoring network traffic for suspicious activity.,3
+Virtual Private Network (VPN): A secure communication tunnel between two or more devices.,3
+Encryption: The process of encoding data to prevent unauthorized access.,3
+SSL/TLS: Protocols for encrypting data between a web server and a browser.,4
+9. Cloud Networking,2
+Cloud Computing: Delivery of computing services over the Internet.,3
+Infrastructure as a Service (IaaS): Cloud-based services that provide virtualized computing resources.,4
+"Platform as a Service (PaaS): Cloud-based services that provide a platform allowing customers to develop, run, and manage applications.",4
+Software as a Service (SaaS): Cloud-based services that provide software applications over the Internet.,4
+Content Delivery Network (CDN): A system of distributed servers that deliver content to users based on their geographic location.,3
+Edge Computing: A distributed computing paradigm that brings computation and data storage closer to the data sources.,3
+10. Emerging Technologies,2
+Internet of Things (IoT): The interconnection of everyday objects via the Internet.,3
+"Software-Defined Networking (SDN): An approach to network management that enables dynamic, programmatically efficient network configuration.",3
+Network Function Virtualization (NFV): The virtualization of network services traditionally run on proprietary hardware.,3
+"5G Networking: The fifth generation of mobile network technology, offering faster speeds and more reliable connections.",3
+Blockchain: A decentralized digital ledger technology used for recording transactions across multiple computers.,3

@@ -1,0 +1,67 @@
+keyword,lvl
+Multiagent Systems: Computer Science-Based Breakdown,1
+1. Agent Architecture,2
+Reactive Agents: Agents that respond to stimuli from the environment.,3
+Behavior-Based Architecture: An architecture where agents act based on pre-defined behaviors.,4
+Deliberative Agents: Agents that use symbolic reasoning and planning.,3
+BDI Architecture (Belief-Desire-Intention): An architecture based on the mental states of the agent.,4
+Hybrid Agents: Agents that combine reactive and deliberative architectures.,3
+Layered Architecture: An architecture with different layers for reactive and deliberative processing.,4
+2. Agent Communication,2
+Agent Communication Languages (ACL): Formal languages for agent communication.,3
+KQML (Knowledge Query and Manipulation Language): A language and protocol for communication between software agents.,4
+FIPA-ACL: A communication language standardized by the Foundation for Intelligent Physical Agents.,4
+Speech Acts: Actions performed via communication.,3
+Inform: An act of providing information.,4
+Request: An act of asking for an action to be performed.,4
+3. Coordination and Cooperation,2
+Coordination Mechanisms: Methods to manage dependencies between agents' actions.,3
+Contract Net Protocol: A negotiation protocol for task allocation.,4
+Auction Mechanisms: Methods where agents bid for tasks or resources.,4
+Cooperation Strategies: Strategies for achieving common goals.,3
+Joint Intentions: A framework for cooperative actions based on shared goals.,4
+"Teamwork Models: Models for coordinated team behavior, such as STEAM (Shell for TEAMwork).",4
+4. Multiagent Planning,2
+Distributed Planning: Planning methods where agents create plans independently.,3
+Partial-Order Planning: A planning method that generates partially ordered plans.,4
+Coordinated Planning: Planning methods where agents collaboratively create a shared plan.,3
+Hierarchical Task Network (HTN) Planning: A planning method using task decomposition.,4
+5. Learning in Multiagent Systems,2
+Reinforcement Learning: Learning optimal actions based on rewards.,3
+Multiagent Q-Learning: A Q-learning extension for multiple agents.,4
+Collaborative Learning: Learning strategies where agents share knowledge.,3
+Federated Learning: A method where multiple agents collaboratively train a model while keeping data local.,4
+6. Negotiation and Conflict Resolution,2
+Negotiation Protocols: Structured methods for agents to reach agreements.,3
+Iterative Negotiation: A negotiation method involving multiple rounds of offers and counter-offers.,4
+Conflict Resolution Mechanisms: Methods for resolving conflicts between agents.,3
+Mediation: A conflict resolution method involving a neutral third party.,4
+7. Distributed Problem Solving,2
+Task Allocation: Methods for distributing tasks among agents.,3
+Market-Based Task Allocation: A method using economic principles to allocate tasks.,4
+Resource Allocation: Methods for distributing resources among agents.,3
+Distributed Constraint Satisfaction Problems (DCSP): A framework for solving constraint satisfaction problems in a distributed manner.,4
+8. Agent-Based Simulation,2
+Agent-Based Modeling (ABM): A simulation modeling technique using agents.,3
+NetLogo: A tool for developing agent-based models.,4
+Repast: A framework for agent-based simulation.,4
+Simulation Environments: Platforms for running agent-based simulations.,3
+MASON: A fast discrete-event multiagent simulation library.,4
+AnyLogic: A simulation tool supporting agent-based modeling.,4
+9. Security in Multiagent Systems,2
+Trust and Reputation Mechanisms: Methods for establishing trust between agents.,3
+Reputation Systems: Systems that evaluate and share the reputation of agents.,4
+Secure Communication Protocols: Protocols ensuring secure interactions.,3
+Cryptographic Protocols: Methods ensuring data privacy and integrity during agent communication.,4
+10. Applications of Multiagent Systems,2
+Robotics: Using multiagent systems for coordinating robotic teams.,3
+Swarm Robotics: A field focusing on the collective behavior of large numbers of simple robots.,4
+Economics: Applying multiagent systems to simulate and analyze economic systems.,3
+Stock Market Simulation: Using multiagent systems to model and simulate stock market behavior.,4
+Healthcare: Implementing multiagent systems to improve healthcare delivery.,3
+Patient Monitoring Systems: Systems where agents monitor and manage patient health data.,4
+11. Ethical and Social Implications,2
+Ethical AI in Multiagent Systems: Ensuring ethical behavior in agent interactions.,3
+Fairness: Ensuring agents make unbiased decisions.,4
+Social Impact: Examining the societal effects of deploying multiagent systems.,3
+Job Displacement: Analyzing the impact of automation on employment.,4

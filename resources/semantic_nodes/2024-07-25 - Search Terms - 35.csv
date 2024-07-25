@@ -1,0 +1,85 @@
+keyword,lvl
+Sound: Computer Science-Based Breakdown,1
+1. Digital Signal Processing (DSP),2
+Signal Sampling: Converting a continuous signal into a discrete signal.,3
+Nyquist Theorem: The principle that defines the minimum sampling rate to avoid aliasing.,4
+Quantization: Converting continuous amplitude values into discrete levels.,4
+Fourier Transform: Analyzing the frequencies contained in a signal.,3
+Discrete Fourier Transform (DFT): A method to compute the Fourier Transform of a discrete signal.,4
+Fast Fourier Transform (FFT): An efficient algorithm to compute the DFT.,4
+Filtering: Modifying or enhancing a signal.,3
+Low-pass Filter: Allows signals with a frequency lower than a certain cutoff frequency to pass.,4
+High-pass Filter: Allows signals with a frequency higher than a certain cutoff frequency to pass.,4
+Band-pass Filter: Allows signals within a certain frequency range to pass.,4
+Convolution: A mathematical operation on two functions to produce a third function.,3
+Impulse Response: The output of a system when presented with a brief input signal.,4
+2. Audio Coding and Compression,2
+Lossy Compression: Reducing file size by removing some audio data.,3
+MP3 (MPEG-1 Audio Layer III): A common audio compression format.,4
+AAC (Advanced Audio Coding): A lossy audio coding format.,4
+Lossless Compression: Reducing file size without removing audio data.,3
+FLAC (Free Lossless Audio Codec): A lossless audio compression format.,4
+ALAC (Apple Lossless Audio Codec): A lossless audio compression format.,4
+Perceptual Coding: Reducing data based on human auditory perception.,3
+Psychoacoustics: The study of the perception of sound.,4
+3. Sound Synthesis,2
+Additive Synthesis: Creating sound by adding together different waveforms.,3
+Harmonic Synthesis: Adding harmonic frequencies to create complex tones.,4
+Subtractive Synthesis: Creating sound by filtering out parts of a waveform.,3
+Oscillators: Devices generating waveforms.,4
+Filters: Devices that remove parts of a signal.,4
+Frequency Modulation (FM) Synthesis: Varying the frequency of one waveform in accordance with another waveform.,3
+Granular Synthesis: Creating sound by combining small segments of audio.,3
+4. Audio Effects and Processing,2
+Reverb: Simulating the effect of sound reflecting in a space.,3
+Echo: Delayed repetition of a sound.,3
+Equalization (EQ): Adjusting the balance of frequency components.,3
+Dynamic Range Compression: Reducing the volume of loud sounds or amplifying quiet sounds.,3
+Pitch Shifting: Changing the pitch of an audio signal without affecting its duration.,3
+5. Sound Analysis,2
+Spectral Analysis: Examining the frequency spectrum of a sound.,3
+Spectrogram: A visual representation of the spectrum of frequencies.,4
+Pitch Detection: Identifying the pitch of a sound.,3
+Autocorrelation: A method for pitch detection.,4
+Beat Detection: Identifying the tempo or rhythm of a sound.,3
+Sound Localization: Determining the location of a sound source.,3
+Interaural Time Difference (ITD): The difference in arrival time of a sound between two ears.,4
+Interaural Level Difference (ILD): The difference in sound pressure level reaching each ear.,4
+6. Acoustic Modeling,2
+Room Acoustics: Modeling how sound behaves in an enclosed space.,3
+Reverberation Time: The time it takes for sound to decay by 60 dB in a space.,4
+Physical Modeling: Simulating the physical properties of sound sources.,3
+String Synthesis: Modeling the vibrations of strings.,4
+Brass Synthesis: Modeling the behavior of brass instruments.,4
+7. Audio Formats and Standards,2
+PCM (Pulse Code Modulation): A method used to digitally represent analog signals.,3
+WAV (Waveform Audio File Format): An audio file format standard for storing waveform data.,3
+MIDI (Musical Instrument Digital Interface): A technical standard for communication between electronic musical instruments.,3
+8. Speech Processing,2
+Speech Recognition: Converting spoken language into text.,3
+Automatic Speech Recognition (ASR): Technology for recognizing spoken words.,4
+Text-to-Speech (TTS): Generating spoken language from text.,3
+Speaker Identification: Identifying who is speaking.,3
+Speech Synthesis: Artificially generating human speech.,3
+Formant Synthesis: Using a model of the vocal tract to produce speech.,4
+9. Psychoacoustics,2
+Masking: When the presence of one sound makes another sound less audible.,3
+Loudness Perception: The subjective perception of sound intensity.,3
+Pitch Perception: How the frequency of a sound is perceived.,3
+Spatial Hearing: How we perceive the direction and distance of sound sources.,3
+10. Audio Hardware and Software,2
+"Digital Audio Workstations (DAWs): Software used for recording, editing, and producing audio.",3
+Pro Tools: A DAW used in professional audio production.,4
+Ableton Live: A DAW popular for live performances.,4
+Audio Interfaces: Hardware devices for inputting and outputting audio to and from a computer.,3
+Microphones: Devices that convert sound into electrical signals.,3
+Condenser Microphones: Microphones that use a capacitor to convert sound into an electrical signal.,4
+Dynamic Microphones: Microphones that use electromagnetic induction to convert sound into an electrical signal.,4
+11. Audio Networking,2
+Audio over IP (AoIP): Transmitting audio signals over IP networks.,3
+Dante: A protocol for AoIP.,4
+AVB (Audio Video Bridging): A set of technical standards for AoIP.,4
+12. Audio Forensics,2
+Voice Identification: Identifying individuals based on their voice.,3
+Audio Authenticity: Verifying the authenticity of audio recordings.,3
+Noise Reduction: Removing unwanted noise from audio recordings.,3

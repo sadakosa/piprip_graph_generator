@@ -1,0 +1,78 @@
+keyword,lvl
+Performance: Computer Science-Based Breakdown,1
+1. Performance Metrics,2
+Throughput: The amount of work performed by a system within a given period.,3
+Latency: The time delay between the cause and effect of a system's response.,3
+Response Time: The total time taken from the submission of a request to the receipt of the response.,3
+Bandwidth: The maximum rate of data transfer across a given path.,3
+Utilization: The ratio of the time a resource is busy to the total time it is available.,3
+2. Performance Analysis,2
+Profiling: The process of measuring the space or time complexity of a program.,3
+CPU Profiling: Analyzing the time spent in each function of a program.,4
+Memory Profiling: Analyzing the memory usage of a program.,4
+Benchmarking: Running a program or system under predefined conditions to measure performance.,3
+Microbenchmarking: Measuring the performance of small and specific pieces of code.,4
+System Benchmarking: Measuring the performance of the entire system.,4
+Load Testing: Testing the system's behavior under expected load conditions.,3
+Stress Testing: Testing the system's behavior under extreme load conditions.,3
+3. Performance Optimization,2
+Code Optimization: Techniques for improving the efficiency of code execution.,3
+Loop Unrolling: Reducing the overhead of loop control by increasing the number of operations within each iteration.,4
+Inlining: Replacing a function call with the actual code of the function.,4
+"Vectorization: Converting scalar operations to vector operations to take advantage of SIMD (Single Instruction, Multiple Data) instructions.",4
+Memory Optimization: Techniques for improving the efficiency of memory usage.,3
+Memory Pooling: Reusing a pool of pre-allocated memory blocks.,4
+Garbage Collection Tuning: Adjusting garbage collection settings to improve performance.,4
+Concurrency Optimization: Techniques for improving the efficiency of concurrent execution.,3
+Lock-Free Programming: Designing algorithms that do not require locking mechanisms.,4
+Parallelization: Dividing a task into sub-tasks that can be executed simultaneously.,4
+4. Performance Modeling,2
+Analytical Modeling: Using mathematical models to predict system performance.,3
+Queuing Theory: Studying the behavior of queues to predict system performance.,4
+Markov Chains: Using stochastic models to predict system performance.,4
+Simulation Modeling: Using simulations to predict system performance under various scenarios.,3
+Discrete-Event Simulation: Modeling the operation of a system as a sequence of events in time.,4
+Monte Carlo Simulation: Using random sampling to obtain numerical results.,4
+5. Performance Monitoring,2
+System Monitoring: Continuously observing the performance of a system.,3
+"Resource Monitoring: Tracking the usage of CPU, memory, disk, and network.",4
+Application Monitoring: Tracking the performance of software applications.,4
+Network Monitoring: Tracking the performance of network components.,4
+Performance Counters: Tools for measuring various aspects of system performance.,3
+Hardware Counters: Built-in counters in processors for measuring hardware events.,4
+Software Counters: Counters implemented in software for measuring performance metrics.,4
+6. Performance Tuning,2
+Database Tuning: Optimizing the performance of database systems.,3
+Indexing: Creating indexes to speed up data retrieval.,4
+Query Optimization: Rewriting queries to improve performance.,4
+Caching: Storing frequently accessed data in memory to reduce retrieval time.,4
+Network Tuning: Optimizing the performance of network systems.,3
+Traffic Shaping: Controlling the flow of data to ensure efficient use of network resources.,4
+Latency Optimization: Reducing the delay in data transmission.,4
+System Tuning: Optimizing the performance of operating systems and hardware.,3
+Kernel Tuning: Adjusting kernel parameters to improve performance.,4
+Hardware Configuration: Adjusting hardware settings to improve performance.,4
+7. Performance Degradation,2
+Bottlenecks: Points in a system where performance is limited by a single component.,3
+Resource Contention: Multiple processes competing for the same resource.,3
+"Memory Leaks: Memory that is not properly released, leading to reduced available memory over time.",3
+Deadlocks: Situations where two or more processes are unable to proceed because each is waiting for the other to release a resource.,3
+8. Performance Tools,2
+Profilers: Tools for analyzing the performance of applications.,3
+Gprof: A profiling tool for Unix applications.,4
+"Valgrind: A programming tool for memory debugging, memory leak detection, and profiling.",4
+Benchmarking Tools: Tools for measuring system performance.,3
+SPEC Benchmarks: Standardized benchmarks for evaluating computer performance.,4
+Apache JMeter: A tool for load testing and measuring performance.,4
+Monitoring Tools: Tools for observing system performance.,3
+"Nagios: A monitoring system for computer systems, networks, and infrastructure.",4
+Prometheus: An open-source monitoring and alerting toolkit.,4
+9. Scalability,2
+Horizontal Scalability: Adding more machines to handle increased load.,3
+"Vertical Scalability: Adding more power (CPU, RAM) to an existing machine.",3
+Elasticity: The ability to dynamically adjust resources in response to changing demands.,3
+Load Balancing: Distributing the workload evenly across multiple resources.,3
+10. Latency Optimization,2
+Caching: Storing frequently accessed data in fast storage to reduce access time.,3
+Data Pre-fetching: Fetching data before it is actually needed to reduce waiting time.,3
+Asynchronous Processing: Performing tasks in the background to avoid blocking the main process.,3

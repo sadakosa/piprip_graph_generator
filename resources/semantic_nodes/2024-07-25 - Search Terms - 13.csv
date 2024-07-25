@@ -1,0 +1,80 @@
+keyword,lvl
+Discrete Mathematics: Computer Science-Based Breakdown,1
+1. Set Theory,2
+Set: A collection of distinct objects considered as a whole.,3
+Subset: A set whose elements are all contained in another set.,4
+Union: The set containing all elements of two sets.,4
+Intersection: The set containing only elements common to two sets.,4
+Complement: The set containing all elements not in a given set.,4
+Cardinality: The number of elements in a set.,3
+Finite Set: A set with a finite number of elements.,4
+Infinite Set: A set with an infinite number of elements.,4
+2. Logic,2
+Propositional Logic: The study of logical statements and their connectives.,3
+Proposition: A statement that is either true or false.,4
+"Logical Connectives: Symbols used to connect propositions (AND, OR, NOT).",4
+Truth Table: A table showing all possible truth values of propositions.,4
+Predicate Logic: An extension of propositional logic with quantifiers.,3
+Predicate: A function that returns true or false.,4
+"Quantifiers: Symbols expressing the quantity of instances (∀, ∃).",4
+3. Relations and Functions,2
+Relation: A set of ordered pairs.,3
+Reflexive Relation: Every element is related to itself.,4
+"Symmetric Relation: If an element is related to another, the reverse is true.",4
+"Transitive Relation: If an element is related to a second, and the second to a third, then the first is related to the third.",4
+Function: A relation where each input has exactly one output.,3
+Injective Function (One-to-One): Each output is mapped from a unique input.,4
+Surjective Function (Onto): Each output is mapped from at least one input.,4
+Bijective Function: Both injective and surjective.,4
+4. Number Theory,2
+"Integers: Whole numbers, including negative numbers, zero, and positive numbers.",3
+Prime Numbers: Numbers greater than 1 with no positive divisors other than 1 and itself.,4
+GCD (Greatest Common Divisor): The largest number that divides two integers.,4
+LCM (Least Common Multiple): The smallest positive integer that is divisible by two integers.,4
+Modular Arithmetic: Arithmetic with integers where numbers wrap around upon reaching a certain value (modulus).,3
+Congruence: Two numbers are congruent if they have the same remainder when divided by a modulus.,4
+5. Graph Theory,2
+Graph: A collection of vertices (nodes) and edges (connections between nodes).,3
+Directed Graph (Digraph): A graph where edges have a direction.,4
+Undirected Graph: A graph where edges do not have a direction.,4
+Weighted Graph: A graph where edges have weights (values).,4
+Tree: A type of graph with no cycles and a single connected component.,3
+Binary Tree: A tree where each node has at most two children.,4
+Spanning Tree: A subgraph that includes all vertices of the original graph and is a single tree.,4
+Graph Algorithms: Algorithms for traversing and manipulating graphs.,3
+DFS (Depth-First Search): An algorithm for traversing a graph by exploring as far as possible along each branch before backtracking.,4
+BFS (Breadth-First Search): An algorithm for traversing a graph by exploring all neighbors at the present depth before moving on to nodes at the next depth level.,4
+6. Combinatorics,2
+Counting Principles: Basic rules for counting objects.,3
+"Addition Principle: If there are n ways to do one thing and m ways to do another, there are n+m ways to do either.",4
+"Multiplication Principle: If there are n ways to do one thing and m ways to do another, there are n×m ways to do both.",4
+Permutations: Arrangements of objects where order matters.,3
+Factorial: The product of all positive integers up to a given number (n!).,4
+Combinations: Selections of objects where order does not matter.,3
+Binomial Coefficient: The number of ways to choose k objects from n objects without regard to order ((kn​)).,4
+7. Algebraic Structures,2
+"Group: A set with a single binary operation satisfying closure, associativity, identity, and invertibility.",3
+Abelian Group: A group where the binary operation is commutative.,4
+"Ring: A set with two binary operations satisfying certain axioms, including distributivity.",3
+"Field: A ring with additional properties, including multiplicative inverses for all non-zero elements.",4
+Lattice: A partially ordered set where any two elements have a unique supremum and infimum.,3
+8. Recurrence Relations,2
+Recurrence Relation: An equation that recursively defines a sequence.,3
+Linear Recurrence Relation: A recurrence relation in which each term is a linear combination of previous terms.,4
+Homogeneous Recurrence Relation: A recurrence relation where every term is a combination of previous terms without additional constants.,4
+Solving Recurrence Relations: Methods for finding explicit formulas for terms of sequences.,3
+Characteristic Equation: An equation used to solve linear recurrence relations.,4
+9. Proof Techniques,2
+Direct Proof: Proving a statement by straightforward logical deduction.,3
+Indirect Proof: Proving a statement by assuming the opposite and deriving a contradiction.,3
+Proof by Contradiction: Assuming the negation of the statement and showing it leads to a contradiction.,4
+Proof by Contrapositive: Proving the contrapositive of the statement.,4
+Mathematical Induction: Proving a statement for all natural numbers.,3
+Base Case: Proving the statement for the first number.,4
+Inductive Step: Assuming the statement for n and proving it for n+1.,4
+10. Discrete Probability,2
+Probability Theory: The study of randomness and uncertainty.,3
+Random Variable: A variable whose values depend on outcomes of a random phenomenon.,4
+Expected Value: The average value of a random variable.,4
+Combinatorial Probability: Calculating probabilities using counting techniques.,3
+Binomial Distribution: The probability distribution of the number of successes in a fixed number of independent Bernoulli trials.,4

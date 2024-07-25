@@ -1,0 +1,85 @@
+keyword,lvl
+Operating Systems: Computer Science-Based Breakdown,1
+1. Operating System Structure,2
+Monolithic Kernels: Kernels that run all operating system services in kernel space.,3
+Microkernels: Kernels that run minimal services in kernel space and others in user space.,3
+Hybrid Kernels: Combines aspects of monolithic and microkernels.,3
+Exokernels: Minimalistic kernels that give applications more control over hardware.,3
+2. Process Management,2
+Processes: Instances of executing programs.,3
+"Process States: Different states of a process (e.g., running, waiting).",4
+Process Control Block (PCB): Data structure containing process information.,4
+Threads: The smallest unit of execution within a process.,3
+User-Level Threads: Managed by a user-level library.,4
+Kernel-Level Threads: Managed by the operating system kernel.,4
+"Multithreading Models: Approaches to threading, such as many-to-one, one-to-one, and many-to-many.",3
+3. Scheduling,2
+CPU Scheduling: Determining which processes run at any given time.,3
+Preemptive Scheduling: Allows interruption of a process.,4
+Non-preemptive Scheduling: Runs a process to completion once started.,4
+Scheduling Algorithms: Algorithms for process scheduling.,3
+"First-Come, First-Served (FCFS): Processes are scheduled in the order they arrive.",4
+Shortest Job Next (SJN): Selects the process with the smallest execution time.,4
+Round Robin (RR): Each process gets a small unit of CPU time in turn.,4
+Priority Scheduling: Processes are assigned priorities and scheduled accordingly.,4
+Multilevel Queue Scheduling: Multiple queues for different priority levels.,4
+4. Memory Management,2
+Memory Allocation: Techniques for managing system memory.,3
+Fixed Partitioning: Divides memory into fixed-size partitions.,4
+Dynamic Partitioning: Allocates memory dynamically based on process size.,4
+Paging: Divides memory into fixed-size pages.,4
+Segmentation: Divides memory into segments based on logical divisions.,4
+Virtual Memory: Allows execution of processes that may not be completely in memory.,3
+Paging: Uses page tables to map virtual addresses to physical addresses.,4
+Segmentation: Uses segment tables for address mapping.,4
+Page Replacement Algorithms: Determines which pages to swap out.,4
+Least Recently Used (LRU): Replaces the least recently used pages.,5
+First-In-First-Out (FIFO): Replaces the oldest pages in memory.,5
+Optimal Page Replacement: Replaces pages that will not be used for the longest time.,5
+5. Storage Management,2
+File Systems: Methods for storing and organizing files.,3
+File Allocation Table (FAT): A table that maps file blocks on disk.,4
+New Technology File System (NTFS): A file system with advanced features like encryption.,4
+Extended File System (ext3/ext4): Commonly used in Linux.,4
+Disk Scheduling Algorithms: Determines the order in which disk I/O requests are serviced.,3
+"FCFS (First-Come, First-Served): Services requests in the order they arrive.",4
+SSTF (Shortest Seek Time First): Selects the request closest to the current head position.,4
+SCAN (Elevator Algorithm): Moves the disk arm across the disk to service requests.,4
+C-SCAN (Circular SCAN): Similar to SCAN but starts again from the beginning.,4
+6. I/O Systems,2
+I/O Hardware: Physical components that perform input and output operations.,3
+I/O Control Methods: Methods to control I/O operations.,3
+Polling: The CPU repeatedly checks the status of an I/O device.,4
+Interrupts: Devices signal the CPU when they need attention.,4
+Direct Memory Access (DMA): Allows devices to transfer data to/from memory without CPU intervention.,4
+7. Security and Protection,2
+Access Control: Mechanisms to regulate access to resources.,3
+Access Control Lists (ACLs): Specifies access rights for each user.,4
+Role-Based Access Control (RBAC): Assigns permissions based on roles.,4
+Authentication: Verifying the identity of users.,3
+Passwords: Secret codes used for authentication.,4
+Biometrics: Uses physical characteristics for identification.,4
+Encryption: Protecting data by converting it into an unreadable format.,3
+Symmetric Encryption: Uses the same key for encryption and decryption.,4
+"Asymmetric Encryption: Uses a pair of keys, one for encryption and one for decryption.",4
+8. Networking and Communication,2
+Network Protocols: Rules governing data communication.,3
+TCP/IP: The foundational protocol suite for the internet.,4
+UDP: A connectionless protocol for low-latency communication.,4
+Interprocess Communication (IPC): Mechanisms for processes to communicate.,3
+Pipes: A conduit for data between processes.,4
+Message Queues: Allows messages to be exchanged between processes.,4
+Shared Memory: Multiple processes can access the same memory space.,4
+9. Distributed Systems,2
+Distributed File Systems: File systems that allow access to files across a network.,3
+Network File System (NFS): A protocol for file sharing over a network.,4
+Distributed File System (DFS): Manages files across multiple machines.,4
+Distributed Computing: Processes run on multiple machines to achieve a common goal.,3
+Clusters: Group of linked computers working together as a single system.,4
+Grids: Distributed systems with large-scale resource sharing.,4
+10. Real-Time Systems,2
+Hard Real-Time Systems: Systems with strict timing constraints.,3
+Soft Real-Time Systems: Systems with more lenient timing constraints.,3
+Real-Time Scheduling: Scheduling tasks to meet time constraints.,3
+Rate-Monotonic Scheduling (RMS): Assigns static priorities based on task frequency.,4
+Earliest Deadline First (EDF): Dynamically assigns priorities based on deadlines.,4

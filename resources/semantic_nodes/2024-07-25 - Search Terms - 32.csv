@@ -1,0 +1,82 @@
+keyword,lvl
+Robotics: Computer Science-Based Breakdown,1
+1. Robot Perception,2
+Sensors: Devices that detect and measure physical properties.,3
+LIDAR (Light Detection and Ranging): Measures distance using laser light.,4
+Cameras: Capture visual information.,4
+Monocular Cameras: Single-lens cameras.,5
+Stereo Cameras: Two lenses to mimic human depth perception.,5
+"Inertial Measurement Units (IMUs): Measure velocity, orientation, and gravitational forces.",4
+Sonar: Uses sound waves to detect objects.,4
+Sensor Fusion: Combining data from multiple sensors to improve accuracy.,3
+Kalman Filter: An algorithm that uses a series of measurements observed over time to estimate unknown variables.,4
+Particle Filter: A method for implementing a recursive Bayesian filter by Monte Carlo simulations.,4
+2. Robot Control Systems,2
+Control Algorithms: Techniques to control robot movement and behavior.,3
+PID Controller (Proportional-Integral-Derivative): A control loop mechanism.,4
+Model Predictive Control (MPC): Uses a model to predict future states and optimize control actions.,4
+Motion Planning: Algorithms to plan a path for the robot.,3
+A* Algorithm: A graph traversal and pathfinding algorithm.,4
+"RRT (Rapidly-exploring Random Tree): An algorithm designed for efficiently searching non-convex, high-dimensional spaces.",4
+Feedback Control: Uses sensor data to correct the robot's actions in real-time.,3
+State Estimation: Predicting the robot's current state based on sensor data and previous states.,4
+3. Robot Kinematics and Dynamics,2
+Kinematics: Study of motion without considering forces.,3
+Forward Kinematics: Calculating the position of the end-effector from joint angles.,4
+Inverse Kinematics: Determining the joint angles needed to place the end-effector at a desired position.,4
+Dynamics: Study of forces and torques and their effect on motion.,3
+Newton-Euler Dynamics: Equations to describe the motion of a rigid body.,4
+Lagrangian Dynamics: A method for deriving equations of motion.,4
+4. Simultaneous Localization and Mapping (SLAM),2
+Localization: Determining the robot's position in an environment.,3
+Particle Filter Localization: Uses a set of weighted particles to represent the distribution of the robot's position.,4
+Mapping: Creating a map of the environment.,3
+Occupancy Grid Mapping: A method for representing the environment as a grid.,4
+SLAM Algorithms: Combining localization and mapping.,3
+EKF-SLAM (Extended Kalman Filter SLAM): Uses an extended Kalman filter for SLAM.,4
+Graph-Based SLAM: Represents the problem as a graph and uses optimization techniques to solve it.,4
+5. Robot Learning,2
+Reinforcement Learning: Learning optimal actions through trial and error.,3
+Q-Learning: A value-based method for finding the best action to take.,4
+Deep Q-Networks (DQN): Combining Q-learning with deep learning.,4
+Supervised Learning: Learning from labeled data to predict outcomes.,3
+Neural Networks: Computational models inspired by the human brain.,4
+Support Vector Machines (SVMs): Finding the optimal hyperplane for classification.,4
+Unsupervised Learning: Finding patterns in data without labeled responses.,3
+Clustering Algorithms: Grouping data points into clusters.,4
+K-Means Clustering: Partitioning data into k clusters based on similarity.,5
+6. Multi-Robot Systems,2
+Coordination: Techniques for coordinating multiple robots.,3
+Swarm Robotics: Coordinating large numbers of relatively simple robots.,4
+Formation Control: Techniques to maintain a formation while moving.,4
+Communication: Methods for robots to communicate.,3
+"Wireless Communication Protocols: Protocols such as Wi-Fi, Bluetooth, and Zigbee.",4
+7. Human-Robot Interaction (HRI),2
+User Interfaces: Interfaces for controlling and interacting with robots.,3
+Graphical User Interfaces (GUIs): Visual interfaces for human interaction.,4
+Voice Commands: Using speech recognition to control robots.,4
+Safety and Ethics: Ensuring safe and ethical interaction with robots.,3
+Collision Avoidance: Techniques to prevent robots from colliding with objects and humans.,4
+Ethical Guidelines: Frameworks for developing robots responsibly.,4
+8. Robotic Operating Systems (ROS),2
+Middleware: Software that allows communication between robot components.,3
+ROS (Robot Operating System): A flexible framework for writing robot software.,4
+Simulation Environments: Tools for simulating robots in virtual environments.,3
+Gazebo: A robot simulation tool.,4
+"Webots: A development environment used to model, program, and simulate robots.",4
+9. Robotic Manipulation,2
+End Effectors: Devices at the end of a robotic arm.,3
+Grippers: Used to grasp and manipulate objects.,4
+"Tools: Specialized devices for specific tasks (e.g., welding).",4
+Manipulation Planning: Planning the motion of the robotic arm to achieve a task.,3
+Trajectory Planning: Determining the path of the end effector.,4
+Force Control: Controlling the forces applied by the robot.,4
+10. Autonomous Robots,2
+Mobile Robots: Robots capable of moving around in their environment.,3
+Wheeled Robots: Robots that use wheels for movement.,4
+Legged Robots: Robots that use legs for movement.,4
+Aerial Robots (Drones): Robots capable of flight.,3
+Quadcopters: A common type of drone with four rotors.,4
+Underwater Robots: Robots designed to operate underwater.,3
+ROVs (Remotely Operated Vehicles): Underwater robots controlled by a human operator.,4
+AUVs (Autonomous Underwater Vehicles): Robots that operate independently underwater.,4

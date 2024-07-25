@@ -1,0 +1,65 @@
+keyword,lvl
+Human-Computer Interaction: Computer Science-Based Breakdown,1
+1. Interaction Design,2
+User Interface (UI) Design: The process of making interfaces in software with a focus on looks or style.,3
+Graphical User Interface (GUI): A form of user interface that allows users to interact with electronic devices through graphical icons.,4
+Voice User Interface (VUI): Interfaces that allow users to interact with a system through voice commands.,4
+Tangible User Interface (TUI): Interfaces where users interact with digital information through the physical environment.,4
+"User Experience (UX) Design: The process of enhancing user satisfaction by improving the usability, accessibility, and pleasure provided in the interaction.",3
+Information Architecture: The structural design of shared information environments.,4
+Wireframes: Visual guides that represent the skeletal framework of a UI.,4
+2. Input Devices,2
+Keyboard: A device used to input text and characters.,3
+Mouse: A pointing device that detects two-dimensional motion relative to a surface.,3
+Touchscreen: A display that can detect the location of touches within the display area.,3
+"Motion Sensors: Devices that detect physical movement, often used in gaming and VR.",3
+Voice Recognition Systems: Systems that interpret and process human speech.,3
+3. Output Devices,2
+Monitor: A display device for visual output from a computer.,3
+Speakers: Devices for audio output.,3
+Printers: Devices that produce physical copies of digital documents.,3
+Haptic Feedback Devices: Devices that provide tactile feedback to the user.,3
+4. Interaction Paradigms,2
+Direct Manipulation: Interaction style that involves manipulating objects on the screen.,3
+Drag and Drop: A pointing device gesture in which the user selects an object by grabbing it and dragging it to a different location.,4
+"WIMP (Windows, Icons, Menus, Pointer): A paradigm for user interfaces based on the idea of windows, icons, menus, and pointing devices.",3
+"Natural User Interfaces (NUI): Interfaces that allow users to interact using natural behaviors, like gestures and voice commands.",3
+Gesture Recognition: Interpreting human gestures via mathematical algorithms.,4
+Voice Command Systems: Systems that allow interaction through spoken commands.,4
+5. User-Centered Design,2
+User Research: Methods for understanding users' needs and contexts.,3
+Personas: Fictional characters created to represent different user types.,4
+Scenarios: Stories about users and their interactions with the system.,4
+Usability Testing: Evaluating a product by testing it on users.,3
+Think-Aloud Protocol: A method where users speak their thoughts while performing tasks.,4
+6. Accessibility,2
+Assistive Technologies: Devices or software designed to assist people with disabilities.,3
+Screen Readers: Software that reads text displayed on a screen aloud.,4
+Braille Displays: Devices that provide a tactile output for blind users.,4
+"Universal Design: Designing products to be usable by all people, to the greatest extent possible, without adaptation.",3
+7. Cognitive Models,2
+"GOMS (Goals, Operators, Methods, and Selection Rules): A model for human-computer interaction that describes a user's cognitive structure.",3
+Fitts' Law: A predictive model of human movement in HCI.,3
+Hick's Law: The time it takes for a person to make a decision increases with the number and complexity of choices.,3
+8. Evaluation Methods,2
+Heuristic Evaluation: A method where experts use rules of thumb to evaluate the usability of an interface.,3
+Nielsen’s Heuristics: A set of ten usability principles.,4
+Cognitive Walkthrough: A method for evaluating the user interface by having evaluators go through tasks and see if users can achieve their goals.,3
+A/B Testing: Comparing two versions of a web page to see which one performs better.,3
+9. Interactive Systems,2
+Dialog Systems: Systems designed to converse with human users.,3
+Chatbots: Programs that simulate human conversation.,4
+Virtual Assistants: AI systems like Siri or Alexa that assist users through voice interaction.,4
+Collaborative Systems: Systems designed to facilitate group work.,3
+Groupware: Software designed to help people working on a common task.,4
+10. Emerging Technologies,2
+Virtual Reality (VR): A simulated experience that can be similar to or completely different from the real world.,3
+Augmented Reality (AR): An interactive experience where the objects in the real world are enhanced by computer-generated perceptual information.,3
+Mixed Reality (MR): The merging of real and virtual worlds to produce new environments and visualizations.,3
+Brain-Computer Interface (BCI): Direct communication pathway between an enhanced or wired brain and an external device.,3
+11. Ethical and Social Implications,2
+Privacy: Protecting user data and ensuring it is not misused.,3
+Data Anonymization: Techniques to ensure that individual user data cannot be traced back to the user.,4
+Bias and Fairness: Ensuring interfaces are inclusive and do not perpetuate biases.,3
+Algorithmic Fairness: Ensuring algorithms treat all users fairly.,4
+Digital Wellbeing: Ensuring technology use does not negatively impact users' mental and physical health.,3

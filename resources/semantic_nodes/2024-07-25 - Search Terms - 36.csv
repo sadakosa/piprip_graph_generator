@@ -1,0 +1,73 @@
+keyword,lvl
+Symbolic Computation: Computer Science-Based Breakdown,1
+1. Symbolic Algebra,2
+Polynomial Algebra: Manipulation and solution of polynomial equations.,3
+Factorization: Decomposing a polynomial into a product of simpler polynomials.,4
+Greatest Common Divisor (GCD): Finding the largest polynomial that divides two polynomials without a remainder.,4
+Rational Functions: Functions expressed as the ratio of two polynomials.,3
+Partial Fraction Decomposition: Breaking down a rational function into simpler fractions.,4
+Equation Solving: Methods for finding symbolic solutions to algebraic equations.,3
+Root Finding: Determining the roots of a polynomial equation.,4
+System of Equations: Solving multiple equations simultaneously.,4
+2. Symbolic Integration and Differentiation,2
+Symbolic Integration: Finding the antiderivative of a function in symbolic form.,3
+Indefinite Integration: Computing the general form of an antiderivative.,4
+Definite Integration: Computing the integral of a function over a specified interval.,4
+Symbolic Differentiation: Calculating the derivative of a function symbolically.,3
+Chain Rule: Differentiation of composite functions.,4
+Product Rule: Differentiation of the product of two functions.,4
+3. Symbolic Linear Algebra,2
+Matrix Algebra: Manipulation of matrices with symbolic entries.,3
+Matrix Multiplication: Calculating the product of two matrices symbolically.,4
+Determinant Calculation: Finding the determinant of a symbolic matrix.,4
+Eigenvalues and Eigenvectors: Determining the eigenvalues and eigenvectors of a symbolic matrix.,3
+System of Linear Equations: Solving linear systems symbolically.,3
+Gaussian Elimination: Method for solving linear systems.,4
+LU Decomposition: Factorizing a matrix into lower and upper triangular matrices.,4
+4. Symbolic Logic and Proofs,2
+Propositional Logic: Manipulation of logical statements using symbols.,3
+Truth Tables: Tabulating the truth values of logical expressions.,4
+Logical Equivalences: Identifying equivalent logical statements.,4
+Predicate Logic: Logic with quantifiers and predicates.,3
+Universal Quantification: Statements that apply to all elements in a domain.,4
+Existential Quantification: Statements that apply to some elements in a domain.,4
+Automated Theorem Proving: Using algorithms to prove logical statements.,3
+Resolution Method: A rule of inference for propositional and predicate logic.,4
+5. Symbolic Differentiation and Integration,2
+Differentiation Rules: Applying symbolic rules to compute derivatives.,3
+Power Rule: Differentiation of power functions.,4
+Product Rule: Differentiation of product of functions.,4
+Integration Techniques: Applying symbolic methods to compute integrals.,3
+Substitution: Simplifying integrals using variable substitution.,4
+Integration by Parts: Reducing integrals into simpler parts.,4
+6. Symbolic Summation and Products,2
+Series Summation: Calculating the sum of series symbolically.,3
+Geometric Series: Summing geometric progressions.,4
+Arithmetic Series: Summing arithmetic progressions.,4
+Product Calculation: Computing products of sequences symbolically.,3
+Factorials: Symbolic computation of factorials.,4
+7. Computational Group Theory,2
+Group Properties: Symbolic manipulation of group elements.,3
+Group Homomorphisms: Mapping between groups preserving structure.,4
+Group Actions: Actions of groups on sets.,4
+Permutation Groups: Symbolic manipulation of permutations.,3
+Cycle Decomposition: Breaking permutations into cycles.,4
+8. Computer Algebra Systems (CAS),2
+Symbolic Solvers: Software for symbolic computation.,3
+Mathematica: A comprehensive system for symbolic computation.,4
+Maple: A symbolic computation software for algebraic and calculus operations.,4
+Libraries and Tools: Libraries supporting symbolic computation.,3
+SymPy: A Python library for symbolic mathematics.,4
+Maxima: A system for the manipulation of symbolic and numerical expressions.,4
+9. Formal Verification,2
+Model Checking: Verifying finite-state systems using symbolic methods.,3
+Temporal Logic: Expressing statements about time-dependent behavior.,4
+Proof Assistants: Tools for creating and checking formal proofs.,3
+Coq: A formal proof management system.,4
+Isabelle: A generic proof assistant.,4
+10. Symbolic Optimization,2
+Constraint Solving: Finding solutions to symbolic constraints.,3
+Linear Programming: Optimization of a linear objective function subject to linear constraints.,4
+Integer Programming: Optimization where variables are constrained to be integers.,4
+Symbolic Differentiation: Calculating gradients symbolically for optimization problems.,3
+Gradient Descent: Iterative optimization method using symbolic gradients.,4

@@ -1,0 +1,63 @@
+keyword,lvl
+Hardware Architecture: Computer Science-Based Breakdown,1
+1. Processor Architecture,2
+Central Processing Unit (CPU): The primary component of a computer that performs most of the processing.,3
+Instruction Set Architecture (ISA): The part of the processor that defines the instructions that the CPU can execute.,4
+"RISC (Reduced Instruction Set Computer): A type of ISA that uses a small, highly optimized set of instructions.",5
+CISC (Complex Instruction Set Computer): A type of ISA that uses a large set of instructions.,5
+Microarchitecture: The way a given ISA is implemented in a processor.,4
+Pipelining: A technique where multiple instruction phases are overlapped.,5
+Superscalar Architecture: A processor that can execute more than one instruction per clock cycle.,5
+Out-of-Order Execution: A technique to make use of instruction cycles that would otherwise be wasted.,5
+2. Memory Architecture,2
+Cache Memory: A small-sized type of volatile computer memory that provides high-speed data access to the processor.,3
+"L1 Cache: The primary cache, located on the processor chip.",4
+"L2 Cache: A larger secondary cache, may be located on the CPU or on a separate chip.",4
+"L3 Cache: A larger, slower cache shared by multiple cores on a processor.",4
+Main Memory (RAM): The main area in a computer where data is stored for quick access by the processor.,3
+Dynamic RAM (DRAM): A type of RAM that stores each bit of data in a separate capacitor.,4
+Static RAM (SRAM): A type of RAM that uses bistable latching circuitry to store each bit.,4
+3. Storage Architecture,2
+Hard Disk Drive (HDD): A data storage device that uses magnetic storage to store and retrieve digital information.,3
+Platter: The disk inside an HDD where data is stored.,4
+Read/Write Head: The component that reads data from and writes data to the platter.,4
+Solid State Drive (SSD): A storage device that uses integrated circuit assemblies to store data persistently.,3
+NAND Flash Memory: The type of non-volatile storage used in SSDs.,4
+Controller: The processor that manages the data stored on an SSD.,4
+4. Input/Output (I/O) Architecture,2
+I/O Ports: Interfaces through which external devices are connected to the computer.,3
+Universal Serial Bus (USB): A standard for connecting peripherals to a computer.,4
+Serial and Parallel Ports: Older standards for connecting peripherals to a computer.,4
+Direct Memory Access (DMA): A feature that allows certain hardware subsystems to access main system memory independently of the CPU.,3
+5. Parallel Computing Architecture,2
+Multicore Processor: A single computing component with two or more independent actual processing units (cores).,3
+Symmetric Multiprocessing (SMP): An architecture where multiple processors share a single memory space.,4
+Asymmetric Multiprocessing (AMP): An architecture where not all processors are treated equally.,4
+Graphics Processing Unit (GPU): A specialized processor designed to accelerate graphics rendering.,3
+CUDA (Compute Unified Device Architecture): A parallel computing platform and programming model invented by NVIDIA.,4
+OpenCL (Open Computing Language): A framework for writing programs that execute across heterogeneous platforms.,4
+6. Network Architecture,2
+Network Interface Card (NIC): A hardware component that connects a computer to a network.,3
+Ethernet: A family of networking technologies for local area networks (LANs).,4
+Wi-Fi: A wireless networking technology that allows devices to communicate over a wireless signal.,4
+Router: A device that forwards data packets between computer networks.,3
+Routing Table: A data table stored in a router or a networked computer that lists the routes to particular network destinations.,4
+7. Bus Architecture,2
+System Bus: A single computer bus that connects the major components of a computer system.,3
+"Data Bus: Transfers data between the CPU, memory, and peripherals.",4
+Address Bus: Carries the addresses of data (not the data itself) that the CPU is accessing.,4
+Control Bus: Carries control signals from the CPU to other components.,3
+Peripheral Component Interconnect (PCI): A local computer bus for attaching hardware devices.,4
+8. Power Architecture,2
+Power Supply Unit (PSU): A component that supplies power to a computer.,3
+Voltage Regulator: Ensures that the correct amount of voltage is delivered to each component.,4
+Wattage: The total amount of power the PSU can supply to the computer.,4
+Battery: A component that provides power to laptops and portable devices.,3
+Lithium-Ion Battery: A type of rechargeable battery commonly used in portable electronics.,4
+9. Embedded Systems Architecture,2
+Microcontroller: A compact integrated circuit designed to govern a specific operation in an embedded system.,3
+System on Chip (SoC): An integrated circuit that integrates all components of a computer or other electronic system.,4
+"Firmware: A type of software that provides control, monitoring, and data manipulation of engineered products and systems.",3
+10. Security Architecture,2
+Trusted Platform Module (TPM): A secure crypto-processor designed to secure hardware through integrated cryptographic keys.,3
+Hardware Security Module (HSM): A physical device that manages digital keys and provides cryptoprocessing.,3

@@ -1,0 +1,117 @@
+keyword,lvl
+Software Engineering: Computer Science-Based Breakdown,1
+1. Software Development Life Cycle (SDLC),2
+Requirement Analysis: Gathering and documenting user and system requirements.,3
+Use Cases: Descriptions of how users will interact with the system.,4
+Functional Requirements: Specifications of the functions the system must perform.,4
+"Non-Functional Requirements: Specifications of system qualities such as performance, usability, and reliability.",4
+System Design: Planning the system architecture and components.,3
+"Architectural Design: High-level structure of the system, including components and their interactions.",4
+Detailed Design: Detailed specifications of system components and their behavior.,4
+Implementation: Writing and integrating code to create the software.,3
+Source Code Management: Tracking and managing changes to the codebase.,4
+Code Review: Evaluating code for quality and adherence to standards.,4
+Testing: Verifying that the software meets requirements and is free of defects.,3
+Unit Testing: Testing individual components for correctness.,4
+Integration Testing: Ensuring that combined components work together correctly.,4
+System Testing: Validating the complete integrated system.,4
+User Acceptance Testing (UAT): Confirming the system meets user needs.,4
+Deployment: Releasing the software to users.,3
+Release Management: Planning and managing software releases.,4
+Continuous Deployment: Automatically deploying updates to users.,4
+Maintenance: Updating and improving the software after deployment.,3
+Bug Fixing: Correcting defects in the software.,4
+Enhancements: Adding new features or improving existing ones.,4
+2. Software Design Patterns,2
+Creational Patterns: Patterns that deal with object creation mechanisms.,3
+Singleton: Ensures a class has only one instance.,4
+Factory Method: Creates objects without specifying the exact class.,4
+Abstract Factory: Provides an interface for creating families of related objects.,4
+Structural Patterns: Patterns that deal with object composition.,3
+Adapter: Allows incompatible interfaces to work together.,4
+Decorator: Adds behavior to objects dynamically.,4
+Facade: Provides a simplified interface to a complex subsystem.,4
+Behavioral Patterns: Patterns that deal with object interaction.,3
+Observer: Allows objects to be notified of changes to other objects.,4
+Strategy: Enables selecting an algorithm at runtime.,4
+Command: Encapsulates a request as an object.,4
+3. Software Architecture,2
+"Monolithic Architecture: A single, unified codebase for the entire application.",3
+Microservices Architecture: An architecture where the application is composed of loosely coupled services.,3
+Service Discovery: Mechanism to locate services in a microservices architecture.,4
+API Gateway: A single entry point for all client requests in a microservices architecture.,4
+Service-Oriented Architecture (SOA): An architecture where services are provided to other components by application components.,3
+Event-Driven Architecture: An architecture that uses events to trigger and communicate between services.,3
+4. Agile Methodologies,2
+Scrum: An iterative and incremental agile software development framework.,3
+Sprint: A time-boxed iteration to implement specific functionalities.,4
+Product Backlog: A prioritized list of work for the development team.,4
+Daily Stand-up: A short meeting to discuss progress and obstacles.,4
+Kanban: A visual framework to manage work as it moves through a process.,3
+"Kanban Board: A tool to visualize work, workflow, and bottlenecks.",4
+Work In Progress (WIP) Limits: Limits on the number of tasks in each stage of the workflow.,4
+5. DevOps,2
+Continuous Integration (CI): Automatically integrating code changes into a shared repository.,3
+Build Automation: Automatically compiling and testing code.,4
+Continuous Delivery (CD): Automatically delivering code changes to a production-like environment.,3
+Infrastructure as Code (IaC): Managing and provisioning computing infrastructure through machine-readable files.,3
+Terraform: An open-source IaC software tool.,4
+Ansible: An open-source tool for IT automation.,4
+Monitoring and Logging: Tools and practices to monitor applications and infrastructure.,3
+Prometheus: An open-source monitoring system.,4
+"ELK Stack (Elasticsearch, Logstash, Kibana): A stack for search, logging, and visualization.",4
+6. Software Testing,2
+Automated Testing: Using software tools to execute tests automatically.,3
+Selenium: A tool for automating web applications.,4
+JUnit: A framework for unit testing in Java.,4
+Manual Testing: Human testers executing test cases without automation tools.,3
+Performance Testing: Ensuring the software performs well under expected workloads.,3
+Load Testing: Testing the system's behavior under a heavy load.,4
+Stress Testing: Testing the system's behavior under extreme conditions.,4
+Security Testing: Identifying and mitigating security vulnerabilities.,3
+Penetration Testing: Simulating attacks to identify security weaknesses.,4
+7. Version Control Systems (VCS),2
+Centralized VCS: A system where the version history is stored on a central server.,3
+Subversion (SVN): A centralized version control system.,4
+Distributed VCS: A system where each user has a complete history of the project.,3
+Git: A distributed version control system.,4
+Mercurial: Another distributed version control system.,4
+8. Project Management,2
+"Project Planning: Defining project objectives, scope, and timelines.",3
+Gantt Charts: A visual representation of project schedule.,4
+Risk Management: Identifying and mitigating project risks.,3
+Risk Assessment: Evaluating potential project risks.,4
+Resource Management: Allocating and managing project resources.,3
+Resource Allocation: Assigning available resources to various tasks.,4
+9. Software Metrics and Quality Assurance,2
+Code Quality Metrics: Measurements of code quality.,3
+Cyclomatic Complexity: A measure of the complexity of a program.,4
+Code Coverage: A measure of how much of the code is tested.,4
+Process Metrics: Measurements of the software development process.,3
+Lead Time: The time it takes from starting a task to completion.,4
+Cycle Time: The time it takes to complete a specific task from start to finish.,4
+Product Metrics: Measurements of the software product.,3
+Defect Density: The number of defects per size of the software.,4
+10. Software Security,2
+Authentication: Verifying the identity of a user.,3
+OAuth: An open standard for access delegation.,4
+"JWT (JSON Web Token): A compact, URL-safe means of representing claims.",4
+Authorization: Granting or denying access to resources.,3
+RBAC (Role-Based Access Control): Restricting system access based on roles.,4
+Encryption: Protecting data by converting it into an unreadable format.,3
+Symmetric Encryption: Using the same key for encryption and decryption.,4
+Asymmetric Encryption: Using a pair of keys (public and private) for encryption and decryption.,4
+11. Human-Computer Interaction (HCI) in Software Engineering,2
+Usability Testing: Evaluating how easily users can use the software.,3
+User Experience (UX) Design: Designing products that provide meaningful and relevant experiences to users.,3
+Accessibility: Ensuring software can be used by people with disabilities.,3
+WCAG (Web Content Accessibility Guidelines): Guidelines for making web content accessible.,4
+12. Software Maintenance and Evolution,2
+Corrective Maintenance: Fixing defects in the software.,3
+Adaptive Maintenance: Modifying software to work in a new or changed environment.,3
+Perfective Maintenance: Improving or enhancing software functionality.,3
+Preventive Maintenance: Modifying software to prevent future problems.,3
+13. Software Documentation,2
+User Documentation: Manuals and guides for end-users.,3
+"Developer Documentation: Documentation for developers, including API documentation.",3
+System Documentation: Descriptions of system architecture and design.,3

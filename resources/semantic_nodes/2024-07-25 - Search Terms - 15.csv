@@ -1,0 +1,64 @@
+keyword,lvl
+Formal Languages and Automata Theory: Computer Science-Based Breakdown,1
+1. Formal Languages,2
+Alphabets: A finite set of symbols.,3
+Strings: Finite sequences of symbols from an alphabet.,3
+Languages: Sets of strings formed from an alphabet.,4
+Empty String (ε): A string with zero symbols.,2
+2. Regular Languages,3
+Regular Expressions: Notations to describe regular languages.,3
+Finite Automata: Abstract machines to recognize regular languages.,4
+Deterministic Finite Automata (DFA): Each state has exactly one transition per input symbol.,4
+Nondeterministic Finite Automata (NFA): States can have multiple transitions per input symbol.,4
+Minimization of DFA: Process of converting a DFA to its minimal state equivalent.,3
+Properties of Regular Languages:,3
+"Closure Properties: Operations under which regular languages are closed (union, concatenation, star).",4
+Pumping Lemma: A property used to prove that certain languages are not regular.,4
+3. Context-Free Languages,2
+Context-Free Grammars (CFGs): A set of production rules for generating context-free languages.,3
+Production Rules: Rules for replacing variables with strings of variables and terminals.,4
+Pushdown Automata (PDA): Machines recognizing context-free languages using a stack.,3
+Deterministic Pushdown Automata (DPDA): A type of PDA with a deterministic transition function.,4
+Nondeterministic Pushdown Automata (NPDA): A type of PDA allowing multiple transitions for some inputs.,4
+Properties of Context-Free Languages:,3
+"Closure Properties: Operations under which context-free languages are closed (union, concatenation, star).",4
+Pumping Lemma for CFLs: A property used to prove that certain languages are not context-free.,4
+4. Context-Sensitive Languages,2
+"Context-Sensitive Grammars (CSGs): Grammars where productions are of the form αAβ → αγβ with α, β, γ being strings of terminals and non-terminals, and γ not being empty.",3
+Linear Bounded Automata (LBA): Machines recognizing context-sensitive languages with tape bounded by a constant multiple of the input size.,3
+Properties of Context-Sensitive Languages:,3
+"Closure Properties: Operations under which context-sensitive languages are closed (union, intersection, concatenation).",4
+5. Unrestricted Languages,2
+Unrestricted Grammars: Grammars with no restrictions on production rules.,3
+Turing Machines: Abstract machines capable of simulating any algorithm.,3
+Deterministic Turing Machines (DTM): Machines with a single transition per state-symbol pair.,4
+Nondeterministic Turing Machines (NTM): Machines allowing multiple transitions for some state-symbol pairs.,4
+Universal Turing Machine: A Turing machine capable of simulating any other Turing machine.,4
+Properties of Unrestricted Languages:,3
+Decidability: Whether a language can be decided by a Turing machine.,4
+Recognizability: Whether a language can be recognized by a Turing machine.,4
+6. Language Hierarchies,2
+Chomsky Hierarchy: Classification of languages based on their generative grammars.,3
+Type 0 (Recursively Enumerable Languages): Recognized by Turing machines.,4
+Type 1 (Context-Sensitive Languages): Recognized by linear bounded automata.,4
+Type 2 (Context-Free Languages): Recognized by pushdown automata.,4
+Type 3 (Regular Languages): Recognized by finite automata.,4
+7. Automata Theory,2
+State Machines: Abstract machines defined by states and transitions.,3
+Moore Machines: Machines where outputs depend only on the current state.,4
+Mealy Machines: Machines where outputs depend on both the current state and the current input.,4
+Transducers: Automata that produce output strings based on input strings.,3
+Finite State Transducers (FSTs): Finite automata with output functions.,4
+Pushdown Transducers: Pushdown automata with output functions.,4
+"Weighted Automata: Automata where transitions have weights, used for modeling systems with probabilistic behavior.",3
+8. Parsing Algorithms,2
+Top-Down Parsing: Parsing starting from the start symbol and working down the parse tree.,3
+Recursive Descent Parser: A top-down parser implementing a set of recursive procedures.,4
+Bottom-Up Parsing: Parsing starting from the input and working up the parse tree.,3
+Shift-Reduce Parser: A bottom-up parser using a stack to hold and reduce symbols.,4
+CYK Algorithm: A dynamic programming algorithm for parsing context-free grammars in Chomsky Normal Form.,3
+Earley Parser: An algorithm for parsing ambiguous and complex grammars.,3
+9. Practical Implementations,2
+"Regular Expressions Libraries: Libraries for implementing regular expressions (e.g., Python's re library).",3
+"Finite Automata Simulators: Tools for simulating finite automata (e.g., JFLAP).",3
+"Parsing Tools: Libraries for implementing parsers (e.g., ANTLR for generating parsers from grammars).",3

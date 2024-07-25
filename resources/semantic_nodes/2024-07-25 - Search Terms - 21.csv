@@ -1,0 +1,60 @@
+keyword,lvl
+Logic in Computer Science: Computer Science-Based Breakdown,1
+1. Propositional Logic,2
+Propositions: Basic statements that are either true or false.,3
+"Logical Connectives: Symbols used to connect propositions (e.g., AND, OR, NOT).",4
+Truth Tables: Tables showing the truth value of propositions for all possible truth values of their components.,4
+Inference Rules: Principles for deriving logical conclusions from premises.,3
+"Modus Ponens: If 'P implies Q' and 'P' are both true, then 'Q' must be true.",4
+"Modus Tollens: If 'P implies Q' and 'Q' is false, then 'P' must be false.",4
+Satisfiability (SAT): Determining if there exists an assignment of truth values that makes a formula true.,3
+"SAT Solvers: Algorithms and tools used to solve SAT problems (e.g., DPLL, CDCL).",4
+2. Predicate Logic,2
+Predicates: Functions that return true or false based on their arguments.,3
+"Quantifiers: Symbols expressing the scope of a predicate (e.g., ∀ for ""for all"", ∃ for ""there exists"").",4
+First-Order Logic (FOL): Extends propositional logic with quantifiers and predicates.,3
+Model Theory: The study of the interpretation of formal languages and their structures.,4
+Unification: The process of making two logical expressions identical by finding substitutions for variables.,3
+Unification Algorithm: An algorithm used to determine if two predicates can be unified.,4
+3. Temporal Logic,2
+Linear Temporal Logic (LTL): A modal temporal logic with modalities referring to time.,3
+Next Operator (X): Refers to the next state in a sequence.,4
+Until Operator (U): Refers to a condition that must hold until another condition becomes true.,4
+Computation Tree Logic (CTL): A branching temporal logic used in model checking.,3
+"Path Quantifiers: Used to quantify over paths (e.g., A for ""all paths"", E for ""exists a path"").",4
+4. Modal Logic,2
+"Modalities: Expressions of necessity and possibility (e.g., □ for ""necessarily"", ◇ for ""possibly"").",3
+Kripke Semantics: A formal semantics for interpreting modal logic using possible worlds.,3
+Accessibility Relation: A relation defining which worlds are accessible from each world in a Kripke frame.,4
+5. Type Theory,2
+Types: Classifications of data that determine what operations can be performed on them.,3
+Type Systems: Rules for assigning types to various constructs in a programming language.,4
+Simply Typed Lambda Calculus: An extension of lambda calculus with types.,3
+Type Inference: The process of automatically determining the type of an expression.,4
+6. Logic Programming,2
+Declarative Programming: A style of programming where the logic of computation is expressed without describing its control flow.,3
+Prolog: A logic programming language used for solving problems with a set of logical rules and facts.,4
+Resolution: A rule of inference used for automated theorem proving in logic programming.,3
+SLD Resolution: A form of resolution used in Prolog for query evaluation.,4
+7. Formal Verification,2
+Model Checking: An automated technique for verifying finite-state concurrent systems.,3
+State Space Exploration: Examining all possible states of a system to verify properties.,4
+Theorem Proving: Proving the correctness of systems through logical deduction.,3
+"Interactive Theorem Provers: Tools that assist in the development of formal proofs (e.g., Coq, Isabelle).",4
+8. Intuitionistic Logic,2
+Constructive Proofs: Proofs that provide a witness to the truth of a statement.,3
+Brouwer-Heyting-Kolmogorov Interpretation: An interpretation of intuitionistic logic focusing on constructions rather than truth.,4
+Sequent Calculus: A logical system for proving sequents using inference rules.,3
+9. Non-Classical Logics,2
+Fuzzy Logic: A form of many-valued logic dealing with reasoning that is approximate rather than fixed and exact.,3
+Fuzzy Sets: Sets whose elements have degrees of membership.,4
+Paraconsistent Logic: A logic designed to handle contradictions in a controlled and discriminating way.,3
+Dialetheism: The view that some statements can be both true and false simultaneously.,4
+10. Logical Frameworks,2
+Higher-Order Logic (HOL): A form of predicate logic that includes types and allows quantification over functions and predicates.,3
+"Logical Frameworks: Meta-logical systems for defining other logics (e.g., LF - Logical Framework).",3
+11. Applications in Computer Science,2
+"Formal Methods: The application of logic to the specification, development, and verification of software and hardware.",3
+Z Notation: A formal specification language used for describing and modeling computing systems.,4
+Artificial Intelligence: The use of logic for knowledge representation and reasoning.,3
+Knowledge Bases: Databases that use logical formulas to represent knowledge.,4

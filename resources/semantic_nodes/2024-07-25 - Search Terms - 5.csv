@@ -1,0 +1,44 @@
+Keyword,lvl
+Computational Geometry,1
+Geometric Algorithms,2
+Convex Hull: The smallest convex polygon containing all points in a set.,3
+Graham's Scan: An algorithm for finding the convex hull of a finite set of points in the plane.,4
+Jarvis's March: A simple algorithm to compute the convex hull.,4
+Voronoi Diagrams: Partitioning of a plane into regions based on distance to a specific set of points.,3
+Fortune's Algorithm: A plane sweep algorithm to construct Voronoi diagrams.,4
+Delaunay Triangulation: Triangulation of points such that no point is inside the circumcircle of any triangle.,3
+Bowyer-Watson Algorithm: An incremental algorithm for Delaunay triangulation.,4
+Line Segment Intersection: Finding intersections among a set of line segments.,3
+Bentley-Ottmann Algorithm: An efficient algorithm for reporting all intersections in a set of line segments.,4
+Polygon Triangulation: Dividing a polygon into a set of triangles.,3
+Ear Clipping Method: A simple method for polygon triangulation.,4
+Nearest Neighbor Search: Finding the closest point to a given query point.,3
+k-d Tree: A space-partitioning data structure for organizing points in a k-dimensional space.,4
+Geometric Data Structures,2
+Binary Space Partitioning (BSP) Trees: Data structures used to recursively subdivide a space.,3
+Quadtrees and Octrees: Tree data structures used to partition a two-dimensional or three-dimensional space.,3
+Range Trees: Data structures to efficiently answer range queries.,3
+R-Trees: Data structures used for indexing multi-dimensional information.,3
+Computational Topology,2
+Alpha Shapes: Generalization of the convex hull to capture the shape of a point set.,3
+Persistent Homology: A method for computing topological features of a space at different spatial resolutions.,3
+Betti Numbers: Quantities that describe the number of holes of different dimensions in a topological space.,3
+Mesh Generation,2
+Triangulated Irregular Network (TIN): Representation of a surface using non-overlapping triangles.,3
+Grid Generation: Creating a structured grid for numerical simulations.,3
+Surface Reconstruction: Reconstructing a surface from scattered data points.,3
+Tetrahedral Mesh Generation: Creating a mesh of tetrahedrons for three-dimensional domains.,3
+Motion Planning,2
+Visibility Graphs: Graphs used to solve the shortest path problem for a polygonal domain.,3
+Probabilistic Roadmaps (PRM): A method for robot path planning in high-dimensional configuration spaces.,3
+Rapidly-exploring Random Trees (RRT): A data structure and algorithm designed for path planning.,3
+Robust Geometric Computation,2
+Exact Arithmetic: Techniques to avoid errors due to floating-point arithmetic.,3
+Geometric Predicates: Functions that determine the relative position of geometric objects.,3
+Computational Geometry Applications,2
+Computer Graphics: Use of geometric algorithms for rendering images.,3
+Ray Tracing: A technique for generating images by tracing the path of light.,4
+Rasterization: Converting geometric data into pixels.,4
+"Geographic Information Systems (GIS): Systems for capturing, storing, analyzing, and managing spatial data.",3
+Computer-Aided Design (CAD): Software used for precision drawing and modeling of objects.,3
+Robotics: Use of geometric algorithms for navigation and object manipulation.,3

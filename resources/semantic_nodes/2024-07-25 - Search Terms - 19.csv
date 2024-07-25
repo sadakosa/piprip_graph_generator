@@ -1,0 +1,69 @@
+keyword,lvl
+Information Retrieval: Computer Science-Based Breakdown,1
+1. Information Retrieval Systems,2
+Search Engines: Systems designed to search for information on the internet.,3
+Web Crawlers: Programs that browse the web to index content.,4
+Indexing: Process of creating data structures to enable fast retrieval of documents.,4
+"Digital Libraries: Collections of digital objects that can include text, visual material, audio material, and other data.",3
+Metadata: Data that provides information about other data.,4
+2. Query Processing,2
+Query Formulation: The process of translating user information needs into a query.,3
+"Boolean Queries: Using logical operators (AND, OR, NOT) to combine search terms.",4
+Vector Space Model: Representing documents and queries as vectors in a common vector space.,4
+Query Expansion: Techniques to improve retrieval performance by expanding the original query.,3
+Synonym Expansion: Adding synonyms to the original search terms.,4
+Relevance Feedback: Modifying a query based on user feedback on the relevance of previously retrieved documents.,4
+3. Ranking and Relevance,2
+Ranking Algorithms: Methods to order search results by relevance.,3
+Term Frequency-Inverse Document Frequency (TF-IDF): A numerical statistic intended to reflect how important a word is to a document.,4
+BM25: A probabilistic framework for scoring relevance based on term frequency and document length.,4
+PageRank: An algorithm used by Google Search to rank web pages in their search engine results.,4
+Relevance Feedback: Using user feedback to improve the relevance of search results.,3
+Explicit Feedback: Direct input from users about the relevance of specific documents.,4
+Implicit Feedback: Inferred feedback from user behavior such as click-through rates and dwell time.,4
+4. Text Processing,2
+Text Preprocessing: Steps to clean and prepare text data for analysis.,3
+Tokenization: Breaking down text into individual words or terms.,4
+Stopword Removal: Eliminating common words that do not contribute to search relevance.,4
+Stemming and Lemmatization: Reducing words to their base or root form.,4
+"Named Entity Recognition (NER): Identifying and classifying entities in text such as names of people, organizations, and locations.",3
+5. Evaluation Metrics,2
+Precision: The fraction of relevant documents retrieved over the total documents retrieved.,3
+Recall: The fraction of relevant documents retrieved over the total relevant documents available.,3
+F-Score: The harmonic mean of precision and recall.,3
+Mean Average Precision (MAP): The mean of the average precision scores for each query.,3
+6. Retrieval Models,2
+Boolean Model: A retrieval model based on set theory and Boolean algebra.,3
+Probabilistic Model: A retrieval model based on probability theory.,3
+BM25: A ranking function used by search engines to estimate the relevance of documents.,4
+Vector Space Model: A retrieval model that uses a vector space representation of documents and queries.,3
+Latent Semantic Indexing (LSI): A technique in natural language processing to analyze relationships between a set of documents and the terms they contain.,4
+7. Specialized Retrieval,2
+"Multimedia Retrieval: Systems designed to retrieve multimedia content such as images, audio, and video.",3
+Content-Based Image Retrieval (CBIR): Techniques to retrieve images based on visual content.,4
+Cross-Language Information Retrieval (CLIR): Retrieving information written in different languages from the language of the query.,3
+Mobile Information Retrieval: Techniques and systems designed for retrieving information on mobile devices.,3
+Personalized Information Retrieval: Customizing search results based on user preferences and behavior.,3
+8. Information Extraction,2
+Named Entity Recognition (NER): Identifying and classifying entities in text.,3
+Relation Extraction: Identifying and extracting relationships between entities.,3
+Event Extraction: Identifying events and extracting relevant information about them from text.,3
+9. Recommender Systems,2
+Collaborative Filtering: Making automatic predictions about a user's interests by collecting preferences from many users.,3
+User-Based Collaborative Filtering: Recommending items based on the similarity between users.,4
+Item-Based Collaborative Filtering: Recommending items based on the similarity between items.,4
+Content-Based Filtering: Recommending items based on the content of the items and the user’s preferences.,3
+Hybrid Recommender Systems: Combining collaborative filtering and content-based filtering methods.,3
+10. Text Mining and Analytics,2
+Topic Modeling: Identifying topics present in a set of documents.,3
+Latent Dirichlet Allocation (LDA): A generative statistical model for topic modeling.,4
+Sentiment Analysis: Determining the sentiment expressed in text.,3
+"Opinion Mining: Extracting subjective information from text, such as opinions and emotions.",4
+Document Clustering: Grouping similar documents together.,3
+k-Means Clustering: A method for partitioning a set of observations into clusters.,4
+11. Legal and Ethical Issues,2
+Privacy: Ensuring the protection of user data in information retrieval systems.,3
+Data Anonymization: Techniques to ensure that individual user data cannot be traced back to the user.,4
+Bias and Fairness: Ensuring information retrieval systems do not perpetuate biases.,3
+Algorithmic Fairness: Ensuring algorithms treat all users fairly.,4
+Intellectual Property: Managing the rights related to the content indexed and retrieved.,3

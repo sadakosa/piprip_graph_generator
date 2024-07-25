@@ -1,0 +1,66 @@
+Keyword,lvl
+Computer Science and Game Theory,1
+Game Theory Fundamentals,2
+Strategic Games: Games where players make decisions simultaneously.,3
+Nash Equilibrium: A state where no player can benefit by changing their strategy while the other players keep theirs unchanged.,4
+"Dominant Strategy: A strategy that is the best for a player, regardless of the strategies chosen by other players.",4
+Extensive Form Games: Games represented as trees showing the sequential nature of decisions.,3
+Subgame Perfect Equilibrium: A refinement of Nash Equilibrium applicable in dynamic games.,4
+Bayesian Games: Games involving players with incomplete information.,3
+Bayesian Nash Equilibrium: An extension of Nash Equilibrium to games with incomplete information.,4
+Algorithmic Game Theory,2
+Computational Complexity of Games: Study of the computational difficulty of finding game-theoretic solutions.,3
+PPAD-Completeness: A complexity class for problems related to finding Nash Equilibria.,4
+Algorithmic Mechanism Design: Designing algorithms for strategic settings.,3
+Incentive Compatibility: Ensuring that participants are motivated to act according to the mechanism’s rules.,4
+"Revelation Principle: A concept stating that for any mechanism, there exists an equivalent mechanism where players truthfully report their private information.",4
+Auction Theory: Study of bidding strategies and outcomes in auction settings.,3
+Vickrey-Clarke-Groves (VCG) Mechanism: A type of auction that ensures truthful bidding.,4
+Cooperative Game Theory,2
+Coalitional Games: Games where players can form coalitions and share the payoff.,3
+Core: A set of feasible allocations that cannot be improved upon by any coalition.,4
+Shapley Value: A method of distributing total gains to the players based on their marginal contributions.,4
+Bargaining Theory: Analysis of how players negotiate and reach mutually beneficial agreements.,3
+Nash Bargaining Solution: A solution concept for two-player bargaining problems.,4
+Evolutionary Game Theory,2
+Replicator Dynamics: Mathematical models describing how the proportion of different strategies evolves over time.,3
+"Evolutionarily Stable Strategy (ESS): A strategy that, if adopted by a population, cannot be invaded by any alternative strategy.",3
+Stochastic Games,2
+Markov Games: Games that involve randomness and sequential decisions.,3
+Markov Perfect Equilibrium: A refinement of Nash Equilibrium for dynamic stochastic games.,4
+Stochastic Processes: Models involving sequences of random variables.,3
+Markov Chains: A stochastic process where the future state depends only on the current state.,4
+Learning in Games,2
+Reinforcement Learning: Algorithms for learning optimal strategies through trial and error.,3
+Q-Learning: A value-based method for learning policies in reinforcement learning.,4
+Multi-Agent Systems: Systems where multiple agents interact and learn.,3
+Cooperative Learning: Agents learn to cooperate to achieve a common goal.,4
+Competitive Learning: Agents learn strategies to compete against each other.,4
+Game Theory Applications,2
+Economics: Use of game theory to model market behavior and economic interactions.,3
+Oligopoly Models: Analyzing competitive strategies in markets with a few dominant firms.,4
+"Political Science: Application of game theory to study voting systems, coalition building, and conflict resolution.",3
+Voting Games: Models analyzing strategic voting behavior.,4
+Network Design: Game-theoretic approaches to designing and managing networks.,3
+Network Formation Games: Analyzing how nodes in a network form connections based on strategic considerations.,4
+Security and Cryptography: Applying game theory to security protocols and adversarial settings.,3
+Stackelberg Games: Models where one player (leader) commits to a strategy before the other player (follower).,4
+Computational Mechanisms and Auctions,2
+Auction Algorithms: Algorithms for determining winning bids and prices in various auction formats.,3
+First-Price Auction: An auction where the highest bid wins and pays their bid.,4
+Second-Price Auction: An auction where the highest bid wins but pays the second-highest bid.,4
+Market Design: Computational methods for designing and analyzing markets.,3
+Double Auctions: Auctions where buyers and sellers submit bids simultaneously.,4
+Resource Allocation: Algorithms for distributing resources among competing agents.,3
+Fair Division: Ensuring that resources are allocated in a fair manner according to certain criteria.,4
+Behavioral Game Theory,2
+Prospect Theory: A behavioral economic theory describing how people choose between probabilistic alternatives.,3
+Quantal Response Equilibrium: A model that relaxes the assumption of perfect rationality.,3
+Bounded Rationality: A concept that considers the limitations of human decision-making processes.,3
+Ethics and Social Implications,2
+Fairness in Games: Ensuring that game outcomes are perceived as fair by all participants.,3
+Equity and Justice: The study of equitable and just outcomes in game-theoretic contexts.,4
+Social Welfare: Analyzing the impact of game outcomes on overall societal welfare.,3
+Pareto Efficiency: A state where no individual can be made better off without making someone else worse off.,4
+Privacy in Mechanisms: Protecting individual data and ensuring privacy in strategic settings.,3
+Differential Privacy: Techniques to ensure the privacy of individual data points in game-theoretic mechanisms.,4

@@ -1,0 +1,83 @@
+Keyword,lvl
+Computer Vision and Pattern Recognition,1
+Image Processing,2
+Image Enhancement: Techniques to improve the visual appearance of an image.,3
+Histogram Equalization: A method to improve contrast in images.,4
+Spatial Filtering: Using filters to enhance or detect features in images.,4
+Image Restoration: Recovering an image that has been degraded.,3
+Deconvolution: Reversing the effects of convolution blurring.,4
+Noise Reduction: Techniques to remove noise from images.,4
+Image Compression: Reducing the size of an image file.,3
+"Lossy Compression: Reducing file size by removing some data (e.g., JPEG).",4
+"Lossless Compression: Reducing file size without losing any data (e.g., PNG).",4
+Feature Extraction,2
+Edge Detection: Identifying points where there is a sharp change in intensity.,3
+Sobel Operator: A method for edge detection.,4
+Canny Edge Detector: A multi-stage algorithm for edge detection.,4
+Corner Detection: Finding points where the curvature of the image changes sharply.,3
+Harris Corner Detector: A widely used method for corner detection.,4
+Blob Detection: Identifying regions in an image that differ in properties like brightness or color.,3
+Laplacian of Gaussian: A method to detect blobs in an image.,4
+Image Segmentation,2
+Thresholding: Segmenting an image by setting a threshold value.,3
+Otsu's Method: An automatic thresholding technique.,4
+Clustering: Grouping pixels based on their properties.,3
+K-means Clustering: A method to partition an image into clusters.,4
+Region-Based Segmentation: Segmenting an image by growing regions.,3
+Watershed Algorithm: A method based on topological watershed lines.,4
+Object Detection and Recognition,2
+Object Detection: Identifying and locating objects within an image.,3
+Sliding Window: A technique to detect objects by moving a window across the image.,4
+YOLO (You Only Look Once): A real-time object detection system.,4
+Object Recognition: Identifying objects within an image.,3
+SIFT (Scale-Invariant Feature Transform): A method to detect and describe local features in images.,4
+SURF (Speeded-Up Robust Features): A faster alternative to SIFT.,4
+Pattern Recognition,2
+Template Matching: Finding parts of an image that match a template.,3
+Statistical Pattern Recognition: Using statistical techniques to classify patterns.,3
+Bayesian Classifiers: A probabilistic approach to classify patterns.,4
+Structural Pattern Recognition: Using structural relationships to recognize patterns.,3
+Graph Matching: Comparing graph representations of patterns.,4
+Machine Learning for Vision,2
+Supervised Learning: Learning from labeled data to make predictions.,3
+Support Vector Machines (SVMs): A supervised learning model for classification.,4
+Convolutional Neural Networks (CNNs): Neural networks specialized for image data.,4
+Unsupervised Learning: Learning from unlabeled data to find hidden patterns.,3
+Autoencoders: Neural networks used for unsupervised learning of efficient codings.,4
+Reinforcement Learning: Learning to make sequences of decisions by trial and error.,3
+Deep Q-Networks (DQN): Combining Q-learning with deep learning.,4
+Deep Learning Architectures,2
+Convolutional Neural Networks (CNNs): Networks that apply convolutional layers to input data.,3
+AlexNet: An early deep convolutional network.,4
+ResNet: A deep residual network for image recognition.,4
+Recurrent Neural Networks (RNNs): Networks with cycles for sequential data.,3
+Long Short-Term Memory (LSTM): Specialized RNNs for capturing long-term dependencies.,4
+Generative Adversarial Networks (GANs): Networks for generating new data.,3
+StyleGAN: GANs for generating high-quality images.,4
+3D Vision,2
+Stereo Vision: Techniques to infer 3D structure from two or more images.,3
+Epipolar Geometry: A concept used in stereo vision to relate two views of the same scene.,4
+Structure from Motion (SfM): Recovering 3D structures from motion sequences.,3
+3D Reconstruction: Creating 3D models from 2D images.,3
+Point Cloud: A set of data points in 3D space representing the external surface of an object.,4
+Motion Analysis,2
+Optical Flow: Tracking the motion of objects in a sequence of images.,3
+Lucas-Kanade Method: An iterative method for estimating optical flow.,4
+Motion Detection: Identifying moving objects in a sequence of frames.,3
+Background Subtraction: A method to detect moving objects by subtracting the background.,4
+Video Analysis,2
+Action Recognition: Identifying actions in video sequences.,3
+Hidden Markov Models (HMMs): A statistical model used for recognizing patterns in time series data.,4
+Video Summarization: Creating a short summary of a video.,3
+Keyframe Extraction: Identifying the most informative frames in a video.,4
+Image and Video Annotation,2
+Metadata Tagging: Adding metadata tags to images and videos for better organization and retrieval.,3
+Manual Annotation: Human annotators tag images and videos.,4
+Automated Annotation: Using machine learning models to tag images and videos automatically.,4
+Ethical and Social Implications,2
+Bias and Fairness in Vision Systems: Ensuring that vision systems do not perpetuate biases.,3
+Debiasing Techniques: Methods to reduce bias in vision models.,4
+Privacy: Safeguarding sensitive information in images and videos.,3
+Anonymization: Techniques to anonymize individuals in images and videos.,4
+Impact on Society: Examining the societal effects of computer vision technologies.,3
+Surveillance: Ethical considerations of using computer vision in surveillance systems.,4

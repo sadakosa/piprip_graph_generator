@@ -1,0 +1,92 @@
+Keyword,lvl
+Cryptography and Security,1
+Classical Cryptography,2
+Substitution Ciphers: Methods of encrypting by substituting one character for another.,3
+Caesar Cipher: A substitution cipher where each letter in the plaintext is shifted a certain number of places down the alphabet.,4
+Vigenère Cipher: A method using a keyword to apply a series of Caesar ciphers to the plaintext.,4
+Transposition Ciphers: Techniques that rearrange the letters of the plaintext.,3
+Rail Fence Cipher: A form of transposition cipher where the plaintext is written in a zigzag pattern on an imaginary fence.,4
+Symmetric Key Cryptography,2
+Block Ciphers: Methods that encrypt data in fixed-size blocks.,3
+DES (Data Encryption Standard): A symmetric-key algorithm for the encryption of electronic data.,4
+AES (Advanced Encryption Standard): A symmetric key encryption standard adopted by the U.S. government.,4
+Stream Ciphers: Encryption methods that encrypt data as a stream of bits or bytes.,3
+RC4: A widely used stream cipher.,4
+Modes of Operation: Techniques to securely apply block ciphers to data streams.,3
+CBC (Cipher Block Chaining): A mode where each block of plaintext is XORed with the previous ciphertext block before being encrypted.,4
+CTR (Counter): A mode that turns a block cipher into a stream cipher.,4
+Asymmetric Key Cryptography,2
+Public Key Cryptography: Methods using two keys – one public and one private.,3
+RSA (Rivest-Shamir-Adleman): A public-key cryptosystem widely used for secure data transmission.,4
+ElGamal Encryption: A public-key cryptosystem based on the Diffie-Hellman key exchange.,4
+Elliptic Curve Cryptography (ECC): Cryptographic algorithms based on the algebraic structure of elliptic curves.,3
+ECDSA (Elliptic Curve Digital Signature Algorithm): A cryptographic algorithm for digital signatures.,4
+Cryptographic Hash Functions,2
+Properties: One-way functions that take an input and produce a fixed-size string of bytes.,3
+MD5: A widely used hash function producing a 128-bit hash value.,4
+"SHA-256: A member of the SHA-2 family, producing a 256-bit hash value.",4
+Applications: Uses of hash functions in various security contexts.,3
+Digital Signatures: Mechanisms for verifying the authenticity and integrity of a message.,4
+Password Hashing: Securing passwords by storing their hash values.,4
+Digital Signatures,2
+Signature Schemes: Algorithms to ensure the authenticity and integrity of digital messages.,3
+RSA Digital Signatures: Using the RSA algorithm for signing and verifying messages.,4
+DSA (Digital Signature Algorithm): A Federal Information Processing Standard for digital signatures.,4
+Applications: Uses of digital signatures in real-world scenarios.,3
+Code Signing: Ensuring the authenticity and integrity of software.,4
+Email Signatures: Verifying the sender of an email and ensuring its integrity.,4
+Key Management,2
+Key Generation: Processes for creating cryptographic keys.,3
+Entropy Sources: Random or pseudorandom data sources for generating secure keys.,4
+Key Distribution: Methods for securely distributing cryptographic keys.,3
+Key Distribution Centers (KDC): Trusted third parties for distributing symmetric keys.,4
+Key Exchange: Protocols for securely exchanging cryptographic keys.,3
+Diffie-Hellman Key Exchange: A method for securely exchanging cryptographic keys over a public channel.,4
+Authentication Protocols,2
+Password-Based Authentication: Methods for verifying identity using passwords.,3
+Challenge-Response Protocols: Authentication methods involving a challenge and a corresponding response.,4
+Token-Based Authentication: Using tokens for verifying identity.,3
+OAuth: An open standard for access delegation.,4
+Biometric Authentication: Using physical characteristics for authentication.,3
+Fingerprint Recognition: Verifying identity based on fingerprint patterns.,4
+Network Security,2
+TLS/SSL (Transport Layer Security/Secure Sockets Layer): Protocols for securing communication over a computer network.,3
+TLS Handshake: The process of establishing a secure connection between a client and a server.,4
+VPN (Virtual Private Network): Technologies for creating secure network connections over public networks.,3
+IPsec: A suite of protocols for securing internet protocol communications.,4
+Firewalls: Systems for controlling incoming and outgoing network traffic.,3
+Packet Filtering: Allowing or blocking packets based on source and destination addresses.,4
+Software Security,2
+Vulnerability Assessment: Identifying and evaluating security weaknesses in software.,3
+Static Analysis: Examining code for vulnerabilities without executing it.,4
+Dynamic Analysis: Analyzing software behavior during execution.,4
+Secure Coding Practices: Techniques for writing secure software.,3
+Input Validation: Ensuring that input to a program is valid and safe.,4
+Penetration Testing: Simulating attacks to identify vulnerabilities.,3
+Black Box Testing: Testing without knowing the internal structure of the system.,4
+Information Security Management,2
+"Risk Management: Identifying, assessing, and mitigating security risks.",3
+Threat Modeling: Analyzing potential threats to a system.,4
+Incident Response: Processes for responding to security incidents.,3
+Forensics: Techniques for investigating and analyzing security breaches.,4
+Security Policies: Guidelines and rules for maintaining security.,3
+Access Control Policies: Defining who can access what resources.,4
+Privacy and Data Protection,2
+Data Encryption: Protecting data by converting it into an unreadable format.,3
+End-to-End Encryption: Ensuring data is encrypted from the sender to the recipient.,4
+Data Anonymization: Techniques for removing personally identifiable information.,3
+Differential Privacy: Ensuring that data analysis does not compromise individual privacy.,4
+Compliance Standards: Regulations and standards for data protection.,3
+GDPR (General Data Protection Regulation): A regulation on data protection and privacy in the European Union.,4
+Cryptanalysis,2
+Attack Methods: Techniques for breaking cryptographic systems.,3
+Brute Force Attack: Trying all possible keys to decrypt a message.,4
+Side-Channel Attack: Exploiting physical implementation details to break cryptographic systems.,4
+Cryptanalytic Algorithms: Methods for analyzing and breaking cryptographic algorithms.,3
+Linear Cryptanalysis: Analyzing linear approximations to describe the behavior of block ciphers.,4
+Differential Cryptanalysis: Analyzing the differences in ciphertexts resulting from differences in plaintexts.,4
+Ethical and Social Implications,2
+Ethical Hacking: Using hacking techniques for legal and ethical purposes.,3
+White Hat Hackers: Security professionals who use their skills for ethical purposes.,4
+Privacy vs. Security: Balancing the need for security with individual privacy rights.,3
+Surveillance: The ethical implications of using cryptographic techniques for surveillance.,4

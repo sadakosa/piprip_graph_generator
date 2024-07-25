@@ -1,0 +1,80 @@
+keyword,lvl
+Mathematical Software: Computer Science-Based Breakdown,1
+1. Numerical Analysis Software,2
+"Linear Algebra: Solving systems of linear equations, matrix operations, and eigenvalue problems.",3
+LAPACK: Linear Algebra PACKage for solving linear equations and eigenvalue problems.,4
+BLAS: Basic Linear Algebra Subprograms for performing basic vector and matrix operations.,4
+Optimization: Finding the maximum or minimum of functions.,3
+Linear Programming: Solving linear objective functions subject to linear constraints.,4
+Simplex Algorithm: A method for solving linear programming problems.,5
+Nonlinear Programming: Solving nonlinear objective functions with constraints.,4
+Gradient Descent: An iterative optimization algorithm for finding local minima.,5
+Numerical Integration: Approximating the integral of a function.,3
+Simpson's Rule: A method for numerical integration using parabolic approximations.,4
+Monte Carlo Integration: A method using random sampling to approximate integrals.,4
+2. Symbolic Computation Software,2
+Computer Algebra Systems (CAS): Software for symbolic manipulation of mathematical expressions.,3
+"Mathematica: A CAS for symbolic computation, numerical computation, and visualization.",4
+"Maple: A CAS known for symbolic computation, algebra, calculus, and differential equations.",4
+Automated Theorem Proving: Software for proving mathematical theorems automatically.,3
+Prover9: An automated theorem prover for first-order and equational logic.,4
+Coq: A formal proof management system for developing mathematical proofs.,4
+3. Statistical Software,2
+Descriptive Statistics: Summarizing and describing data.,3
+R: A programming language and environment for statistical computing and graphics.,4
+SPSS: A software package for statistical analysis.,4
+Inferential Statistics: Making inferences about populations based on sample data.,3
+Hypothesis Testing: Testing assumptions about population parameters.,4
+Regression Analysis: Modeling the relationship between dependent and independent variables.,4
+Data Visualization: Representing data graphically.,3
+ggplot2: An R package for creating complex graphics based on the grammar of graphics.,4
+"Matplotlib: A Python library for creating static, animated, and interactive visualizations.",4
+4. Simulation Software,2
+Monte Carlo Simulation: Using random sampling to estimate mathematical functions and simulate systems.,3
+SimPy: A Python library for simulating discrete-event systems.,4
+AnyLogic: A simulation modeling tool for dynamic systems.,4
+Finite Element Analysis (FEA): Simulating physical phenomena using finite element methods.,3
+"ANSYS: An engineering simulation software for FEA, computational fluid dynamics, and more.",4
+COMSOL Multiphysics: A software platform for modeling and simulating physics-based problems.,4
+5. Computational Geometry Software,2
+Geometric Algorithms: Algorithms for solving geometric problems.,3
+CGAL: Computational Geometry Algorithms Library for geometric computations.,4
+"Qhull: Software for computing convex hulls, Delaunay triangulations, and Voronoi diagrams.",4
+Mesh Generation: Creating mesh representations of geometric objects.,3
+Gmsh: A 3D finite element mesh generator.,4
+TetGen: A tetrahedral mesh generator and Delaunay triangulator.,4
+6. Mathematical Modeling Software,2
+Dynamical Systems: Modeling and analyzing systems that evolve over time.,3
+"MATLAB: A high-performance language for technical computing, including modeling and simulation.",4
+Simulink: A MATLAB-based environment for simulating and modeling dynamic systems.,4
+Agent-Based Modeling: Simulating the actions and interactions of autonomous agents.,3
+NetLogo: A multi-agent programmable modeling environment.,4
+Repast: A family of agent-based modeling and simulation platforms.,4
+7. Cryptography Software,2
+Encryption Algorithms: Software implementing cryptographic algorithms for secure communication.,3
+OpenSSL: A software library for secure communications over computer networks.,4
+GnuPG: A free implementation of the OpenPGP standard for encrypting and signing data.,4
+Cryptographic Protocols: Software implementing protocols for secure data exchange.,3
+TLS (Transport Layer Security): A protocol for securing communications over a computer network.,4
+SSH (Secure Shell): A protocol for secure remote login and other secure network services.,4
+8. Graph Theory Software,2
+Graph Algorithms: Software for analyzing and manipulating graphs.,3
+"NetworkX: A Python library for the creation, manipulation, and study of complex networks.",4
+Graph-tool: An efficient Python library for manipulation and statistical analysis of graphs.,4
+Graph Visualization: Software for visualizing graph structures.,3
+Gephi: An open-source network analysis and visualization software package.,4
+Cytoscape: A software platform for visualizing complex networks and integrating these with any type of attribute data.,4
+9. Data Analysis Software,2
+Big Data Processing: Handling and analyzing large datasets.,3
+Hadoop: A framework for distributed storage and processing of big data.,4
+"Spark: An analytics engine for big data processing with built-in modules for streaming, SQL, and machine learning.",4
+Data Mining: Extracting useful information from large datasets.,3
+Weka: A collection of machine learning algorithms for data mining tasks.,4
+Orange: A data mining and machine learning suite for data analysis and visualization.,4
+10. Mathematical Libraries and Frameworks,2
+General-Purpose Libraries: Libraries providing a broad range of mathematical functions.,3
+NumPy: A library for numerical computing in Python.,4
+SciPy: A Python library used for scientific and technical computing.,4
+Specialized Libraries: Libraries focused on specific mathematical domains.,3
+SymPy: A Python library for symbolic mathematics.,4
+MPFR (Multiple Precision Floating-Point Reliable): A C library for multiple-precision floating-point computations with correct rounding.,4

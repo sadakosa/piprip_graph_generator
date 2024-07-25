@@ -1,0 +1,105 @@
+keyword,lvl
+Programming Languages: Computer Science-Based Breakdown,1
+1. Language Paradigms,2
+Imperative Programming: A programming paradigm that uses statements to change a program's state.,3
+Procedural Programming: A subset of imperative programming focused on procedure calls.,4
+"Practical Examples: C, Pascal.",5
+"Object-Oriented Programming (OOP): A paradigm based on the concept of objects, which can contain data and code.",4
+"Practical Examples: Java, C++.",5
+Structured Programming: A subset of procedural programming aimed at improving clarity and quality.,4
+"Practical Examples: ALGOL, Ada.",5
+Declarative Programming: A paradigm that expresses the logic of computation without describing its control flow.,3
+Functional Programming: A paradigm that treats computation as the evaluation of mathematical functions.,4
+"Practical Examples: Haskell, Lisp.",5
+Logic Programming: A paradigm based on formal logic.,4
+"Practical Examples: Prolog, Datalog.",5
+2. Syntax and Semantics,2
+Syntax: The set of rules that define the combinations of symbols that are considered to be correctly structured programs.,3
+Lexical Syntax: The rules for token formation.,4
+Practical Implementation: Lexers.,5
+Grammatical Syntax: The rules for combining tokens into valid expressions.,4
+Practical Implementation: Parsers.,5
+Semantics: The meaning of syntactically valid strings in a programming language.,3
+Operational Semantics: Describes the behavior of the program in terms of the state changes.,4
+Practical Implementation: Abstract machines.,5
+Denotational Semantics: Maps syntactic constructs to mathematical objects.,4
+Practical Implementation: Domain theory.,5
+Axiomatic Semantics: Uses logic to describe the effects of programs.,4
+Practical Implementation: Hoare logic.,5
+3. Type Systems,2
+Static Typing: Type checking performed at compile time.,3
+Strong Typing: Enforces strict constraints on intermixing different data types.,4
+"Practical Examples: Haskell, Java.",5
+Weak Typing: Allows more flexibility in handling different data types.,4
+"Practical Examples: JavaScript, PHP.",5
+Dynamic Typing: Type checking performed at runtime.,3
+"Practical Examples: Python, Ruby.",4
+Polymorphism: The ability of a function to handle values of multiple types.,3
+Subtype Polymorphism: Allows a function to process objects differently based on their data type or class.,4
+Practical Implementation: Inheritance in OOP.,5
+Parametric Polymorphism: Allows functions or data types to be written generically.,4
+"Practical Examples: Generics in Java, templates in C++.",5
+4. Language Translation,2
+Compilers: Translate high-level language code into machine code.,3
+"Front-End: Handles lexical analysis, syntax analysis, and semantic analysis.",4
+"Practical Tools: Lex, Yacc.",5
+Back-End: Handles optimization and code generation.,4
+"Practical Tools: LLVM, GCC.",5
+Interpreters: Execute code directly without translating it to machine code.,3
+"Practical Examples: CPython, Ruby MRI.",4
+Just-In-Time Compilation (JIT): Combines compilation and interpretation by compiling code during execution.,3
+"Practical Examples: JVM, V8 JavaScript engine.",4
+5. Memory Management,2
+Manual Memory Management: Requires explicit allocation and deallocation of memory.,3
+"Practical Examples: C, C++.",4
+Automatic Memory Management: Manages memory allocation and deallocation automatically.,3
+Garbage Collection: Automatically reclaims memory occupied by objects no longer in use.,4
+"Practical Examples: Java, C#.",5
+Reference Counting: Keeps track of the number of references to each object.,4
+"Practical Examples: Objective-C, Swift.",5
+6. Concurrency,2
+Threads: The smallest sequence of programmed instructions that can be managed independently.,3
+Multithreading: Running multiple threads simultaneously.,4
+"Practical Examples: Java, Python.",5
+Processes: Independent programs that run in separate memory spaces.,3
+Inter-Process Communication (IPC): Mechanisms to allow processes to communicate.,4
+"Practical Examples: Unix pipes, Windows named pipes.",5
+Asynchronous Programming: Allows a unit of work to run separately from the main application thread.,3
+"Practical Examples: JavaScript (Promises, Async/Await), Python (asyncio).",4
+7. Language Design and Implementation,2
+"Language Design: The process of specifying the syntax, semantics, and pragmatics of a language.",3
+Syntax Design: Choosing the set of rules that defines valid strings in the language.,4
+Practical Tools: EBNF (Extended Backus-Naur Form).,5
+Semantics Design: Defining the meaning of syntactically valid strings.,4
+Practical Tools: Formal semantics.,5
+Language Implementation: The process of creating a working compiler or interpreter for a language.,3
+Interpreter Design: Designing the architecture and functionality of an interpreter.,4
+Practical Tools: Abstract syntax trees.,5
+Compiler Design: Designing the architecture and functionality of a compiler.,4
+Practical Tools: Intermediate representations.,5
+8. Language Paradigm Comparison,2
+Paradigm Characteristics: Understanding the core principles of different paradigms.,3
+Imperative vs Declarative: Comparing control flow and state changes versus expressing logic without describing control flow.,4
+"Practical Analysis: Performance, readability, maintainability.",5
+Syntax and Semantics Comparison: Analyzing the differences in syntax and semantics across languages.,3
+Practical Examples: Syntax simplicity in Python vs. verbosity in Java.,4
+9. Domain-Specific Languages (DSLs),2
+General-Purpose Languages (GPLs): Designed to solve a broad range of problems.,3
+"Practical Examples: Python, Java.",4
+Domain-Specific Languages (DSLs): Designed to solve problems within a specific domain.,3
+Internal DSLs: Embedded within a host general-purpose language.,4
+Practical Examples: SQL in Python (using libraries).,5
+External DSLs: Standalone languages with their own syntax and semantics.,4
+"Practical Examples: SQL, HTML.",5
+10. Evolution of Programming Languages,2
+Historical Development: Understanding the history and evolution of programming languages.,3
+First-Generation Languages: Machine languages.,4
+Practical Examples: Binary code.,5
+Second-Generation Languages: Assembly languages.,4
+Practical Examples: Assembly.,5
+Third-Generation Languages: High-level languages.,4
+"Practical Examples: C, Fortran.",5
+Fourth-Generation Languages: Languages closer to human languages.,4
+"Practical Examples: SQL, MATLAB.",5
+Fifth-Generation Languages: Languages that focus on solving problems using constraints.,4
+Practical Examples: Prolog.,5

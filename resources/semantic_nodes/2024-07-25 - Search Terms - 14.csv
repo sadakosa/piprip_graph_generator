@@ -1,0 +1,70 @@
+keyword,lvl
+"Distributed, Parallel, and Cluster Computing: Computer Science-Based Breakdown",1
+1. Distributed Computing,2
+Distributed System: A system with components located on different networked computers that communicate and coordinate their actions by passing messages.,3
+Distributed Algorithms: Algorithms designed to run on distributed systems.,4
+"Consensus Algorithms: Algorithms to achieve agreement on a single data value among distributed processes or systems (e.g., Paxos, Raft).",5
+Leader Election Algorithms: Algorithms to designate a single process as the coordinator of some task distributed among several computers.,5
+Distributed Databases: Databases in which data is stored across different physical locations.,4
+Replication: The process of sharing information to ensure consistency between redundant resources.,5
+"Sharding: A type of database partitioning that separates large databases into smaller, faster, more easily managed parts called data shards.",5
+Middleware: Software that provides common services and capabilities to applications outside of what's offered by the operating system.,4
+"Message Queues: Tools for sending and receiving messages between distributed components (e.g., RabbitMQ, Kafka).",5
+2. Parallel Computing,2
+Parallel Processing: The simultaneous data processing of multiple tasks by dividing them among multiple processors.,3
+Data Parallelism: Distributing subsets of the same data across multiple computing nodes and performing the same operation on each subset.,4
+"Task Parallelism: Distributing tasks (threads) across multiple computing nodes, where each task performs a different operation on the same or different data.",4
+Parallel Algorithms: Algorithms that can be executed a piece at a time on many different processing devices and then combined together.,3
+"Divide and Conquer: Breaking a problem into smaller subproblems, solving them independently in parallel, and combining their results.",4
+MapReduce: A programming model for processing large data sets with a distributed algorithm on a cluster.,4
+"Concurrency: The composition of independently executing processes, whether they run in parallel on separate processors or are interleaved by the operating system on the same processor.",3
+3. Cluster Computing,2
+Cluster: A set of loosely or tightly connected computers that work together so that they can be viewed as a single system.,3
+High-Performance Computing (HPC) Clusters: Clusters designed to perform complex computations quickly.,4
+Load Balancing: Distributing workloads evenly across computing resources in a cluster to avoid overloading any single resource.,4
+Grid Computing: The use of a network of computers to work together to perform large tasks by dividing them into smaller subtasks.,3
+"Cloud Computing: The delivery of different services through the Internet, including data storage, servers, databases, networking, and software.",3
+Infrastructure as a Service (IaaS): Cloud computing service model that provides virtualized computing resources over the internet.,4
+"Platform as a Service (PaaS): Cloud computing service model that provides a platform allowing customers to develop, run, and manage applications.",4
+4. Fault Tolerance and Reliability,2
+Fault Tolerance: The ability of a system to continue operating without interruption when one or more of its components fail.,3
+"Redundancy: Adding extra components which are not strictly necessary to functioning, in case of failure in other components.",4
+Failover: Automatically switching to a redundant or standby system upon the failure or abnormal termination of the currently active system.,4
+Reliability: The probability that a system will function without failure over a specified time period.,3
+"Checkpointing: Saving the state of a process at intervals so that if there is a failure, the system can restart from the last checkpoint.",4
+5. Synchronization,2
+Synchronization Mechanisms: Techniques to control the sequence and timing of processes in a parallel or distributed system.,3
+Locks: Mechanisms to enforce limits on access to a resource in an environment where there are many threads of execution.,4
+Semaphores: Variables used to control access to a common resource by multiple processes in a concurrent system.,4
+Barriers: Synchronization points where processes or threads must wait until all others reach the same point.,4
+6. Performance Metrics and Optimization,2
+Scalability: The ability of a system to handle growing amounts of work or to be readily enlarged.,3
+Horizontal Scaling: Adding more machines to the pool of resources.,4
+"Vertical Scaling: Adding more power (CPU, RAM) to an existing machine.",4
+Latency: The time delay experienced in a system.,3
+Throughput: The amount of work performed by a system during a given period of time.,3
+Load Balancing Algorithms: Techniques to distribute workloads uniformly across servers or nodes.,3
+Round Robin: Distributing requests sequentially among servers.,4
+Least Connections: Sending requests to the server with the fewest active connections.,4
+7. Parallel Programming Models,2
+Shared Memory Model: Multiple processors access the same memory space.,3
+OpenMP: An API that supports multi-platform shared memory multiprocessing programming.,4
+Message Passing Model: Processes have their own local memory but communicate by sending and receiving messages.,3
+MPI (Message Passing Interface): A standardized and portable message-passing system designed to function on parallel computing architectures.,4
+Dataflow Model: A model where the execution of operations is driven by the availability of input data.,3
+8. Distributed File Systems,2
+Distributed File System (DFS): A file system that allows access to files from multiple hosts sharing via a computer network.,3
+Hadoop Distributed File System (HDFS): A distributed file system designed to run on commodity hardware.,4
+Google File System (GFS): A scalable distributed file system for large distributed data-intensive applications.,4
+9. Security in Distributed Systems,2
+Authentication: Verifying the identity of a user or process.,3
+Kerberos: A network authentication protocol designed to provide strong authentication for client-server applications.,4
+Authorization: Granting or denying specific access to resources.,3
+Access Control Lists (ACLs): A list of permissions attached to an object specifying which users or system processes can access objects and what operations they can perform.,4
+Encryption: Protecting data by converting it into a coded form.,3
+TLS (Transport Layer Security): Protocol for securing communications over a computer network.,4
+10. Distributed Consensus,2
+Consensus Algorithms: Algorithms used to achieve agreement on a single data value among distributed processes or systems.,3
+Paxos: A family of protocols for solving consensus in a network of unreliable processors.,4
+"Raft: A consensus algorithm designed as an alternative to Paxos, intended to be more understandable.",4
+Quorum: The minimum number of votes that must be gathered to perform an operation in a distributed system.,3
