@@ -1,0 +1,7 @@
+env/
+logger/logs
+config/config.yaml
+checkpoint.json
+
+resources/
+!resources/semantic_nodes/*
