@@ -24,6 +24,9 @@ class ColBERT:
         combined_text_embeddings = [self.__get_embeddings(combined_text) for combined_text in combined_texts]
         topic_embeddings = [self.__get_embeddings(topic) for topic in topics]
 
+        print("Lengths of topic_paper_embeddings:")
+        print(len(topic_embeddings), len(title_embeddings), len(abstract_embeddings), len(combined_text_embeddings))
+
         similarities = {
             'topic_id': [],
             'paper_ss_id': [],
@@ -43,6 +46,8 @@ class ColBERT:
                 similarities['abstract_similarity'].append(cossim_abstract.item())
                 similarities['combined_similarity'].append(cossim_combined.item())
 
+        print("Length of similarities:")
+        print(len(similarities['topic_id']), len(similarities['paper_ss_id']), len(similarities['title_similarity']), len(similarities['abstract_similarity']), len(similarities['combined_similarity']))
         similarities_df = pd.DataFrame(similarities)
 
         print(similarities_df) # DataFrame with topics as columns and papers as rows
