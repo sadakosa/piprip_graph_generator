@@ -28,6 +28,10 @@ def setup_db():
     db_operations.create_topic_topic_edges_table(dbclient)
     db_operations.create_paper_paper_edges_table(dbclient)
 
+    db_operations.create_scibert_topic_paper_edges_table(dbclient)
+    db_operations.create_scibert_topic_topic_edges_table(dbclient)
+    db_operations.create_scibert_paper_paper_edges_table(dbclient)
+
     return dbclient, dbclient_read
 
 
@@ -45,11 +49,11 @@ def main():
 
 
     # =========== Load papers from database and run through ColBERT together with KW to get embeddings ===========  
-    # papers = db_operations.get_all_papers(dbclient_read)
-    # ss_ids = [paper[0] for paper in papers]
-    # titles = [paper[1] for paper in papers]
-    # abstracts = [paper[2] for paper in papers]
-    # combined_texts = [title + ' ' + abstract for title, abstract in zip(titles, abstracts)]
+    papers = db_operations.get_all_papers(dbclient_read)
+    ss_ids = [paper[0] for paper in papers]
+    titles = [paper[1] for paper in papers]
+    abstracts = [paper[2] for paper in papers]
+    combined_texts = [title + ' ' + abstract for title, abstract in zip(titles, abstracts)]
     
     topics = db_operations.get_topics(dbclient_read)
     topic_ids = [node[0] for node in topics]
@@ -60,9 +64,10 @@ def main():
     # print("Got data in: ", got_data_runtime)
     # logger.log_message("Got data in: " + str(got_data_runtime))
     
-    colbert = ColBERT(logger)
+    model_type = 'bert'
+    # colbert = ColBERT(logger, model_type)
     # colbert.get_topic_paper_embeddings(topics, topic_ids, titles, abstracts, combined_texts, ss_ids)
-    colbert.get_topic_topic_embeddings(topics, topic_ids)
+    # colbert.get_topic_topic_embeddings(topics, topic_ids)
     # colbert.get_paper_paper_embeddings(titles, abstracts, combined_texts, ss_ids)
 
 
@@ -73,17 +78,35 @@ def main():
     # =========== save colbert embeddings to db ===========
     chunk_size = 100000
 
-    # topic_paper_similarities_df = load_from_csv('topic_paper_similarities', 'similarities')
-    # topic_paper_similarities = list(topic_paper_similarities_df.itertuples(index=False, name=None))
-    # db_operations.batch_insert_topic_paper_edges(dbclient, logger, topic_paper_similarities, chunk_size)
+    if model_type == 'scibert':
+        model_type = 'SciBERT'
 
-    topic_topic_similarities_df = load_from_csv('topic_topic_similarities', 'similarities')
-    topic_topic_similarities = list(topic_topic_similarities_df.itertuples(index=False, name=None))
-    db_operations.batch_insert_topic_topic_edges(dbclient, logger, topic_topic_similarities, chunk_size)
+        topic_paper_similarities_df = load_from_csv(f'topic_paper_similarities_{model_type}', 'similarities')
+        topic_paper_similarities = list(topic_paper_similarities_df.itertuples(index=False, name=None))
+        db_operations.batch_insert_scibert_topic_paper_edges(dbclient, logger, topic_paper_similarities, chunk_size)
 
-    # paper_paper_similarities_df = load_from_csv('paper_paper_similarities', 'similarities')
-    # paper_paper_similarities = list(paper_paper_similarities_df.itertuples(index=False, name=None))
-    # db_operations.batch_insert_paper_paper_edges(dbclient, logger, paper_paper_similarities, chunk_size)
+        topic_topic_similarities_df = load_from_csv(f'topic_topic_similarities_{model_type}', 'similarities')
+        topic_topic_similarities = list(topic_topic_similarities_df.itertuples(index=False, name=None))
+        db_operations.batch_insert_scibert_topic_topic_edges(dbclient, logger, topic_topic_similarities, chunk_size)
+
+        paper_paper_similarities_df = load_from_csv(f'paper_paper_similarities_{model_type}', 'similarities')
+        paper_paper_similarities = list(paper_paper_similarities_df.itertuples(index=False, name=None))
+        db_operations.batch_insert_scibert_paper_paper_edges(dbclient, logger, paper_paper_similarities, chunk_size)
+    else:
+        topic_paper_similarities_df = load_from_csv(f'topic_paper_similarities_{model_type}', 'similarities')
+        topic_paper_similarities = list(topic_paper_similarities_df.itertuples(index=False, name=None))
+        db_operations.batch_insert_topic_paper_edges(dbclient, logger, topic_paper_similarities, chunk_size)
+
+        topic_topic_similarities_df = load_from_csv(f'topic_topic_similarities_{model_type}', 'similarities')
+        topic_topic_similarities = list(topic_topic_similarities_df.itertuples(index=False, name=None))
+        db_operations.batch_insert_topic_topic_edges(dbclient, logger, topic_topic_similarities, chunk_size)
+
+        paper_paper_similarities_df = load_from_csv(f'paper_paper_similarities_{model_type}', 'similarities')
+        paper_paper_similarities = list(paper_paper_similarities_df.itertuples(index=False, name=None))
+        db_operations.batch_insert_paper_paper_edges(dbclient, logger, paper_paper_similarities, chunk_size)
+
+
+    
 
 
 

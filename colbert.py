@@ -5,9 +5,16 @@ import time
 from global_methods import save_to_csv
 
 class ColBERT:
-    def __init__(self, logger):
-        self.tokenizer = AutoTokenizer.from_pretrained('bert-base-uncased')
-        self.model = AutoModel.from_pretrained('bert-base-uncased')
+    def __init__(self, logger, model_type):
+        if model_type == 'bert':
+            self.tokenizer = AutoTokenizer.from_pretrained('bert-base-uncased')
+            self.model = AutoModel.from_pretrained('bert-base-uncased')
+        elif model_type == 'scibert':
+            self.tokenizer = AutoTokenizer.from_pretrained('allenai/scibert_scivocab_uncased')
+            self.model = AutoModel.from_pretrained('allenai/scibert_scivocab_uncased')
+        else:
+            raise ValueError(f"Unsupported model_type: {model_type}")
+        self.model_type = model_type
         self.logger = logger
 
     def get_topic_paper_embeddings(self, topics, topic_ids, titles, abstracts, combined_texts, ss_ids): # these are all lists of strings
@@ -41,7 +48,7 @@ class ColBERT:
         print(similarities_df) # DataFrame with topics as columns and papers as rows
 
         # save to csv
-        save_to_csv(similarities_df, 'topic_paper_similarities', 'similarities')
+        save_to_csv(similarities_df, f'topic_paper_similarities_{self.model_type}', 'similarities')
         self.logger.log_message("Saved topic-paper similarities to CSV")
         end_time = time.time()
         print("Time taken to get topic-paper similarities: ", end_time - start_time)
@@ -71,7 +78,7 @@ class ColBERT:
 
         similarities_df = pd.DataFrame(similarities)
 
-        save_to_csv(similarities_df, 'topic_topic_similarities', 'similarities')
+        save_to_csv(similarities_df, f'topic_topic_similarities_{self.model_type}', 'similarities')
 
         self.logger.log_message("Saved topic-topic similarities to CSV")
         end_time = time.time()
@@ -106,7 +113,7 @@ class ColBERT:
                 similarities['combined_similarity'].append(cossim_combined.item())
 
         similarities_df = pd.DataFrame(similarities)
-        save_to_csv(similarities_df, 'paper_paper_similarities', 'similarities')
+        save_to_csv(similarities_df, f'paper_paper_similarities_{self.model_type}', 'similarities')
 
         self.logger.log_message("Saved paper-paper similarities to CSV")
         end_time = time.time()
@@ -116,7 +123,13 @@ class ColBERT:
         print(similarities_df)
     
     def __get_embeddings(self, text):
-        inputs = self.tokenizer(text, return_tensors='pt', truncation=True, padding=True)
+        # inputs = self.tokenizer(text, return_tensors='pt', truncation=True, padding=True)
+        # with torch.no_grad():
+        #     outputs = self.model(**inputs)
+        # return outputs.last_hidden_state.mean(dim=1)
+
+        max_length = 512
+        inputs = self.tokenizer(text, return_tensors='pt', truncation=True, padding=True, max_length=max_length)
         with torch.no_grad():
             outputs = self.model(**inputs)
         return outputs.last_hidden_state.mean(dim=1)
