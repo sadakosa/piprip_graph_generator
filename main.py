@@ -1,6 +1,6 @@
 from db.db_client import DBClient
 from db import db_operations
-from global_methods import load_from_csv, load_yaml_config
+from global_methods import load_from_csv, load_yaml_config, load_from_csv_non_pandas
 
 from colbert import ColBERT
 from semantic_node_loader import SemanticNodeLoader
@@ -67,8 +67,8 @@ def main():
     # logger.log_message("Got data in: " + str(got_data_runtime))
     
     model_type = 'scibert'
-    colbert = ColBERT(logger, model_type)
-    colbert.get_topic_paper_embeddings(topics, topic_ids, titles, abstracts, combined_texts, ss_ids)
+    # colbert = ColBERT(logger, model_type)
+    # colbert.get_topic_paper_embeddings(topics, topic_ids, titles, abstracts, combined_texts, ss_ids)
     # colbert.get_topic_topic_embeddings(topics, topic_ids)
     # colbert.get_paper_paper_embeddings(titles, abstracts, combined_texts, ss_ids)
 
@@ -83,8 +83,8 @@ def main():
     if model_type == 'scibert':
         # model_type = 'SciBERT'
 
-        topic_paper_similarities_df = load_from_csv(f'topic_paper_similarities_{model_type}', 'similarities')
-        topic_paper_similarities = list(topic_paper_similarities_df.itertuples(index=False, name=None))
+        topic_paper_similarities = load_from_csv_non_pandas(f'topic_paper_similarities_{model_type}', 'similarities')
+        # topic_paper_similarities = list(topic_paper_similarities_df.itertuples(index=False, name=None))
         db_operations.batch_insert_scibert_topic_paper_edges(dbclient, logger, topic_paper_similarities, chunk_size)
 
         # topic_topic_similarities_df = load_from_csv(f'topic_topic_similarities_{model_type}', 'similarities')
@@ -98,8 +98,8 @@ def main():
         logger.log_message("Saved SciBERT embeddings to database")
         print("Saved SciBERT embeddings to database")
     else:
-        topic_paper_similarities_df = load_from_csv(f'topic_paper_similarities_{model_type}', 'similarities')
-        topic_paper_similarities = list(topic_paper_similarities_df.itertuples(index=False, name=None))
+        topic_paper_similarities = load_from_csv_non_pandas(f'topic_paper_similarities_{model_type}', 'similarities')
+        # topic_paper_similarities = list(topic_paper_similarities_df.itertuples(index=False, name=None))
         db_operations.batch_insert_topic_paper_edges(dbclient, logger, topic_paper_similarities, chunk_size)
 
         # topic_topic_similarities_df = load_from_csv(f'topic_topic_similarities_{model_type}', 'similarities')

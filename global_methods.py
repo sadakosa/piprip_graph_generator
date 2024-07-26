@@ -71,6 +71,23 @@ def load_from_csv(file_name, folder_name):
     except Exception as e:
         return None
     
+import csv
+
+def load_from_csv_non_pandas(file_name, folder_name):
+    try:
+        file_path = './resources/' + folder_name + '/' + file_name + '.csv'
+        data = []
+        with open(file_path, newline='') as csvfile:
+            csvreader = csv.reader(csvfile)
+            headers = next(csvreader)  # Skip the header row if present
+            for row in csvreader:
+                data.append(row)
+        print(f"Data loaded from {file_path}")
+        return data
+    except Exception as e:
+        return None
+
+
 
 def load_dataframe_from_list(data, column_names):
     """
